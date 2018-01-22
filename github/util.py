@@ -10,8 +10,8 @@ def query_graphql(payload, token=BEARER_TOKEN, url='https://api.github.com/graph
     }
 
     r = requests.request("POST", url, data=payload, headers=headers)
-    return r.text
+    return r.json()
 
 
 if __name__ == '__main__':
-    fire()
+    fire.Fire()

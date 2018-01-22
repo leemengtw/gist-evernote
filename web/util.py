@@ -1,6 +1,5 @@
 import os
 import time
-
 from PIL import Image
 
 def fullpage_screenshot(driver, file):
