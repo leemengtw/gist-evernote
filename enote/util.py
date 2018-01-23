@@ -7,16 +7,48 @@ import hashlib
 import binascii
 from evernote.api.client import EvernoteClient
 from evernote.edam.type import ttypes
-from secret import DEV_TOKEN
+from secret import EVERNOTE_AUTH_TOKEN
+from evernote.edam.error import ttypes as Errors
+
+def get_evernote_auth_token():
+    return EVERNOTE_AUTH_TOKEN
 
 
-def get_auth_token():
-    return DEV_TOKEN
+def get_client():
+    return EvernoteClient(token=get_evernote_auth_token(), sandbox=False)
 
 
 def get_note_store():
-    client = client = EvernoteClient(token=get_auth_token())
+    client = get_client()
     return client.get_note_store()
+
+
+def get_notebook(guid=None):
+    assert guid is not None, 'Guid is not available.'
+    return get_note_store().getNotebook(guid)
+
+
+def get_notebooks():
+    client = get_client()
+
+    # get information about current user
+    userStore = client.get_user_store()
+    user = userStore.getUser()
+    print('Current user:', user.username)
+
+    # get information about notes
+    noteStore = client.get_note_store()
+    notebooks = noteStore.listNotebooks()
+    # for n in notebooks:
+    #     print(n.name, n.guid)
+    return notebooks
+
+
+def create_notebook(name=None):
+    assert name is not None, 'Notebook name is not specified.'
+    notebook = ttypes.Notebook()
+    notebook.name = name
+    return get_note_store().createNotebook(notebook)
 
 
 def create_resource(file_name):
@@ -29,41 +61,28 @@ def create_resource(file_name):
 
     md5 = hashlib.md5()
     md5.update(image_data)
-    hash = md5.digest()
+    gist_hash = md5.digest()
+    hash_str = md5.hexdigest()
+    # https://stackoverflow.com/questions/5297448/how-to-get-md5-sum-of-a-string-using-python
     data = ttypes.Data()
 
     # build Resource's necessary data
     data.size = len(image_data)
-    data.bodyHash = hash
+    data.bodyHash = gist_hash
     data.body = image_data
 
     # build Resource Type
     resource = ttypes.Resource()
     resource.mime = "image/png"
     resource.data = data
-    return resource
+    return resource, hash_str
 
 
-def simple_access():
-    client = EvernoteClient(token=DEV_TOKEN)
-
-    # get information about current user
-    userStore = client.get_user_store()
-    user = userStore.getUser()
-    print('Current user:', user.username)
-
-    # get information about notes
-    print('Available notebooks:')
-    noteStore = client.get_note_store()
-    notebooks = noteStore.listNotebooks()
-    for n in notebooks:
-        print(n.name, n.guid)
-    return True
-
-
-def create_note(authToken, noteStore, noteTitle, noteBody, resources=[], parentNotebook=None):
+def create_note(noteTitle, noteBody, resources=[], parentNotebook=None):
     """Create a Note instance with title, body and send the Note object to user's account
     """
+    authToken = get_evernote_auth_token()
+    noteStore = get_note_store()
 
     # Create note object
     ourNote = ttypes.Note()
@@ -108,5 +127,6 @@ def create_note(authToken, noteStore, noteTitle, noteBody, resources=[], parentN
     # Return created note object
     return note
 
+
 if __name__ == '__main__':
-  fire.Fire()
+    fire.Fire()
