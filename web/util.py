@@ -1,8 +1,12 @@
 import os
+import re
 import time
 from PIL import Image
 
 def fullpage_screenshot(driver, file):
+        image_id = re.findall(r'/([0-9a-zA-Z]+).', file)[0]
+
+
         print("Starting chrome full page screenshot workaround ...")
         total_width = driver.execute_script("return document.body.offsetWidth")
         total_height = driver.execute_script("return document.body.parentNode.scrollHeight")
@@ -44,7 +48,7 @@ def fullpage_screenshot(driver, file):
                 print("Scrolled To ({0},{1})".format(rectangle[0], rectangle[1]))
                 time.sleep(.2)
 
-            file_name = "part_{0}.png".format(part)
+            file_name = "{0}_part_{1}.png".format(image_id, part)
             print("Capturing {0} ...".format(file_name))
 
             driver.get_screenshot_as_file(file_name)
