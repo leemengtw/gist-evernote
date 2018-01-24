@@ -106,5 +106,59 @@ def get_gists(cursor=None, size=100):
     return gists, total, end_cursor, has_next_page
 
 
+def get_number_of_gists():
+    """Get total number of gists available in the user account
+
+    Returns
+    -------
+    num_gists : int
+    """
+    payload = "{\"query\":\"query { viewer { gists(privacy:ALL) {totalCount}}}\"}"
+    res = query_graphql(payload)
+    return res['data']['viewer']['gists']['totalCount']
+
+
+def get_all_gists(size):
+    """Get number of `size` gists at once without pagination.
+
+    A wrapper over `get_gists` func. Handle the pagination automatically.
+
+    Parameters
+    ----------
+    size : int
+        Number of gists to fetch
+
+    Returns
+    -------
+    gists : list of dict
+        List of gists with each gist is a dict of form:
+            {
+                "id": "id",
+                "description": "some description",
+                "name": "just a name",
+                "pushedAt": "2018-01-15T08:32:57Z"
+            }
+
+    See Also
+    --------
+    get_gists : Return all gists (public & secret) and end_cursor for pagination
+
+    """
+    end_cursor = None
+    gists = []
+
+    while True:
+        cur_gists, total, end_cursor, has_next_page = get_gists(end_cursor)
+        for gist in cur_gists:
+            if len(gists) >= size:
+                return gists
+            gists.append(gist)
+
+        if not has_next_page:
+            break
+
+    return gists
+
+
 if __name__ == '__main__':
     fire.Fire()
