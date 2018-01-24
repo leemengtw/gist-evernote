@@ -61,6 +61,22 @@ class Database(object):
         self.env['cold_start'] = not self.env.get('cold_start', True)
         self.sync_env('save')
 
+    def get_hash_by_id(self, gist_id):
+        """Get hash value of the gist using `gist_id` as key
+
+        Parameters
+        ----------
+        gist_id : str
+            Unique gist identifer called `id` available in Github API
+            e.g. "MDQ6R2lzdGUzOTNkODgxMjIyODg1ZjU5ZWYwOWExNDExNzE1OWM4"
+
+        Returns
+        -------
+        hash : str
+            "" if no gist can be found in database by `gist_id`
+        """
+        return self.info.get(gist_id, {}).get('hash', '')
+
     def save_gist(self, gist):
         """Save information of a given gist into database.
 
