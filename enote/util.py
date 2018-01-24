@@ -10,7 +10,6 @@ from evernote.edam.type import ttypes
 from secret import PROD_TOKEN, DEV_TOKEN
 
 
-
 def get_evernote_auth_token(env="prod"):
     """Return either a valid production / dev Evernote developer token.
 
@@ -66,6 +65,29 @@ def get_note_store(env="prod"):
 
     """
     return get_client(env).get_note_store()
+
+
+def get_note(guid=None, env='prod'):
+    """Return a specific Note instance by guid.
+
+    Parameters
+    ----------
+    guid : str
+
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Note
+
+    """
+    auth_token = get_evernote_auth_token(env)
+
+
+    assert guid is not None, 'Guid is not available.'
+    return get_note_store().getNote(auth_token, guid, False, False, False , False)
 
 
 def get_notebook(guid=None):
@@ -241,12 +263,77 @@ def create_note(note_title, note_body, resources=[], parent_notebook=None, env="
     if parent_notebook and hasattr(parent_notebook, 'guid'):
         ourNote.notebookGuid = parent_notebook.guid
 
-    # Attempt to create note in Evernote account
+    # attempt to create note in Evernote account
     try:
         note = note_store.createNote(auth_token, ourNote)
     except Errors.EDAMUserException, edue:
         print("EDAMUserException:", edue)
         return None
+    except Errors.EDAMNotFoundException, ednfe:
+        # Parent Notebook GUID doesn't correspond to an actual notebook
+        print("EDAMNotFoundException: Invalid parent notebook GUID")
+        return None
+
+    # Return created note object
+    return note
+
+
+def update_note(note, note_title, note_body, note_guid, resources):
+    """Update existing note in Evernote identified by `note_guid`.
+
+    Parameters
+    ----------
+    note : evernote.edam.type.ttypes.Note
+        Note instance to be updated
+
+    note_title : str
+        Text to used as new note's title
+
+    note_body : str
+        Text to insert into note
+
+    note_guid : str
+
+    resources : list of evernote.edam.type.ttypes.Resource
+        List of attachments to combined with the note
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Note
+        The updated Note instance
+
+    Notes
+    -----
+    Evernote API documentation
+        https://dev.evernote.com/doc/reference/NoteStore.html#Fn_NoteStore_updateNote
+    """
+
+    auth_token = get_evernote_auth_token()
+    note_store = get_note_store()
+
+    note.guid = note_guid
+    note.title = note_title
+
+    # build body of note with new resources
+    nBody = '<?xml version="1.0" encoding="UTF-8"?>'
+    nBody += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
+    nBody += "<en-note>%s" % note_body
+
+    if resources:
+        # add Resource objects to note body
+        nBody += "<br />" * 2
+        note.resources = resources
+        for resource in resources:
+            hexhash = resource.data.bodyHash
+            nBody += "Attachment with hash %s: <br /><en-media type=\"%s\" hash=\"%s\" /><br />" % \
+                     (hexhash, resource.mime, hexhash)
+    nBody += "</en-note>"
+
+    note.content = nBody
+
+    # attempt to update note in Evernote account
+    try:
+        note = note_store.updateNote(auth_token, note)
     except Errors.EDAMNotFoundException, ednfe:
         # Parent Notebook GUID doesn't correspond to an actual notebook
         print("EDAMNotFoundException: Invalid parent notebook GUID")
