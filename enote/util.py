@@ -5,9 +5,10 @@ from __future__ import unicode_literals
 import fire
 import hashlib
 from evernote.api.client import EvernoteClient
+from evernote.edam.error import ttypes as Errors
 from evernote.edam.type import ttypes
 from secret import PROD_TOKEN, DEV_TOKEN
-from evernote.edam.error import ttypes as Errors
+
 
 
 def get_evernote_auth_token(env="prod"):
@@ -157,20 +158,20 @@ def create_resource(file_path, mime='image/png'):
 
     """
 
-    data = None
+    file_data = None
     with open(file_path, 'rb') as f:
         byte_str = f.read()
-        data = bytearray(byte_str)
+        file_data = bytearray(byte_str)
 
     md5 = hashlib.md5()
-    md5.update(data)
+    md5.update(file_data)
     hexhash = md5.hexdigest()
     data = ttypes.Data()
 
     # build Resource's necessary data
-    data.size = len(data)
+    data.size = len(file_data)
     data.bodyHash = hexhash
-    data.body = data
+    data.body = file_data
 
     # build Resource Type
     resource = ttypes.Resource()
