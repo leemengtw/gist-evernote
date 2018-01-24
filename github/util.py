@@ -5,6 +5,23 @@ from secret import GITHUB_AUTH_TOKEN
 GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'
 
 
+def get_user_name(token=GITHUB_AUTH_TOKEN):
+    """Return current login user's name with given token
+
+    Parameters
+    ----------
+    token : str
+        String representing Github Developer Access Token
+
+    Returns
+    -------
+    user_name : str
+    """
+    payload = "{\"query\":\"query {\\n  viewer {\\n    login\\n  }\\n}\"}"
+    res = query_graphql(payload, token)
+    return res['data']['viewer']['login']
+
+
 def query_graphql(payload, token=GITHUB_AUTH_TOKEN, url=GITHUB_GRAPHQL_URL):
     """Helper to query Github GraphQL API
 
@@ -24,8 +41,9 @@ def query_graphql(payload, token=GITHUB_AUTH_TOKEN, url=GITHUB_GRAPHQL_URL):
         'authorization': "Bearer {}".format(token)
     }
 
-    r = requests.request("POST", url, data=payload, headers=headers)
-    return r.json()
+    res = requests.request("POST", url, data=payload, headers=headers).json()
+    assert res.get('data', False), 'No data available from Github: {}'.format(res)
+    return res
 
 
 def get_gists(cursor=None, size=100):
@@ -76,7 +94,7 @@ def get_gists(cursor=None, size=100):
         payload = payload_template % (size, cursor)
 
     res = query_graphql(payload)
-    assert res.get('data', False), 'No data available from Github: {}'.format(res)
+
 
     # parse nested response for easier usage
     gists = res['data']['viewer']['gists']
