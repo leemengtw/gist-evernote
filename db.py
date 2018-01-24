@@ -45,7 +45,7 @@ class Database(object):
         bool
 
         """
-        return self.env['cold_start']
+        return self.env.get('cold_start', True)
 
     def sync_at(self):
         """Return the UTC datetime indicating the last synchronization
@@ -67,7 +67,7 @@ class Database(object):
         Parameters
         ----------
         gist_id : str
-            Unique gist identifer called `id` available in Github API
+            Unique gist identifier called `id` available in Github API
             e.g. "MDQ6R2lzdGUzOTNkODgxMjIyODg1ZjU5ZWYwOWExNDExNzE1OWM4"
 
         Returns
@@ -76,6 +76,23 @@ class Database(object):
             "" if no gist can be found in database by `gist_id`
         """
         return self.info.get(gist_id, {}).get('hash', '')
+
+    def get_note_guid_by_id(self, gist_id):
+        """Get guid of note related to the gist with `gist_id`
+
+        Parameters
+        ----------
+        gist_id : str
+            Unique gist identifier called `id` available in Github API
+            e.g. "MDQ6R2lzdGUzOTNkODgxMjIyODg1ZjU5ZWYwOWExNDExNzE1OWM4"
+
+        Returns
+        -------
+        guid : str
+
+        """
+        return self.info.get(gist_id, {}).get('note_guid', '')
+
 
     def save_gist(self, gist):
         """Save information of a given gist into database.
@@ -96,8 +113,30 @@ class Database(object):
         self.info[gist['id']] = gist
         self.info['num_gists'] = self.info.get('num_gists', 0) + 1
         self.sync_info('save')
+        self.update_sync_time()
 
-        # update last synchronization time
+    def update_gist(self, gist):
+        """Update information of a given gist into database.
+
+        Parameters
+        ----------
+        gist : dict
+            A Gist acquired by Github GraphQL API with format like:
+                {
+                    'id': 'gist_id',
+                    'name': 'gist_name',
+                    'description': 'description',
+                    'pushAt': '2018-01-15T00:48:23Z',
+                    'hash': 'hash value'
+                }
+
+        """
+        self.info[gist['id']] = gist
+        self.sync_info('save')
+        self.update_sync_time()
+
+    def update_sync_time(self):
+        """Update last synchronization time"""
         now = datetime.strftime(datetime.utcnow(), DATE_FORMAT)
         self.env['sync_at'] = now
         self.sync_env('save')
