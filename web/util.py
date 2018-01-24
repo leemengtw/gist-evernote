@@ -1,7 +1,58 @@
 import os
 import re
 import time
+import fire
+import hashlib
+import requests
 from PIL import Image
+
+GIST_BASE_URL = 'https://gist.github.com'
+
+
+def generate_hexhash(content):
+    """Generate string representation of MD5 sum of given data
+
+    Parameters
+    ----------
+    content : dict
+        A python dictionary representing gist's content
+
+    Returns
+    -------
+    hexhash : str. e.g. "c0e14a771bac3b4944318b430efe2884"
+    """
+
+    data = bytearray(str(content))
+    md5 = hashlib.md5()
+    md5.update(data)
+    hexhash = md5.hexdigest()
+    return hexhash
+
+
+def get_gist_hash(github_user, gist_name):
+    """Acquire the raw content of the given `gist_name` and return string repr of the MD5 sum.
+
+    Parameters
+    ----------
+    github_user : str
+        String representing valid Github account. e.g. "leemengtaiwan"
+
+    gist_name : str
+        Valid gist identifier appear in url
+
+    Returns
+    -------
+    hash: str
+
+    """
+    # TODO update example for gist_name
+
+    gist_raw_url = '/'.join((GIST_BASE_URL, github_user, gist_name, 'raw'))
+    res = requests.request(
+        method='GET',
+        url=gist_raw_url
+    ).json()
+    return generate_hexhash(res)
 
 
 def fullpage_screenshot(driver, file):
@@ -99,3 +150,7 @@ def fullpage_screenshot(driver, file):
     stitched_image.save(file)
     print("Finishing chrome full page screenshot workaround...")
     return True
+
+
+if __name__ == '__main__':
+    fire.Fire()

@@ -6,8 +6,8 @@ from selenium import webdriver
 from datetime import datetime
 from dateutil import parser
 from enote.util import get_notebook, get_notebooks, create_resource, create_note, create_notebook
-from github.util import get_gists
-from web.util import fullpage_screenshot
+from github.util import get_gists, get_user_name
+from web.util import fullpage_screenshot, get_gist_hash
 from settings import NOTEBOOK_TO_SYNC
 from db import get_db
 
@@ -46,13 +46,20 @@ def main():
 
     print(gists)
 
-    db = get_db()
-    if db.is_empty() or db.start_from_scratch():
-        for gist in gists:
-            note, gist_hash = sync_gist(gist)
-            gist['hash'] = gist_hash
-            db.save_gist(gist)
+    # get current login github user for fetching gist content
+    github_user = get_user_name()
 
+
+    db = get_db()
+    if db.is_empty() or db.is_cold_start():
+        for gist in gists:
+            note = sync_gist(gist)
+            gist['hash'] = get_gist_hash(github_user, gist['name'])
+            db.save_gist(gist)
+        db.toggle_cold_start()
+        print("All gists sync.")
+    else:
+        pass
 
     #
     #
@@ -130,13 +137,13 @@ def sync_gist(gist):
 
 
     # create new note with fetched screen shot attacthed
-    resource, gist_hash = create_resource(image_path)
+    resource, _ = create_resource(image_path)
     note_title = gist['description'][:15] if gist['description'] else 'Note'
     note_body = '{}'.format(gist_url)
-    note = create_note(note_title, note_body, [resource], parentNotebook=notebook)
+    note = create_note(note_title, note_body, [resource], parent_notebook=notebook)
     os.remove(image_path)
     driver.quit()
-    return note, gist_hash
+    return note
 
 
 
