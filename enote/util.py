@@ -4,32 +4,100 @@ from __future__ import unicode_literals
 
 import fire
 import hashlib
-import binascii
 from evernote.api.client import EvernoteClient
 from evernote.edam.type import ttypes
-from secret import EVERNOTE_AUTH_TOKEN
+from secret import PROD_TOKEN, DEV_TOKEN
 from evernote.edam.error import ttypes as Errors
 
-def get_evernote_auth_token():
-    return EVERNOTE_AUTH_TOKEN
+
+def get_evernote_auth_token(env="prod"):
+    """Return either a valid production / dev Evernote developer token.
+
+    Parameters
+    ----------
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    token : str
+
+    """
+    return PROD_TOKEN if env == 'prod' else DEV_TOKEN
 
 
-def get_client():
-    return EvernoteClient(token=get_evernote_auth_token(), sandbox=False)
+def get_client(env="prod"):
+    """Return a Evernote API client
+
+    Parameters
+    ----------
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    client : evernote.api.client.EvernoteClient
+
+    """
+    sandbox = False if env == 'prod' else True
+    return EvernoteClient(token=get_evernote_auth_token(env), sandbox=sandbox)
 
 
-def get_note_store():
-    client = get_client()
-    return client.get_note_store()
+def get_note_store(env="prod"):
+    """Return a NoteStore used to used to manipulate notes, notebooks in a user account.
+
+    Parameters
+    ----------
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    NoteStore
+
+    Notes
+    -----
+    Evernote documentation:
+        https://dev.evernote.com/doc/start/python.php
+
+    """
+    return get_client(env).get_note_store()
 
 
 def get_notebook(guid=None):
+    """Return a specific Notebook instance by guid.
+
+    Parameters
+    ----------
+    guid : str
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Notebook
+
+    """
     assert guid is not None, 'Guid is not available.'
     return get_note_store().getNotebook(guid)
 
 
-def get_notebooks():
-    client = get_client()
+def get_notebooks(env="prod"):
+    """Get all available Notebook instances in a user account.
+
+    Parameters
+    ----------
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    Notebooks : list of evernote.edam.type.ttypes.Notebook
+
+    """
+    client = get_client(env)
 
     # get information about current user
     userStore = client.get_user_store()
@@ -45,60 +113,122 @@ def get_notebooks():
 
 
 def create_notebook(name=None):
+    """Create a new notebook with given `name`.
+
+    Parameters
+    ----------
+    name : str
+        Indicating the name of the notebook to be created
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Notebook
+
+    """
     assert name is not None, 'Notebook name is not specified.'
     notebook = ttypes.Notebook()
     notebook.name = name
     return get_note_store().createNotebook(notebook)
 
 
-def create_resource(file_name):
-    """Create a Resource type for attaching to evernote Note"""
+def create_resource(file_path, mime='image/png'):
+    """Create a Resource instance for attaching to evernote Note instance
 
-    image_data = None
-    with open(file_name, 'rb') as f:
+    Parameters
+    ----------
+    file_path : str
+        Indicate file path of the file
+
+    mime : str, optional
+        Valid MIME type indicating type of the file
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Resource
+        The Resource must contain three parts:
+            - MIME type
+            - content: evernote.edam.type.ttypes.Data
+            - hash
+
+    Notes
+    -----
+    Create string of MD5 sum:
+        https://stackoverflow.com/questions/5297448/how-to-get-md5-sum-of-a-string-using-python
+
+    """
+
+    data = None
+    with open(file_path, 'rb') as f:
         byte_str = f.read()
-        image_data = bytearray(byte_str)
+        data = bytearray(byte_str)
 
     md5 = hashlib.md5()
-    md5.update(image_data)
-    gist_hash = md5.digest()
-    hash_str = md5.hexdigest()
-    # https://stackoverflow.com/questions/5297448/how-to-get-md5-sum-of-a-string-using-python
+    md5.update(data)
+    hexhash = md5.hexdigest()
     data = ttypes.Data()
 
     # build Resource's necessary data
-    data.size = len(image_data)
-    data.bodyHash = gist_hash
-    data.body = image_data
+    data.size = len(data)
+    data.bodyHash = hexhash
+    data.body = data
 
     # build Resource Type
     resource = ttypes.Resource()
-    resource.mime = "image/png"
+    resource.mime = mime
     resource.data = data
-    return resource, hash_str
+    return resource, hexhash
 
 
-def create_note(noteTitle, noteBody, resources=[], parentNotebook=None):
-    """Create a Note instance with title, body and send the Note object to user's account
+def create_note(note_title, note_body, resources=[], parent_notebook=None, env="prod"):
+    """Create new Note with the given attachments in user's notebook
+
+    Parameters
+    ----------
+    note_title : str
+        Text to used as new note's title
+
+    note_body : str
+        Text to insert into note
+
+    resources : list of evernote.edam.type.ttypes.Resource
+        List of attachments to combined with the note
+
+    parent_notebook : evernote.edam.type.ttypes.Notebook
+        Notebook instance to insert new note
+
+    env : str
+        Indicate which environment's token to be returned.
+        Valid options: ["prod", "dev"]
+
+    Returns
+    -------
+    evernote.edam.type.ttypes.Note
+        The newly created Note instance
+
+    Notes
+    -----
+    Evernote error documentation:
+        http://dev.evernote.com/documentation/reference/Errors.html#Enum_EDAMErrorCode
+
     """
-    authToken = get_evernote_auth_token()
-    noteStore = get_note_store()
+    auth_token = get_evernote_auth_token(env)
+    note_store = get_note_store(env)
 
-    # Create note object
+    # create note object
     ourNote = ttypes.Note()
-    ourNote.title = noteTitle
+    ourNote.title = note_title
 
-    # Build body of note
+    # build body of note
     nBody = '<?xml version="1.0" encoding="UTF-8"?>'
     nBody += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
-    nBody += "<en-note>%s" % noteBody
+    nBody += "<en-note>%s" % note_body
 
     if resources:
-        # Add Resource objects to note body
+        # add Resource objects to note body
         nBody += "<br />" * 2
         ourNote.resources = resources
         for resource in resources:
-            hexhash = binascii.hexlify(resource.data.bodyHash)
+            hexhash = resource.data.bodyHash
             nBody += "Attachment with hash %s: <br /><en-media type=\"%s\" hash=\"%s\" /><br />" % \
                      (hexhash, resource.mime, hexhash)
     nBody += "</en-note>"
@@ -106,17 +236,14 @@ def create_note(noteTitle, noteBody, resources=[], parentNotebook=None):
     ourNote.content = nBody
 
 
-    # parentNotebook is optional; if omitted, default notebook is used
-    if parentNotebook and hasattr(parentNotebook, 'guid'):
-        ourNote.notebookGuid = parentNotebook.guid
+    # parent_notebook is optional. if omitted, default notebook is used
+    if parent_notebook and hasattr(parent_notebook, 'guid'):
+        ourNote.notebookGuid = parent_notebook.guid
 
     # Attempt to create note in Evernote account
     try:
-        note = noteStore.createNote(authToken, ourNote)
+        note = note_store.createNote(auth_token, ourNote)
     except Errors.EDAMUserException, edue:
-        # Something was wrong with the note data
-        # See EDAMErrorCode enumeration for error code explanation
-        # http://dev.evernote.com/documentation/reference/Errors.html#Enum_EDAMErrorCode
         print("EDAMUserException:", edue)
         return None
     except Errors.EDAMNotFoundException, ednfe:

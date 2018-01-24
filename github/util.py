@@ -39,8 +39,7 @@ def get_gists(cursor=None, size=100):
 
     size : int
         Specify how many gists to fetch in a HTTP request to Github.
-        Default set to Node limit specified by Github GraphQL resource limit:
-        https://developer.github.com/v4/guides/resource-limitations/
+        Default set to Node limit specified by Github GraphQL resource limit.
 
     Returns
     -------
@@ -61,6 +60,11 @@ def get_gists(cursor=None, size=100):
 
     has_next_page : bool
         Indicating whether there are gists remains
+
+    Notes
+    -----
+    Github GraphQL resource limit
+        https://developer.github.com/v4/guides/resource-limitations/
 
     """
     first_payload = "{\"query\":\"query {viewer {gists(first:%d, privacy:ALL, orderBy: {field: UPDATED_AT, direction: DESC}) {totalCount edges { node { id description name pushedAt } cursor } pageInfo { endCursor hasNextPage } } } }\"}"
