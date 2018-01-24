@@ -4,6 +4,7 @@ import fire
 from datetime import datetime
 DB_FILE = 'db.json'
 ENV_FILE = 'env.json'
+DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 
 class Database(object):
@@ -15,18 +16,16 @@ class Database(object):
 
     def __init__(self):
         if not os.path.isfile(DB_FILE):
-            self.info = {}
-            self.num_gists = 0
-            self.cold_start = True
+            self.info = {"num_gists": 0}
+            self.env = {
+                "cold_start": True,
+                "sync_at": datetime.strftime(datetime(1990, 10, 22), DATE_FORMAT)}
+            self.sync_env("save")
             return
 
-        with open(DB_FILE, "r") as fp:
-            self.info = json.load(fp)
-            self.num_gists = len(self.info.keys())
-
-        with open(ENV_FILE, "r") as fp:
-            env = json.load(fp)
-            self.cold_start = env['cold_start']
+        # restore db and env from previous execution result
+        self.sync_info('load')
+        self.sync_env('load')
 
     def is_empty(self):
         """Indicate whether there is any gist in database.
@@ -36,17 +35,31 @@ class Database(object):
         bool
 
         """
-        return self.num_gists == 0
+        return self.info.get('num_gists', 0) == 0
 
-    def start_from_scratch(self):
-        """Indicate whether to synchronize all gists.
+    def is_cold_start(self):
+        """Indicate whether it is needed to synchronize all gists.
 
         Returns
         -------
         bool
 
         """
-        return self.cold_start
+        return self.env['cold_start']
+
+    def sync_at(self):
+        """Return the UTC datetime indicating the last synchronization
+
+        Returns
+        -------
+        last_sync_date : datetime.datetime
+        """
+        return datetime.strptime(self.env['sync_at'], DATE_FORMAT)
+
+    def toggle_cold_start(self):
+        """Toggle value of cold_start"""
+        self.env['cold_start'] = not self.env.get('cold_start', True)
+        self.sync_env('save')
 
     def save_gist(self, gist):
         """Save information of a given gist into database.
@@ -65,9 +78,57 @@ class Database(object):
 
         """
         self.info[gist['id']] = gist
-        self.num_gists += 1
-        with open(DB_FILE, 'w') as fp:
-            json.dump(self.info, fp, indent=4)
+        self.info['num_gists'] = self.info.get('num_gists', 0) + 1
+        self.sync_info('save')
+
+        # update last synchronization time
+        now = datetime.strftime(datetime.utcnow(), DATE_FORMAT)
+        self.env['sync_at'] = now
+        self.sync_env('save')
+
+    def sync_env(self, mode):
+        """Synchronize runtime information between current Database obj and permanent storage
+
+        Parameters
+        ----------
+        mode : str
+            Indicating to save or load environment. Valid values: ["save", "load"]
+
+        Returns
+        -------
+        bool
+
+        """
+        if mode == 'save':
+            with open(ENV_FILE, 'w') as fp:
+                json.dump(self.env, fp, indent=2)
+        elif mode == 'load':
+            with open(ENV_FILE, "r") as fp:
+                env = json.load(fp)
+                self.env = env
+        return True
+
+    def sync_info(self, mode):
+        """Synchronize gist info between current Database obj and permanent storage
+
+        Parameters
+        ----------
+        mode : str
+            Indicating to save or load environment. Valid values: ["save", "load"]
+
+        Returns
+        -------
+        bool
+
+        """
+        if mode == 'save':
+            with open(DB_FILE, 'w') as fp:
+                json.dump(self.info, fp, indent=2)
+        elif mode == 'load':
+            with open(DB_FILE, "r") as fp:
+                info = json.load(fp)
+                self.info = info
+        return True
 
 
 def get_db():
