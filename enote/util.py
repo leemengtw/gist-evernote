@@ -233,6 +233,9 @@ def create_note(note_title, note_body, resources=[], parent_notebook=None, env="
     Evernote error documentation:
         http://dev.evernote.com/documentation/reference/Errors.html#Enum_EDAMErrorCode
 
+    Evernote Struct: Note
+        https://dev.evernote.com/doc/reference/Types.html#Struct_Note
+
     """
     auth_token = get_evernote_auth_token(env)
     note_store = get_note_store(env)
@@ -240,6 +243,16 @@ def create_note(note_title, note_body, resources=[], parent_notebook=None, env="
     # create note object
     ourNote = ttypes.Note()
     ourNote.title = note_title
+
+    # special formatting and encoding for title to avoid Evernote API Error
+    ourNote.title = ourNote.title.strip()
+    for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
+        try:
+            ourNote.title = ourNote.title.encode(title_charset)
+        except UnicodeError:
+            pass
+        else:
+            break
 
     # build body of note
     nBody = '<?xml version="1.0" encoding="UTF-8"?>'
