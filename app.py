@@ -3,6 +3,10 @@ import os
 import time
 from multiprocessing import Pool, cpu_count
 from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 from evernote.edam.type.ttypes import Notebook
 from datetime import datetime
 from enote.util import get_note, get_notebook, get_notebooks, \
@@ -47,8 +51,10 @@ def main():
 
     print("Total number of gists to be synchronized: %d" % len(gists))
 
+    driver = webdriver.Chrome()
     for gist in gists:
-        note = sync_gist(gist)
+        note = sync_gist(gist, driver=driver)
+    driver.quit()
 
     # TODO multi-processes + mysql
     # setup multiple selenium drivers to speed up if multiple cpu available
@@ -67,7 +73,7 @@ def main():
         db.toggle_cold_start()
 
 
-def sync_gist(gist):
+def sync_gist(gist, driver):
     """Sync the Github gist to the corresponding Evernote note.
 
     Create a new Evernote note if there is no corresponding one with the gist.
@@ -84,6 +90,9 @@ def sync_gist(gist):
                 'pushAt': '2018-01-15T00:48:23Z'
 
             }
+
+    driver : selenium.webdriver
+        The web driver used to access gist url
 
     Returns
     -------
@@ -104,17 +113,20 @@ def sync_gist(gist):
             print('Gist {} remain the same, ignore.'.format(gist['name']))
             return None
 
-    driver = webdriver.Chrome()
-    gist_url = '/'.join((GIST_BASE_URL, gist['name']))
-    driver.get(gist_url)
 
-    # TODO tune time
-    time.sleep(2)
+    gist_url = '/'.join((GIST_BASE_URL, gist['name']))
+
+    driver.get(gist_url)
+    # wait at most x seconds for Github rendering gist context
+    delay_seconds = 10
+    try:
+        WebDriverWait(driver, delay_seconds).until(EC.presence_of_element_located((By.CLASS_NAME, 'is-render-ready')))
+    except TimeoutException:
+        print("Take longer than {} seconds to load page.".format(delay_seconds))
 
     # take screen shot for the gist and save it temporally
     image_path = 'images/{}.png'.format(gist['name'])
     fullpage_screenshot(driver, image_path)
-    driver.quit()
 
     # build skeleton for note (including screenshot)
     resource, _ = create_resource(image_path)
