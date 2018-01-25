@@ -51,8 +51,14 @@ def get_gist_hash(github_user, gist_name):
     res = requests.request(
         method='GET',
         url=gist_raw_url
-    ).json()
-    return generate_hexhash(res)
+    )
+    assert res.status_code == requests.codes.ok, "Problem occurred when requesting raw gist."
+    try:
+        data = res.json()
+    except ValueError:
+        data = res.content
+
+    return generate_hexhash(data)
 
 
 def fullpage_screenshot(driver, file):
