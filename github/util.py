@@ -1,8 +1,10 @@
 import fire
 import requests
+from datetime import datetime
 from secret import GITHUB_AUTH_TOKEN
 
 GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'
+DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 
 def get_user_name(token=GITHUB_AUTH_TOKEN):
@@ -118,15 +120,24 @@ def get_number_of_gists():
     return res['data']['viewer']['gists']['totalCount']
 
 
-def get_all_gists(size):
+def get_all_gists(size=None, after_date=None, filter_on='pushedAt'):
     """Get number of `size` gists at once without pagination.
 
     A wrapper over `get_gists` func. Handle the pagination automatically.
+    If size is not set by user, query Github for total number of gists.
+    If a valid `after_date` is given, gists with field `filter_on` earlier than
+    `after_date` will be dropped.
 
     Parameters
     ----------
-    size : int
-        Number of gists to fetch
+    size : int, optional
+        Number of gists to fetch. Set to total number of gists if not set by user
+
+    after_date : datetime.datetime
+        UTC date to filter gists
+
+    filter_on : str
+        Date field corresponding to Github API for Gist
 
     Returns
     -------
@@ -143,13 +154,21 @@ def get_all_gists(size):
     --------
     get_gists : Return all gists (public & secret) and end_cursor for pagination
 
+
     """
+    if not size:
+        size = get_number_of_gists()
+
     end_cursor = None
     gists = []
 
     while True:
         cur_gists, total, end_cursor, has_next_page = get_gists(end_cursor)
         for gist in cur_gists:
+            pushed_date = datetime.strptime(gist[filter_on], DATE_FORMAT)
+            if after_date and pushed_date <= after_date:
+                return gists
+
             if len(gists) >= size:
                 return gists
             gists.append(gist)
