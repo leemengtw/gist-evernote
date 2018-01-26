@@ -241,44 +241,22 @@ def create_note(note_title, note_body, resources=[], parent_notebook=None, env="
     note_store = get_note_store(env)
 
     # create note object
-    ourNote = ttypes.Note()
-    ourNote.title = note_title
+    new_note = ttypes.Note()
 
-    # special formatting and encoding for title to avoid Evernote API Error
-    ourNote.title = ourNote.title.strip()
-    for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
-        try:
-            ourNote.title = ourNote.title.encode(title_charset)
-        except UnicodeError:
-            pass
-        else:
-            break
+    # get formatted title
+    new_note.title = build_note_title(note_title)
 
     # build body of note
-    nBody = '<?xml version="1.0" encoding="UTF-8"?>'
-    nBody += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
-    nBody += "<en-note>%s" % note_body
-
-    if resources:
-        # add Resource objects to note body
-        nBody += "<br />" * 2
-        ourNote.resources = resources
-        for resource in resources:
-            hexhash = resource.data.bodyHash
-            nBody += "Attachment with hash %s: <br /><en-media type=\"%s\" hash=\"%s\" /><br />" % \
-                     (hexhash, resource.mime, hexhash)
-    nBody += "</en-note>"
-
-    ourNote.content = nBody
-
+    new_note.resources = resources
+    new_note.content = build_note_content(note_body, resources)
 
     # parent_notebook is optional. if omitted, default notebook is used
     if parent_notebook and hasattr(parent_notebook, 'guid'):
-        ourNote.notebookGuid = parent_notebook.guid
+        new_note.notebookGuid = parent_notebook.guid
 
     # attempt to create note in Evernote account
     try:
-        note = note_store.createNote(auth_token, ourNote)
+        note = note_store.createNote(auth_token, new_note)
     except Errors.EDAMUserException, edue:
         print("EDAMUserException:", edue)
         return None
@@ -315,34 +293,17 @@ def update_note(note, note_title, note_body, note_guid, resources):
     evernote.edam.type.ttypes.Note
         The updated Note instance
 
-    Notes
-    -----
-    Evernote API documentation
-        https://dev.evernote.com/doc/reference/NoteStore.html#Fn_NoteStore_updateNote
     """
 
     auth_token = get_evernote_auth_token()
     note_store = get_note_store()
 
     note.guid = note_guid
-    note.title = note_title
+    note.title = build_note_title(note_title)
 
     # build body of note with new resources
-    nBody = '<?xml version="1.0" encoding="UTF-8"?>'
-    nBody += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
-    nBody += "<en-note>%s" % note_body
-
-    if resources:
-        # add Resource objects to note body
-        nBody += "<br />" * 2
-        note.resources = resources
-        for resource in resources:
-            hexhash = resource.data.bodyHash
-            nBody += "Attachment with hash %s: <br /><en-media type=\"%s\" hash=\"%s\" /><br />" % \
-                     (hexhash, resource.mime, hexhash)
-    nBody += "</en-note>"
-
-    note.content = nBody
+    note.resources = resources
+    note.content = build_note_content(note_body, resources)
 
     # attempt to update note in Evernote account
     try:
@@ -354,6 +315,76 @@ def update_note(note, note_title, note_body, note_guid, resources):
 
     # Return created note object
     return note
+
+
+def build_note_title(note_title):
+    """Return a formatted title with right encoding.
+
+    The func handle special formatting and encoding for title to avoid Evernote API Error.
+
+    Parameters
+    ----------
+    note_title : str / unicode
+
+    Returns
+    -------
+    formatted_note_title : str
+
+    Notes
+    -----
+    Evernote API documentation
+        https://dev.evernote.com/doc/reference/NoteStore.html#Fn_NoteStore_updateNote
+
+    """
+    formatted_note_title = note_title.strip()
+    for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
+        try:
+            formatted_note_title = formatted_note_title.encode(title_charset)
+        except UnicodeError:
+            pass
+        else:
+            break
+
+    return formatted_note_title
+
+
+def build_note_content(note_body, resources):
+    """Return notebook content with attachments written in Evernote Markup Language.
+
+    Parameters
+    ----------
+    note_body : str
+        Custom content to insert before attachments
+
+    resources : list of evernote.edam.type.ttypes.Resource
+        List of attachments to combined with the note
+
+    Returns
+    -------
+    note_content : str
+
+    Notes
+    -----
+    Understanding the Evernote Markup Language:
+        https://dev.evernote.com/doc/articles/enml.php
+
+
+    """
+
+    note_content = '<?xml version="1.0" encoding="UTF-8"?>'
+    note_content += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
+    note_content += "<en-note>%s" % note_body
+
+    if resources:
+        # add Resource objects to note content
+        note_content += "<br />" * 2
+
+        for resource in resources:
+            hexhash = resource.data.bodyHash
+            note_content += "<br /><en-media type=\"%s\" hash=\"%s\" /><br />" % (resource.mime, hexhash)
+    note_content += "</en-note>"
+
+    return note_content
 
 
 if __name__ == '__main__':
