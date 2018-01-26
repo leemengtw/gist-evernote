@@ -124,14 +124,17 @@ def sync_gist(gist, driver):
     except TimeoutException:
         print("Take longer than {} seconds to load page.".format(delay_seconds))
 
+    # get first file name as default note title
+    gist_title = driver.find_element(By.CLASS_NAME, 'gist-header-title>a').text
+
     # take screen shot for the gist and save it temporally
     image_path = 'images/{}.png'.format(gist['name'])
     fullpage_screenshot(driver, image_path)
 
     # build skeleton for note (including screenshot)
     resource, _ = create_resource(image_path)
-    note_title = gist['description'][:15] if gist['description'] else 'Note'
-    note_body = '{}'.format(gist_url)
+    note_title = gist['description'] if gist['description'] else gist_title
+    note_body = format_note_body(gist)
 
     # get hash of raw gist content and save gist info to database
     gist['hash'] = get_gist_hash(github_user, gist['name'])
@@ -149,6 +152,28 @@ def sync_gist(gist, driver):
 
     os.remove(image_path)
     return note
+
+
+def format_note_body(gist):
+    note_body = ''
+    blocks = []
+
+    desc = gist['description']
+    if desc:
+        for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
+            try:
+                desc = desc.encode(title_charset)
+            except UnicodeError:
+                pass
+            else:
+                break
+        blocks.append(desc)
+
+    gist_url = '/'.join((GIST_BASE_URL, gist['name']))
+    blocks.append('<a href="{}">Gist on Github</a>'.format(gist_url))
+    note_body = '<br/>'.join(blocks)
+
+    return note_body
 
 
 if __name__ == '__main__':

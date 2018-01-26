@@ -5,8 +5,9 @@ from __future__ import unicode_literals
 import fire
 import hashlib
 from evernote.api.client import EvernoteClient
-from evernote.edam.error import ttypes as Errors
 from evernote.edam.type import ttypes
+from evernote.edam.error import ttypes as Errors
+from evernote.edam.limits.constants import EDAM_NOTE_TITLE_LEN_MAX
 from secret import PROD_TOKEN, DEV_TOKEN
 
 
@@ -344,6 +345,9 @@ def build_note_title(note_title):
             pass
         else:
             break
+
+    # restrict the size of title in sure to be able to sync to evernote
+    formatted_note_title = formatted_note_title[:EDAM_NOTE_TITLE_LEN_MAX]
 
     return formatted_note_title
 
