@@ -15,11 +15,12 @@ class Database(object):
     """
 
     def __init__(self):
-        if not os.path.isfile(DB_FILE):
+        if not os.path.isfile(DB_FILE) or not os.path.isfile(ENV_FILE):
             self.info = {"num_gists": 0}
             self.env = {
                 "cold_start": True,
                 "sync_at": datetime.strftime(datetime(1990, 10, 22), DATE_FORMAT)}
+            self.sync_info("save")
             self.sync_env("save")
             return
 
@@ -47,7 +48,7 @@ class Database(object):
         """
         return self.env.get('cold_start', True)
 
-    def sync_at(self):
+    def get_last_sync(self):
         """Return the UTC datetime indicating the last synchronization
 
         Returns
