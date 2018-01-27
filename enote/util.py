@@ -8,7 +8,7 @@ from evernote.api.client import EvernoteClient
 from evernote.edam.type import ttypes
 from evernote.edam.error import ttypes as Errors
 from evernote.edam.limits.constants import EDAM_NOTE_TITLE_LEN_MAX
-from secret import PROD_TOKEN, DEV_TOKEN
+from secret import EVERNOTE_PROD_TOKEN, EVERNOTE_SANDBOX_TOKEN
 
 
 def get_evernote_auth_token(env="prod"):
@@ -25,7 +25,7 @@ def get_evernote_auth_token(env="prod"):
     token : str
 
     """
-    return PROD_TOKEN if env == 'prod' else DEV_TOKEN
+    return EVERNOTE_PROD_TOKEN if env == 'prod' else EVERNOTE_SANDBOX_TOKEN
 
 
 def get_client(env="prod"):
@@ -217,7 +217,7 @@ def create_note(note_title, note_body, resources=[], parent_notebook=None, env="
     resources : list of evernote.edam.type.ttypes.Resource
         List of attachments to combined with the note
 
-    parent_notebook : evernote.edam.type.ttypes.Notebook
+    parent_notebook : evernote.edam.type.ttypes.Notebook, optional
         Notebook instance to insert new note
 
     env : str
@@ -374,7 +374,6 @@ def build_note_content(note_body, resources):
 
 
     """
-
     note_content = '<?xml version="1.0" encoding="UTF-8"?>'
     note_content += '<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">'
     note_content += "<en-note>%s" % note_body
@@ -387,6 +386,15 @@ def build_note_content(note_body, resources):
             hexhash = resource.data.bodyHash
             note_content += "<br /><en-media type=\"%s\" hash=\"%s\" /><br />" % (resource.mime, hexhash)
     note_content += "</en-note>"
+
+    # handling encoding
+    for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
+        try:
+            note_content = note_content.encode(title_charset)
+        except UnicodeError:
+            pass
+        else:
+            break
 
     return note_content
 
