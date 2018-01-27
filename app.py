@@ -7,23 +7,23 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
-from evernote.edam.type.ttypes import Notebook
-from datetime import datetime
 from enote.util import get_note, get_notebook, get_notebooks, \
     create_resource, create_note, create_notebook, update_note
-from github.util import get_user_name, get_number_of_gists, get_all_gists
-from web.util import fullpage_screenshot, get_gist_hash
+from github.util import get_user_name, get_all_gists
+from web.util import fullpage_screenshot, get_gist_hash, create_chrome_driver
 from settings import NOTEBOOK_TO_SYNC
 from db import get_db
 
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 GIST_BASE_URL = 'https://gist.github.com'
-notebook = Notebook()
-github_user = get_user_name()  # get current login github user for fetching gist content
+
+notebook = None
+github_user = get_user_name() # get current login github user for fetching gist content
 db = get_db()  # database to store synchronization info
 
 
-def main():
+def app():
+    start = time.time()
     global notebook
 
     # find notebook to put new notes
@@ -39,22 +39,21 @@ def main():
 
     # initialize, get all available gists
     if db.is_empty() or db.is_cold_start():
-        # debug
-        # gists = get_all_gists(after_date=datetime(2018, 1, 20))
         gists = get_all_gists()
     # sync only gists that were pushed after last synchronization
     else:
-        # debug
-        # now = datetime(2018, 1, 20)
-        now = datetime.utcnow()
-        gists = get_all_gists(after_date=now)
+        last_sync_date = db.get_last_sync()
+        print("Find gists that are updated after last sync (UTC): {}".format(last_sync_date))
+        gists = get_all_gists(after_date=last_sync_date)
 
     print("Total number of gists to be synchronized: %d" % len(gists))
 
-    driver = webdriver.Chrome()
+    # headless mode to reduce overhead and distraction
+    driver = create_chrome_driver() if gists else None
     for gist in gists:
-        note = sync_gist(gist, driver=driver)
-    driver.quit()
+        _ = sync_gist(gist, driver=driver)
+    if driver:
+        driver.quit()
 
     # TODO multi-processes + mysql
     # setup multiple selenium drivers to speed up if multiple cpu available
@@ -71,6 +70,8 @@ def main():
     # sync all gists successfully, set to warm-start mode
     if db.is_cold_start():
         db.toggle_cold_start()
+
+    print("Synchronization took {:.0f} seconds.".format(time.time() - start))
 
 
 def sync_gist(gist, driver):
@@ -100,9 +101,8 @@ def sync_gist(gist, driver):
         None if no new note created or updated
 
     """
-    # debug
-    # note_exist = True
     note_exist = False
+    gist_url = '/'.join((GIST_BASE_URL, gist['name']))
 
     # check existing gist hash before fetch if available
     prev_hash = db.get_hash_by_id(gist['id'])
@@ -110,11 +110,11 @@ def sync_gist(gist, driver):
         note_exist = True
         cur_hash = get_gist_hash(github_user, gist['name'])
         if prev_hash == cur_hash:
-            print('Gist {} remain the same, ignore.'.format(gist['name']))
+            print('Gist {} remain the same, ignore.'.format(gist_url))
+            db.update_gist(gist)
             return None
 
 
-    gist_url = '/'.join((GIST_BASE_URL, gist['name']))
 
     driver.get(gist_url)
     # wait at most x seconds for Github rendering gist context
@@ -151,22 +151,27 @@ def sync_gist(gist, driver):
         db.update_gist(gist)
 
     os.remove(image_path)
+    print("Finish creating note for gist {}".format(gist_url))
     return note
 
 
 def format_note_body(gist):
-    note_body = ''
+    """Create the note content that will be shown before attachments.
+
+    Parameters
+    ----------
+    gist : dict
+        Dict that contains all information of the gist
+
+    Returns
+    -------
+    note_body : str
+
+    """
     blocks = []
 
     desc = gist['description']
     if desc:
-        for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
-            try:
-                desc = desc.encode(title_charset)
-            except UnicodeError:
-                pass
-            else:
-                break
         blocks.append(desc)
 
     gist_url = '/'.join((GIST_BASE_URL, gist['name']))
@@ -177,6 +182,4 @@ def format_note_body(gist):
 
 
 if __name__ == '__main__':
-    main()
-
-
+    app()
