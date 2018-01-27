@@ -7,7 +7,7 @@ import requests
 from PIL import Image
 
 GIST_BASE_URL = 'https://gist.github.com'
-
+DRIVER_WIDTH, DRIVER_HEIGHT = 1200, 1373
 
 def generate_hexhash(content):
     """Generate string representation of MD5 sum of given data
@@ -156,6 +156,37 @@ def fullpage_screenshot(driver, file):
     stitched_image.save(file)
     print("Finishing chrome full page screenshot workaround...")
     return True
+
+
+def create_chrome_driver(mode="headless", width=DRIVER_WIDTH, height=DRIVER_HEIGHT):
+    """Create a headless/visible Chrome driver.
+
+    Parameters
+    ----------
+    mode : str, optional
+        "headless" for creating a headless Chrome driver.
+        Otherwise the driver will be visible.
+
+    width : int, optional
+        Width of the web driver window
+
+    height : int, optional
+        Height of the web driver window
+
+    Returns
+    -------
+    driver
+    """
+    from selenium import webdriver
+    options = webdriver.ChromeOptions()
+    if mode == 'headless':
+        options.add_argument("headless")
+    else:
+        pass
+    driver = webdriver.Chrome(chrome_options=options)
+    driver.get('https://github.com/')
+    driver.set_window_size(width, height)
+    return driver
 
 
 if __name__ == '__main__':
