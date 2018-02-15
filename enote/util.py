@@ -3,7 +3,10 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import fire
+import time
 import hashlib
+import tzlocal
+from datetime import datetime
 from evernote.api.client import EvernoteClient
 from evernote.edam.type import ttypes
 from evernote.edam.error import ttypes as Errors
@@ -306,6 +309,11 @@ def update_note(note, note_title, note_body, note_guid, resources):
     note.resources = resources
     note.content = build_note_content(note_body, resources)
 
+    # update `updated time` of the note in timezone-aware manner
+    tz = tzlocal.get_localzone()
+    dt = tz.localize(datetime.now())
+    note.updated = time.mktime(dt.timetuple()) * 1e3
+
     # attempt to update note in Evernote account
     try:
         note = note_store.updateNote(auth_token, note)
@@ -337,7 +345,7 @@ def build_note_title(note_title):
         https://dev.evernote.com/doc/reference/NoteStore.html#Fn_NoteStore_updateNote
 
     """
-    formatted_note_title = note_title.strip()
+    formatted_note_title = note_title.strip().replace('\n', ' ')
     for title_charset in 'US-ASCII', 'ISO-8859-1', 'UTF-8':
         try:
             formatted_note_title = formatted_note_title.encode(title_charset)
