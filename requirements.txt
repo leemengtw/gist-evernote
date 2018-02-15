@@ -31,9 +31,11 @@ pyperclip==1.6.0
 pyportmidi==0.0.7
 PySocks==1.6.7
 python-dateutil==2.6.0
+pytz==2018.3
 requests==2.18.4
 selenium==3.8.1
 six==1.11.0
 subprocess32==3.2.7
 TBB==0.1
+tzlocal==1.5.1
 urllib3==1.22

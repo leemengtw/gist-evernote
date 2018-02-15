@@ -95,7 +95,7 @@ class Database(object):
         return self.info.get(gist_id, {}).get('note_guid', '')
 
 
-    def save_gist(self, gist):
+    def save_gist(self, gist, note_guid, hash):
         """Save information of a given gist into database.
 
         Parameters
@@ -107,16 +107,19 @@ class Database(object):
                     'name': 'gist_name',
                     'description': 'description',
                     'pushAt': '2018-01-15T00:48:23Z',
-                    'hash': 'hash value'
                 }
-
+        note_guid : str
+        hash : str
         """
+        gist['note_guid'] = note_guid
+        gist['hash'] = hash
+
         self.info[gist['id']] = gist
         self.info['num_gists'] = self.info.get('num_gists', 0) + 1
         self.sync_info('save')
         self.update_sync_time()
 
-    def update_gist(self, gist):
+    def update_gist(self, gist, note_guid, hash):
         """Update information of a given gist into database.
 
         Parameters
@@ -127,11 +130,16 @@ class Database(object):
                     'id': 'gist_id',
                     'name': 'gist_name',
                     'description': 'description',
-                    'pushAt': '2018-01-15T00:48:23Z',
-                    'hash': 'hash value'
+                    'pushAt': '2018-01-15T00:48:23Z'
                 }
+        note_guid : str
+        hash : str
 
         """
+
+        gist['note_guid'] = note_guid
+        gist['hash'] = hash
+
         self.info[gist['id']] = gist
         self.sync_info('save')
         self.update_sync_time()

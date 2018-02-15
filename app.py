@@ -106,12 +106,13 @@ def sync_gist(gist, driver):
 
     # check existing gist hash before fetch if available
     prev_hash = db.get_hash_by_id(gist['id'])
-    if prev_hash:
+    note_guid = db.get_note_guid_by_id(gist['id'])
+    if prev_hash and note_guid:
         note_exist = True
         cur_hash = get_gist_hash(github_user, gist['name'])
         if prev_hash == cur_hash:
             print('Gist {} remain the same, ignore.'.format(gist_url))
-            db.update_gist(gist)
+            db.update_gist(gist, note_guid, cur_hash)
             return None
 
 
@@ -137,18 +138,17 @@ def sync_gist(gist, driver):
     note_body = format_note_body(gist)
 
     # get hash of raw gist content and save gist info to database
-    gist['hash'] = get_gist_hash(github_user, gist['name'])
+    gist_hash = get_gist_hash(github_user, gist['name'])
 
     # create new note / update existing note
     if not note_exist:
         note = create_note(note_title, note_body, [resource], parent_notebook=notebook)
         gist['note_guid'] = note.guid
-        db.save_gist(gist)
+        db.save_gist(gist, note_guid, gist_hash)
     else:
-        note_guid = db.get_note_guid_by_id(gist['id'])
         note = get_note(note_guid)
         update_note(note, note_title, note_body, note_guid, [resource])
-        db.update_gist(gist)
+        db.update_gist(gist, note_guid, gist_hash)
 
     os.remove(image_path)
     print("Finish creating note for gist {}".format(gist_url))
