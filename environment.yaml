@@ -12,6 +12,7 @@ dependencies:
   - olefile=0.44=py27_0
   - pillow=5.0.0=py27_0
   - selenium=3.8.1=py27_0
+  - setuptools=38.4.0=py27_0
   - six=1.11.0=py27_1
   - xz=5.2.3=0
   - asn1crypto=0.24.0=py27_0
@@ -40,7 +41,6 @@ dependencies:
   - python=2.7.14=hde5916a_29
   - readline=7.0=hc1231fa_4
   - requests=2.18.4=py27h9b2b37c_1
-  - setuptools=38.4.0=py27_0
   - sqlite=3.20.1=h7e4c145_2
   - tk=8.6.7=h35a86e2_3
   - urllib3=1.22=py27hc3787e9_0
@@ -64,5 +64,9 @@ dependencies:
     - pyperclip==1.6.0
     - pyportmidi==0.0.7
     - python-dateutil==2.6.0
+    - pytz==2018.3
     - subprocess32==3.2.7
     - tbb==0.1
+    - tzlocal==1.5.1
+prefix: /Users/leemeng/anaconda3/envs/gist-evernote
+
