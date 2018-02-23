@@ -143,8 +143,7 @@ def sync_gist(gist, driver):
     # create new note / update existing note
     if not note_exist:
         note = create_note(note_title, note_body, [resource], parent_notebook=notebook)
-        gist['note_guid'] = note.guid
-        db.save_gist(gist, note_guid, gist_hash)
+        db.save_gist(gist, note.guid, gist_hash)
     else:
         note = get_note(note_guid)
         update_note(note, note_title, note_body, note_guid, [resource])
