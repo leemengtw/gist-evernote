@@ -106,7 +106,7 @@ class Database(object):
                     'id': 'gist_id',
                     'name': 'gist_name',
                     'description': 'description',
-                    'pushAt': '2018-01-15T00:48:23Z',
+                    'pushedAt': '2018-01-15T00:48:23Z',
                 }
         note_guid : str
         hash : str
@@ -117,7 +117,7 @@ class Database(object):
         self.info[gist['id']] = gist
         self.info['num_gists'] = self.info.get('num_gists', 0) + 1
         self.sync_info('save')
-        self.update_sync_time()
+        self.update_sync_time(gist['pushedAt'])
 
     def update_gist(self, gist, note_guid, hash):
         """Update information of a given gist into database.
@@ -130,7 +130,7 @@ class Database(object):
                     'id': 'gist_id',
                     'name': 'gist_name',
                     'description': 'description',
-                    'pushAt': '2018-01-15T00:48:23Z'
+                    'pushedAt': '2018-01-15T00:48:23Z'
                 }
         note_guid : str
         hash : str
@@ -142,12 +142,19 @@ class Database(object):
 
         self.info[gist['id']] = gist
         self.sync_info('save')
-        self.update_sync_time()
+        self.update_sync_time(gist['pushedAt'])
 
-    def update_sync_time(self):
-        """Update last synchronization time"""
-        now = datetime.strftime(datetime.utcnow(), DATE_FORMAT)
-        self.env['sync_at'] = now
+    def update_sync_time(self, sync_date):
+        """Update last synchronization time
+
+        Parameters
+        ----------
+        sync_date : str
+            String indicating valid datetime like '2018-01-15T00:48:23Z',
+            which defined by global environment `DATE_FORMAT`.
+
+        """
+        self.env['sync_at'] = sync_date
         self.sync_env('save')
 
     def sync_env(self, mode):
