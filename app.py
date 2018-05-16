@@ -119,7 +119,7 @@ def sync_gist(gist, driver):
 
     driver.get(gist_url)
     # wait at most x seconds for Github rendering gist context
-    delay_seconds = 10
+    delay_seconds = 20
     try:
         WebDriverWait(driver, delay_seconds).until(EC.presence_of_element_located((By.CLASS_NAME, 'is-render-ready')))
     except TimeoutException:

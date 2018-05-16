@@ -21,6 +21,5 @@ class Test(unittest.TestCase):
         print(util.query_graphql(query))
 
 
-
 if __name__ == "__main__":
     unittest.main(argv=[sys.argv[0]])

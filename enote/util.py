@@ -70,6 +70,27 @@ def get_note_store(env="prod"):
     """
     return get_client(env).get_note_store()
 
+# TODO: 這是可以用關鍵字搜尋 note 的 helper, 不過現在還沒用到
+# def get_note_by_keywords(env='prod', notebook_guid=None):
+#     from evernote.edam.notestore.ttypes import NoteFilter, NotesMetadataResultSpec
+#
+#     keywords = "MongoDB improve query performance by creating index"
+#     filter = NoteFilter(inactive=False, words=keywords, notebookGuid=notebook_guid)
+#     result_spec = NotesMetadataResultSpec(includeAttributes=True)
+#     if notebook_guid:
+#         filter.notebookGuid = notebook_guid
+#
+#     # filter.words = "20180116_Analysis_CC_relationship_between_connected_ratio_and_contract_ratio.ipynb"
+#
+#
+#
+#     token = get_evernote_auth_token(env)
+#     note_store = get_note_store(env)
+#     notes_mata_data_list = note_store.findNotesMetadata(token, filter, 0, 1, result_spec)
+#
+#
+#     return notes_mata_data_list
+
 
 def get_note(guid=None, env='prod'):
     """Return a specific Note instance by guid.

@@ -9,6 +9,7 @@ from PIL import Image
 GIST_BASE_URL = 'https://gist.github.com'
 DRIVER_WIDTH, DRIVER_HEIGHT = 1200, 1373
 
+
 def generate_hexhash(content):
     """Generate string representation of MD5 sum of given data
 
@@ -43,6 +44,11 @@ def get_gist_hash(github_user, gist_name):
     Returns
     -------
     hash: str
+
+    References
+    ----------
+    Get the permalink to the gist:
+        - https://stackoverflow.com/a/47175630/3859572
 
     """
     # TODO update example for gist_name

@@ -145,3 +145,7 @@ see the [LICENSE.txt](LICENSE.txt) for details.
 * [Evernote Python SDK](https://github.com/evernote/evernote-sdk-python)
 
 ## Future Work
+- 建立一個 func, 在 app 結束的時候判斷要更新系統的 sync_at 到什麼時候
+    - 中途 process 被中斷啥的就更新到目前的最新的 gist 的 pushAt
+    - 全部完成就使用最新的 gist 的 pushAt
+    - 不管哪個，反正就

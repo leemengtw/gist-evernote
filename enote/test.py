@@ -18,12 +18,12 @@ class Test(unittest.TestCase):
         util.simple_access()
 
     def test_create_note(self):
-        auth_token = util.get_auth_token()
+        auth_token = util.get_evernote_auth_token()
         note_store = util.get_note_store()
         util.create_note(auth_token, note_store, 'Test Note', 'Hello world')
 
     def test_create_note_with_attachments(self):
-        auth_token = util.get_auth_token()
+        auth_token = util.get_evernote_auth_token()
         note_store = util.get_note_store()
 
         resources = []

@@ -1,0 +1,1742 @@
+{
+  "MDQ6R2lzdDQ1ZTE3OTlmZjYzMzc4MjE5ZTU0NDNiM2U3ZGRhYjE2": {
+    "hash": "f475d1d196c9702e0593a0a494a463e7", 
+    "description": "Presto Essentials - Data Science - \u6642\u9593\u8655\u7406", 
+    "pushedAt": "2018-04-26T02:17:30Z", 
+    "note_guid": "66c97575-c6e8-4676-a970-d45dd90ca276", 
+    "id": "MDQ6R2lzdDQ1ZTE3OTlmZjYzMzc4MjE5ZTU0NDNiM2U3ZGRhYjE2", 
+    "name": "45e1799ff63378219e5443b3e7ddab16"
+  }, 
+  "MDQ6R2lzdGE0YTRkNmIwNDYzYzkzOThhNzMyNTk3YTgzMWExZDBi": {
+    "hash": "bd08d34ea0f19a899a09b9914b4d8a45", 
+    "description": "r-statistics.co/ggplot2 Short Tutorial.ipynb", 
+    "pushedAt": "2018-04-07T05:22:24Z", 
+    "note_guid": "c4ac0ef9-496e-48b5-b6f5-a5f7eb5c3967", 
+    "id": "MDQ6R2lzdGE0YTRkNmIwNDYzYzkzOThhNzMyNTk3YTgzMWExZDBi", 
+    "name": "a4a4d6b0463c9398a732597a831a1d0b"
+  }, 
+  "MDQ6R2lzdDQwYjM3ZDc5YTcyZjZmN2M5ZWQxNzBjM2JjMDlkOGRm": {
+    "hash": "5ec5881a6b6b1369e0092a42cca663f1", 
+    "description": "Find the nearest documents with respect to specific time field", 
+    "pushedAt": "2018-01-10T10:50:45Z", 
+    "note_guid": "f75be2f4-c930-4b01-b186-034fd702ab8d", 
+    "id": "MDQ6R2lzdDQwYjM3ZDc5YTcyZjZmN2M5ZWQxNzBjM2JjMDlkOGRm", 
+    "name": "40b37d79a72f6f7c9ed170c3bc09d8df"
+  }, 
+  "MDQ6R2lzdDFmYzY5MmQ3NGI2ODUzZmY0ODY3OTFlNTg5Njg5MDll": {
+    "hash": "483c09fc96640319656444fa7b5e7d4f", 
+    "description": "", 
+    "pushedAt": "2017-11-18T23:47:44Z", 
+    "note_guid": "fa0f679b-7d49-4e92-8dfc-e7258017b358", 
+    "id": "MDQ6R2lzdDFmYzY5MmQ3NGI2ODUzZmY0ODY3OTFlNTg5Njg5MDll", 
+    "name": "1fc692d74b6853ff486791e58968909e"
+  }, 
+  "MDQ6R2lzdDgyY2Q4MjE2MWIyMjNkNGRkODFiZmRiNDVkMWUxNmFm": {
+    "hash": "53651a6d2fb9c701e2e2b80f66a9c526", 
+    "description": "Draw boxplot for one categorical column and one numerical column in Pandas dataframe", 
+    "pushedAt": "2017-08-30T11:26:44Z", 
+    "note_guid": "c4ed3e22-2413-4078-be13-2f28892bd690", 
+    "id": "MDQ6R2lzdDgyY2Q4MjE2MWIyMjNkNGRkODFiZmRiNDVkMWUxNmFm", 
+    "name": "82cd82161b223d4dd81bfdb45d1e16af"
+  }, 
+  "MDQ6R2lzdGMxYjVhZjQ5YjZiNjMxNzA0MTAzMmE5NmNiMjQxYzMx": {
+    "hash": "c0e170ef43ca4654b1bc61e0507442ae", 
+    "description": "Presto Essentials - Data Science - \u8a08\u7b97 moving average \u4ee5\u53ca\u4e0a\u4e0b\u6a19\u6e96\u5dee\u7bc4\u570d", 
+    "pushedAt": "2018-04-26T02:19:21Z", 
+    "note_guid": "cf7dd1f6-1f2d-490f-9660-4c1def9fd70f", 
+    "id": "MDQ6R2lzdGMxYjVhZjQ5YjZiNjMxNzA0MTAzMmE5NmNiMjQxYzMx", 
+    "name": "c1b5af49b6b6317041032a96cb241c31"
+  }, 
+  "MDQ6R2lzdDNkZTgwNGI1ZjVjODUyM2E3NjMyYjYwZGZiN2VlMDdl": {
+    "hash": "1c1896680e9b7cfeb86a7f6954027f7d", 
+    "description": "Kubernetes note", 
+    "pushedAt": "2017-12-19T05:22:18Z", 
+    "note_guid": "2c0a7991-8fcc-4184-9a88-366cde8f9e42", 
+    "id": "MDQ6R2lzdDNkZTgwNGI1ZjVjODUyM2E3NjMyYjYwZGZiN2VlMDdl", 
+    "name": "3de804b5f5c8523a7632b60dfb7ee07e"
+  }, 
+  "MDQ6R2lzdDEyYjQyM2JmODU5YzZjMDI2ZTVhZDFiYmE4M2VkNTk0": {
+    "pushedAt": "2018-02-15T11:15:14Z", 
+    "hash": "cad0efdac6a9cb33780a54ebe31d1c57", 
+    "description": "References:-  https://stackoverflow.com/a/35273613/3859572", 
+    "name": "12b423bf859c6c026e5ad1bba83ed594", 
+    "id": "MDQ6R2lzdDEyYjQyM2JmODU5YzZjMDI2ZTVhZDFiYmE4M2VkNTk0"
+  }, 
+  "MDQ6R2lzdGI5NDA0OTYwMDU4MDJjM2Q1MDdjZDFkYmY4Mzg0Y2Jh": {
+    "hash": "c8813c7d982be670a4fff0ea05f394fd", 
+    "description": "marketenterprise/20170825_Analysis_Decile_analysis.ipynb", 
+    "pushedAt": "2018-01-29T00:37:18Z", 
+    "note_guid": "5360a62e-bc33-4fcd-bdac-49553e392cec", 
+    "id": "MDQ6R2lzdGI5NDA0OTYwMDU4MDJjM2Q1MDdjZDFkYmY4Mzg0Y2Jh", 
+    "name": "b940496005802c3d507cd1dbf8384cba"
+  }, 
+  "MDQ6R2lzdGMyNjI1NDE5Y2M0NDJmODg5ZjM1ZjE3ZmRlMTM5Mjcx": {
+    "hash": "83e86155a4e0dccc18a3266e77fd4b18", 
+    "description": "groupby_values_in_a_list.ipynb", 
+    "pushedAt": "2017-12-26T09:06:55Z", 
+    "note_guid": "752deffe-6bb1-4549-9eda-0b6868ccc783", 
+    "id": "MDQ6R2lzdGMyNjI1NDE5Y2M0NDJmODg5ZjM1ZjE3ZmRlMTM5Mjcx", 
+    "name": "c2625419cc442f889f35f17fde139271"
+  }, 
+  "MDQ6R2lzdDVjODU3YjhhMTAxZjhhYTVhZGViZjI3YzUxNzk4N2Mw": {
+    "hash": "e0a8c7b70259c433b5b1bb8a26569096", 
+    "description": "\u5c07\u76ee\u524d\u8cc7\u6599\u593e\u7684flask app\u63a8\u4e0aheroku(\u5728local\u7aefflask app \u4e00\u5207\u6e2c\u8a66\u90fdok,\u8a72\u6709\u7684file\u90fd\u6709\u7684\u60c5\u6cc1\u4e0b)\n", 
+    "pushedAt": "2017-12-21T01:10:52Z", 
+    "note_guid": "481c7053-e5a5-4b3c-8fea-35c47af6ae88", 
+    "id": "MDQ6R2lzdDVjODU3YjhhMTAxZjhhYTVhZGViZjI3YzUxNzk4N2Mw", 
+    "name": "5c857b8a101f8aa5adebf27c517987c0"
+  }, 
+  "MDQ6R2lzdDk5YWQ3OGI2MGNkMmI4ODUzN2YwMThkODBiZDM0OTEx": {
+    "hash": "acfe89a1879991f73e7ff2442d204576", 
+    "description": "\u4f7f\u7528 img-responsive CLASS", 
+    "pushedAt": "2017-10-09T06:30:27Z", 
+    "note_guid": "e0a09fe7-e747-4c9e-aa9c-379c87900c7b", 
+    "id": "MDQ6R2lzdDk5YWQ3OGI2MGNkMmI4ODUzN2YwMThkODBiZDM0OTEx", 
+    "name": "99ad78b60cd2b88537f018d80bd34911"
+  }, 
+  "MDQ6R2lzdDhlNWQzMzM0MmI2MGM1YmViYzRiNDQzOWFiNWRiZmM3": {
+    "hash": "f1ec59fecfa07224f372b06a85742d23", 
+    "description": "\u9019\u500b\u662f\u8f38\u51fa item csv \u7684\u7bc4\u4f8b, \u8981\u8f38\u51fa offer csv \u7684\u8a71\u7528 _id \u641c\u5c0b offer_csv_download", 
+    "pushedAt": "2017-12-04T11:16:02Z", 
+    "note_guid": "62f80ae2-4468-429c-926d-5366f94e4d17", 
+    "id": "MDQ6R2lzdDhlNWQzMzM0MmI2MGM1YmViYzRiNDQzOWFiNWRiZmM3", 
+    "name": "8e5d33342b60c5bebc4b4439ab5dbfc7"
+  }, 
+  "MDQ6R2lzdDMzZjg0YmY4ZTRkMGUyMjIzMDBhODAzYzgxMGFiNmQ3": {
+    "hash": "3bc21d9a9881fc9114ffbc8799ceb547", 
+    "description": "\u6aa2\u67e5\u76ee\u524d\u80fd\u4e0d\u80fd\u9023\u4e0ainternet", 
+    "pushedAt": "2017-12-21T01:20:11Z", 
+    "note_guid": "c585a8ca-fc59-4474-912e-070420febba5", 
+    "id": "MDQ6R2lzdDMzZjg0YmY4ZTRkMGUyMjIzMDBhODAzYzgxMGFiNmQ3", 
+    "name": "33f84bf8e4d0e222300a803c810ab6d7"
+  }, 
+  "MDQ6R2lzdDdmYmQzMmExY2ExMWY0OTAzNGUzYmRmYzA4ZDUzMWJj": {
+    "hash": "34e32756063a0f97f78fbe8095938b4c", 
+    "description": "", 
+    "pushedAt": "2018-01-10T09:04:47Z", 
+    "note_guid": "c85f8896-23e7-4143-b980-349c43845706", 
+    "id": "MDQ6R2lzdDdmYmQzMmExY2ExMWY0OTAzNGUzYmRmYzA4ZDUzMWJj", 
+    "name": "7fbd32a1ca11f49034e3bdfc08d531bc"
+  }, 
+  "MDQ6R2lzdGM4OWFjZGZjZGU3MjM2OTBkNmIxOTQwMWQ0NmUwZWMz": {
+    "hash": "93a17794d236ec4dbd533bf162e55f07", 
+    "description": "MongoDB geospatial queries", 
+    "pushedAt": "2018-01-04T01:08:21Z", 
+    "note_guid": "c18d83f8-c06f-49c1-8369-f7f3009078e0", 
+    "id": "MDQ6R2lzdGM4OWFjZGZjZGU3MjM2OTBkNmIxOTQwMWQ0NmUwZWMz", 
+    "name": "c89acdfcde723690d6b19401d46e0ec3"
+  }, 
+  "MDQ6R2lzdDAwODkwZGM2NGYwMWMyMjM5YTcxNmIzZWI5MzE4YWRi": {
+    "hash": "80784179da2622997ad14ffda45e7f27", 
+    "description": "marketenterprise/20180116_Analysis_CC_relationship_between_connected_ratio_and_contract_ratio.ipynb", 
+    "pushedAt": "2018-01-29T08:03:49Z", 
+    "note_guid": "a6f4e06c-8f13-4f84-a316-a624439e9b6f", 
+    "id": "MDQ6R2lzdDAwODkwZGM2NGYwMWMyMjM5YTcxNmIzZWI5MzE4YWRi", 
+    "name": "00890dc64f01c2239a716b3eb9318adb"
+  }, 
+  "MDQ6R2lzdDZhZjUwMzIyYTE2M2FiYzllODQ5OTlhZTRlOGFhMmI4": {
+    "hash": "3963a17dc8ec0fe80a6337d50e021770", 
+    "description": "O'relly ggplot2 Note", 
+    "pushedAt": "2018-04-14T08:57:07Z", 
+    "note_guid": "89d1b8b4-857c-4a35-9519-b88438df2c46", 
+    "id": "MDQ6R2lzdDZhZjUwMzIyYTE2M2FiYzllODQ5OTlhZTRlOGFhMmI4", 
+    "name": "6af50322a163abc9e84999ae4e8aa2b8"
+  }, 
+  "MDQ6R2lzdDM4MTZhMjY1NzZlNGFkODIwMTJjN2ZlMWFjY2MyMTA4": {
+    "hash": "44829425c3b2e98dbe01e18581b0fe1a", 
+    "description": "marketenterprise/20171221_Analysis_Offer_progress_visualization.ipynb", 
+    "pushedAt": "2018-01-29T00:42:40Z", 
+    "note_guid": "d54e82d1-0dd1-4376-9c25-7995bf7876ec", 
+    "id": "MDQ6R2lzdDM4MTZhMjY1NzZlNGFkODIwMTJjN2ZlMWFjY2MyMTA4", 
+    "name": "3816a26576e4ad82012c7fe1accc2108"
+  }, 
+  "MDQ6R2lzdDE4OThhZDM4NzM4OTllNWViNWE4NTg0ODRkYjYzZDcx": {
+    "hash": "440ee2c420c573e644ac8e048a37d7c2", 
+    "description": "\u522a\u9664\u6240\u6709pip packages", 
+    "pushedAt": "2017-12-21T01:13:53Z", 
+    "note_guid": "1c58a859-768a-4d7c-93b7-cfc6b1ea6742", 
+    "id": "MDQ6R2lzdDE4OThhZDM4NzM4OTllNWViNWE4NTg0ODRkYjYzZDcx", 
+    "name": "1898ad3873899e5eb5a858484db63d71"
+  }, 
+  "MDQ6R2lzdDRhZjk1OTYzNTgwMzg2Zjk0MjdlNzU0N2JmMGJiYTI1": {
+    "hash": "32c34ab94b6d0da3647822d9f7cbd612", 
+    "description": "", 
+    "pushedAt": "2017-11-18T10:54:23Z", 
+    "note_guid": "f4d00193-26ab-4172-b694-860d3e81785f", 
+    "id": "MDQ6R2lzdDRhZjk1OTYzNTgwMzg2Zjk0MjdlNzU0N2JmMGJiYTI1", 
+    "name": "4af95963580386f9427e7547bf0bba25"
+  }, 
+  "MDQ6R2lzdDA5N2MzNTI0YmYxNzQyYzk5MTRiNTE0ZDU1YzcyOTc3": {
+    "hash": "edab9f5f17279094edb60829d788e887", 
+    "description": "\u5728Github\u7684Markdown\u8a2d\u5b9a\u5716\u7247\u5927\u5c0f", 
+    "pushedAt": "2017-12-21T01:07:25Z", 
+    "note_guid": "b8a38c77-f603-46ba-ad5f-3d5e6364e22b", 
+    "id": "MDQ6R2lzdDA5N2MzNTI0YmYxNzQyYzk5MTRiNTE0ZDU1YzcyOTc3", 
+    "name": "097c3524bf1742c9914b514d55c72977"
+  }, 
+  "MDQ6R2lzdDlkZjIzZDk4MGNkMzQzMWJmNmU5ZmFlOWM4NDAzNjBh": {
+    "hash": "6300f206e85c1384bbd2c2de3924236b", 
+    "description": "Read a image file as a numpy.ndarray, resize it and return the resized images.", 
+    "pushedAt": "2017-11-18T08:35:42Z", 
+    "note_guid": "fbc605ba-1be0-41e0-b5c4-92d9e3695957", 
+    "id": "MDQ6R2lzdDlkZjIzZDk4MGNkMzQzMWJmNmU5ZmFlOWM4NDAzNjBh", 
+    "name": "9df23d980cd3431bf6e9fae9c840360a"
+  }, 
+  "MDQ6R2lzdDIzYWJlN2VmMjJmMzMwMDEzNDFiMmJmYWQ0ZjlhMGYz": {
+    "hash": "bbcf181675aee5f0d3d9d35ad0099824", 
+    "description": "", 
+    "pushedAt": "2017-10-18T07:51:46Z", 
+    "note_guid": "fbcbe209-397c-4b0b-b691-a20579326e99", 
+    "id": "MDQ6R2lzdDIzYWJlN2VmMjJmMzMwMDEzNDFiMmJmYWQ0ZjlhMGYz", 
+    "name": "23abe7ef22f33001341b2bfad4f9a0f3"
+  }, 
+  "MDQ6R2lzdGYwMGM1OWE2Yzc2YWNiNGI2ODc3M2YwMjgzMTljODlk": {
+    "hash": "cfae62a9865c9a95effca6e16a08bb05", 
+    "description": "", 
+    "pushedAt": "2017-10-16T15:45:24Z", 
+    "note_guid": "0fca31fa-9fbe-45fc-bf51-aefdec13acaa", 
+    "id": "MDQ6R2lzdGYwMGM1OWE2Yzc2YWNiNGI2ODc3M2YwMjgzMTljODlk", 
+    "name": "f00c59a6c76acb4b68773f028319c89d"
+  }, 
+  "MDQ6R2lzdDgzZWEzODM2ODg3YWMyZDcxNmViZTZlMzIxOGUyYjhj": {
+    "hash": "9d72ef7351bccee0d4068aa5ddd24154", 
+    "description": "\u9078\u5b8c\u6a94\u6848\u5f8c\u76f4\u63a5\u63d0\u4ea4form \u4e26\u96b1\u85cfsubmit button", 
+    "pushedAt": "2017-12-21T01:24:05Z", 
+    "note_guid": "0d808747-e5f8-41dd-a1be-6a3fb17727bc", 
+    "id": "MDQ6R2lzdDgzZWEzODM2ODg3YWMyZDcxNmViZTZlMzIxOGUyYjhj", 
+    "name": "83ea3836887ac2d716ebe6e3218e2b8c"
+  }, 
+  "MDQ6R2lzdDRlOTFlMzU4MTRlMjEwMThjOTdiNTBmMGU5ODdiOTJj": {
+    "hash": "0af8953252cd2bf8e5ce75f2f9b66326", 
+    "description": "notebooks/02.02-The-Basics-Of-NumPy-Arrays.ipynb", 
+    "pushedAt": "2018-01-15T08:32:57Z", 
+    "note_guid": "60b62a92-9a93-491c-8243-539154b56b5d", 
+    "id": "MDQ6R2lzdDRlOTFlMzU4MTRlMjEwMThjOTdiNTBmMGU5ODdiOTJj", 
+    "name": "4e91e35814e21018c97b50f0e987b92c"
+  }, 
+  "MDQ6R2lzdDM3ZjNjNDVkOWQwZjBiYzAzYzNjNjNkNjAxZTBiYmJm": {
+    "hash": "5d815015c96e6495ed2e84aa739bd94a", 
+    "description": "MongoDB find elements in list", 
+    "pushedAt": "2018-01-02T16:20:45Z", 
+    "note_guid": "acfb4992-abff-4770-a852-9cdca39d1120", 
+    "id": "MDQ6R2lzdDM3ZjNjNDVkOWQwZjBiYzAzYzNjNjNkNjAxZTBiYmJm", 
+    "name": "37f3c45d9d0f0bc03c3c63d601e0bbbf"
+  }, 
+  "MDQ6R2lzdDhlYjI0Njk2ZThmNzA4Yzg1ZjAyMjdkOTg0YjE5MThj": {
+    "hash": "c66e9cd4cf630a274b29477b54cf27dc", 
+    "description": "", 
+    "pushedAt": "2017-10-18T04:56:12Z", 
+    "note_guid": "198e9c2e-5dc7-4cb9-a11a-453197d4beb0", 
+    "id": "MDQ6R2lzdDhlYjI0Njk2ZThmNzA4Yzg1ZjAyMjdkOTg0YjE5MThj", 
+    "name": "8eb24696e8f708c85f0227d984b1918c"
+  }, 
+  "MDQ6R2lzdDM1NzBiYTkxMWI3ZDhlM2RlYTBmYjc4ZmY5NTI4MDMw": {
+    "hash": "b192d12fdc99f55c1ce5d92cd4cccb63", 
+    "description": "subplots.ipynb", 
+    "pushedAt": "2017-12-04T07:45:36Z", 
+    "note_guid": "ead67c5c-d053-40c9-9af2-60452ce1b994", 
+    "id": "MDQ6R2lzdDM1NzBiYTkxMWI3ZDhlM2RlYTBmYjc4ZmY5NTI4MDMw", 
+    "name": "3570ba911b7d8e3dea0fb78ff9528030"
+  }, 
+  "MDQ6R2lzdGU4NmU5ZmJjYjU2MGYwOTc5ODIwNzU1YjdlODY3MDQ0": {
+    "hash": "58af0c2de934ab689e85e2009eaf2a6a", 
+    "description": "marketenterprise/20170410_Script_Generate_Geo_mapping_of_Prefectures_for_Offers.ipynb", 
+    "pushedAt": "2018-01-29T00:32:08Z", 
+    "note_guid": "4be42406-7eee-4735-8a7a-0c1c2c3c7a22", 
+    "id": "MDQ6R2lzdGU4NmU5ZmJjYjU2MGYwOTc5ODIwNzU1YjdlODY3MDQ0", 
+    "name": "e86e9fbcb560f0979820755b7e867044"
+  }, 
+  "MDQ6R2lzdDAwM2EwNmQ5MDk1OTQzMmNjZThmM2NiMzNmNmI3MzZh": {
+    "hash": "416eba944fbee713268e58a79857f06f", 
+    "description": "", 
+    "pushedAt": "2017-11-15T05:33:41Z", 
+    "note_guid": "3d9b282e-e5c6-480c-bd22-51b398358db9", 
+    "id": "MDQ6R2lzdDAwM2EwNmQ5MDk1OTQzMmNjZThmM2NiMzNmNmI3MzZh", 
+    "name": "003a06d90959432cce8f3cb33f6b736a"
+  }, 
+  "MDQ6R2lzdGMxMDBiYmY5NTc5YjVmZTlhNWQxZmQ5ZTZlYTAxZDg2": {
+    "hash": "8c3274d4c2675452d677708958fad369", 
+    "description": "", 
+    "pushedAt": "2017-11-14T11:52:11Z", 
+    "note_guid": "69c99aa9-9901-4667-99a7-c2e1440f2200", 
+    "id": "MDQ6R2lzdGMxMDBiYmY5NTc5YjVmZTlhNWQxZmQ5ZTZlYTAxZDg2", 
+    "name": "c100bbf9579b5fe9a5d1fd9e6ea01d86"
+  }, 
+  "MDQ6R2lzdDUzN2JiMTI0NmIwYmUzMWQyNTFmOTE3Y2JiYzhjNDk3": {
+    "hash": "8abddf56cd678adabaeee6c342982584", 
+    "description": "\u56de\u50b3list\u88e1\u982d\u503c\u6700\u5c0f\u7684index = np.argmin", 
+    "pushedAt": "2017-12-21T01:24:58Z", 
+    "note_guid": "83055fd1-e7ab-4726-b702-1b44c5dc9e28", 
+    "id": "MDQ6R2lzdDUzN2JiMTI0NmIwYmUzMWQyNTFmOTE3Y2JiYzhjNDk3", 
+    "name": "537bb1246b0be31d251f917cbbc8c497"
+  }, 
+  "MDQ6R2lzdDdiYmExZDE4MmU1OGNlZTQzMzY1NGU2MGFiNzEwNmVk": {
+    "hash": "625c1601316b6386de03130b084a9d5d", 
+    "description": "", 
+    "pushedAt": "2017-10-14T07:37:53Z", 
+    "note_guid": "28ddbc0c-de88-45a4-a261-71b714e0b6ba", 
+    "id": "MDQ6R2lzdDdiYmExZDE4MmU1OGNlZTQzMzY1NGU2MGFiNzEwNmVk", 
+    "name": "7bba1d182e58cee433654e60ab7106ed"
+  }, 
+  "MDQ6R2lzdDA2YzMwMDkyMmYzOGZmMjQ2M2MyZWRjZTRkNWJkZWRj": {
+    "hash": "7c971bfa562838e23126d7e0552781b6", 
+    "description": "Beautifulsoup Note", 
+    "pushedAt": "2018-03-05T10:33:39Z", 
+    "note_guid": "7a5ad228-e8d4-409c-86a6-684198366d24", 
+    "id": "MDQ6R2lzdDA2YzMwMDkyMmYzOGZmMjQ2M2MyZWRjZTRkNWJkZWRj", 
+    "name": "06c300922f38ff2463c2edce4d5bdedc"
+  }, 
+  "MDQ6R2lzdGViNzMzZjg5OTQ4MDFjMTY5NjZkMzliNTE2YjI5Njk2": {
+    "hash": "8c18e864bb4291d742648a97c0948d4e", 
+    "description": "\u5728\u6709templates/base.html\u7684\u689d\u4ef6\u4e0b, \u5728templates/ \u5e95\u4e0b\u52a0\u5165404.html -> static/ \u5e95\u4e0b\u52a0\u5165404.png ->flask app\u88e1\u982d\u52a0\u5165 error handling", 
+    "pushedAt": "2017-12-21T01:00:42Z", 
+    "note_guid": "a540241e-da7c-48cb-b830-321095d87af2", 
+    "id": "MDQ6R2lzdGViNzMzZjg5OTQ4MDFjMTY5NjZkMzliNTE2YjI5Njk2", 
+    "name": "eb733f8994801c16966d39b516b29696"
+  }, 
+  "MDQ6R2lzdDI0YmY4MzdiM2E3N2VjMWFjY2MyYmQ1NjU3NmNhM2Yz": {
+    "hash": "a5fd0282f2a1eecb91cab9d00e7711db", 
+    "description": "\u8907\u88fdheroku master branch\u4e0b\u4f86", 
+    "pushedAt": "2017-12-21T01:16:43Z", 
+    "note_guid": "8ffd318b-2741-4a54-b480-0edf9a8ae8a5", 
+    "id": "MDQ6R2lzdDI0YmY4MzdiM2E3N2VjMWFjY2MyYmQ1NjU3NmNhM2Yz", 
+    "name": "24bf837b3a77ec1accc2bd56576ca3f3"
+  }, 
+  "MDQ6R2lzdGZkODAyZmI3MzE0ZGQwNjBkN2I3ZWMwNGJlMTk3N2Ez": {
+    "hash": "609b8015e7c0509b6a610f43b4039aa8", 
+    "description": "Presto Essentials - Data Science - Array \u8655\u7406", 
+    "pushedAt": "2018-04-26T02:19:33Z", 
+    "note_guid": "c6411044-3653-4660-abea-348c2b12d565", 
+    "id": "MDQ6R2lzdGZkODAyZmI3MzE0ZGQwNjBkN2I3ZWMwNGJlMTk3N2Ez", 
+    "name": "fd802fb7314dd060d7b7ec04be1977a3"
+  }, 
+  "MDQ6R2lzdDA0ZDMxZWI0MzgzNjM4MzJkY2YwZWRlY2Y0MTUyOGJl": {
+    "hash": "0251593fc6c4f1ec143baadfdcd2a75a", 
+    "description": "\u7522\u751f\u81ea\u8a02\u7bc4\u570d\u7684float", 
+    "pushedAt": "2017-12-22T19:48:22Z", 
+    "note_guid": "a9a65ca7-3f14-46d8-a3f6-d0984842b8a6", 
+    "id": "MDQ6R2lzdDA0ZDMxZWI0MzgzNjM4MzJkY2YwZWRlY2Y0MTUyOGJl", 
+    "name": "04d31eb438363832dcf0edecf41528be"
+  }, 
+  "MDQ6R2lzdDRhNmUwNzk2MjYyODkwMmE4NzNlYzc2YTkzNjExN2Ex": {
+    "hash": "ccd3e67141b64736cbada9bf07b78f02", 
+    "description": "Bulk update MongoDB collection", 
+    "pushedAt": "2018-01-02T08:43:00Z", 
+    "note_guid": "fcacdc07-5bfd-41c0-9f98-617d14855c84", 
+    "id": "MDQ6R2lzdDRhNmUwNzk2MjYyODkwMmE4NzNlYzc2YTkzNjExN2Ex", 
+    "name": "4a6e07962628902a873ec76a936117a1"
+  }, 
+  "MDQ6R2lzdGM3ZDA2YjgyNDU5OGQzOTI4ZmVjYTFiMDBhYzZjNzg0": {
+    "hash": "1474a97575297d6765b128dbd4b36504", 
+    "description": "Chapter02/2. Building Blocks Of Neural Networks.ipynb", 
+    "pushedAt": "2018-03-24T16:55:15Z", 
+    "note_guid": "3feda860-2176-48e7-ab6a-63a5166da7be", 
+    "id": "MDQ6R2lzdGM3ZDA2YjgyNDU5OGQzOTI4ZmVjYTFiMDBhYzZjNzg0", 
+    "name": "c7d06b824598d3928feca1b00ac6c784"
+  }, 
+  "MDQ6R2lzdGE2NzI4MmY5NDkxNzk4ZmM1NTA3N2RjODVhYjA3NGQ3": {
+    "hash": "d0c3f450fc38cab963bb60e3dd42262c", 
+    "description": "marketenterprise/20170310_Analysis_Track_lead_time_for_items_on_different_sold_exit_service.ipynb", 
+    "pushedAt": "2018-01-29T00:29:26Z", 
+    "note_guid": "3dd0f99c-e8e3-4d63-a58e-3cd32ae8cbc4", 
+    "id": "MDQ6R2lzdGE2NzI4MmY5NDkxNzk4ZmM1NTA3N2RjODVhYjA3NGQ3", 
+    "name": "a67282f9491798fc55077dc85ab074d7"
+  }, 
+  "MDQ6R2lzdGZlYzkwMDgzNTJlYjc0N2M2MGFiYWU5ZjAyZmQ2ODgw": {
+    "hash": "80bf968bb00511f2a01672b79431e4c3", 
+    "description": "3D plot using matplotlib", 
+    "pushedAt": "2018-01-04T01:32:51Z", 
+    "note_guid": "c7dfa42c-9a94-44ed-8a2b-b7a7c78b0196", 
+    "id": "MDQ6R2lzdGZlYzkwMDgzNTJlYjc0N2M2MGFiYWU5ZjAyZmQ2ODgw", 
+    "name": "fec9008352eb747c60abae9f02fd6880"
+  }, 
+  "MDQ6R2lzdDAzZTUxMTFjM2Q5MmU3MWY4Mjg4MzQxYjRlZjJkYTQx": {
+    "hash": "81c9ce659dff2042acb7678bb74bec5c", 
+    "description": "r-statistics.co/ggplot2 Tutorial 1 - Intro.ipynb", 
+    "pushedAt": "2018-04-07T17:04:13Z", 
+    "note_guid": "6dc9fd79-2833-4651-84f4-f5a7aef1b607", 
+    "id": "MDQ6R2lzdDAzZTUxMTFjM2Q5MmU3MWY4Mjg4MzQxYjRlZjJkYTQx", 
+    "name": "03e5111c3d92e71f8288341b4ef2da41"
+  }, 
+  "MDQ6R2lzdGE0ZTgxNzYyNjkwNTFiZjEzNGZhNTc3MzZmZmUxZWFm": {
+    "pushedAt": "2018-02-02T05:40:41Z", 
+    "hash": "d49a2f98f8bb4452760832c92d52598d", 
+    "description": "ch139-List-destructuring-aka-packing-and-unpacking/ch139.ipynb", 
+    "name": "a4e8176269051bf134fa57736ffe1eaf", 
+    "id": "MDQ6R2lzdGE0ZTgxNzYyNjkwNTFiZjEzNGZhNTc3MzZmZmUxZWFm"
+  }, 
+  "MDQ6R2lzdDMyNTYzNjYwOWVlOTUyZGQ3MTNmYzM5MzRhMWY1Zjhj": {
+    "hash": "96e0c8454bfc827820050d2f50ac7f1f", 
+    "description": "", 
+    "pushedAt": "2018-04-14T09:00:12Z", 
+    "note_guid": "4214cb99-7083-4e0c-807f-a4934e5958c2", 
+    "id": "MDQ6R2lzdDMyNTYzNjYwOWVlOTUyZGQ3MTNmYzM5MzRhMWY1Zjhj", 
+    "name": "325636609ee952dd713fc3934a1f5f8c"
+  }, 
+  "MDQ6R2lzdDNjM2YxY2E5OGZhZGJkZTBmZWU4NThlMWQ2YjQ3MGQx": {
+    "hash": "a60ab06554e312fe7ca733dab327295b", 
+    "description": "I will sell everything for free (~0.55).ipynb", 
+    "pushedAt": "2017-12-14T07:06:27Z", 
+    "note_guid": "49d1a548-2c0a-4336-9b74-b6bd847d7460", 
+    "id": "MDQ6R2lzdDNjM2YxY2E5OGZhZGJkZTBmZWU4NThlMWQ2YjQ3MGQx", 
+    "name": "3c3f1ca98fadbde0fee858e1d6b470d1"
+  }, 
+  "MDQ6R2lzdDY0MjdhNTMzZjM5YzFkMGUyNzIzYTA3ZGM2MzA4NzFl": {
+    "hash": "52df36c8ccf172ba5a88e21639473481", 
+    "description": "", 
+    "pushedAt": "2017-11-18T11:57:11Z", 
+    "note_guid": "6e5c3d6d-5b82-40c7-bf21-7ea3ea16d0d2", 
+    "id": "MDQ6R2lzdDY0MjdhNTMzZjM5YzFkMGUyNzIzYTA3ZGM2MzA4NzFl", 
+    "name": "6427a533f39c1d0e2723a07dc630871e"
+  }, 
+  "MDQ6R2lzdDBmYjI0YmRkNGQzM2ZlZmFkMzlkMGM3MTg0MTM4ODBm": {
+    "hash": "451f9ef8902f6a04e3533049ff254fd3", 
+    "description": "ME\u4f7f\u7528\u7684 bash_profile", 
+    "pushedAt": "2018-05-07T01:38:11Z", 
+    "note_guid": "2379c016-36df-4aa6-9c02-6647eae388f3", 
+    "id": "MDQ6R2lzdDBmYjI0YmRkNGQzM2ZlZmFkMzlkMGM3MTg0MTM4ODBm", 
+    "name": "0fb24bdd4d33fefad39d0c718413880f"
+  }, 
+  "MDQ6R2lzdGRjYzI3NGFhMjAxY2NlNTUzOTk2NTg1NTJiMTJiNWFi": {
+    "hash": "67ecc41a963c9106ec3265c59c5c3e93", 
+    "description": "marketenterprise/20170815_Analysis_Takakuureru_renew_effect_by_using_google_analysis_data.ipynb", 
+    "pushedAt": "2018-01-29T00:37:59Z", 
+    "note_guid": "729c1f47-b6f4-40e6-bec5-5761c9aa7e2f", 
+    "id": "MDQ6R2lzdGRjYzI3NGFhMjAxY2NlNTUzOTk2NTg1NTJiMTJiNWFi", 
+    "name": "dcc274aa201cce55399658552b12b5ab"
+  }, 
+  "MDQ6R2lzdDljMDdhNWRlY2NlMDk3MjBjZTVkMmY2OGUwOTI5YmIw": {
+    "hash": "a104f0ae791ab5de8baff705ab8784fd", 
+    "description": "\u8907\u88fd\u8cc7\u6599\u593eA\u88e1\u982d\u6240\u6709\u6771\u897f\u5230\u8cc7\u6599\u593eB", 
+    "pushedAt": "2017-12-21T01:17:42Z", 
+    "note_guid": "ef24d73d-9fa1-4933-8082-4ec8302229c8", 
+    "id": "MDQ6R2lzdDljMDdhNWRlY2NlMDk3MjBjZTVkMmY2OGUwOTI5YmIw", 
+    "name": "9c07a5decce09720ce5d2f68e0929bb0"
+  }, 
+  "MDQ6R2lzdDZlNGRjMGIyNzJkM2ViNjY4ZjJlYzA1MzQzMzEyZDM1": {
+    "hash": "a0a0d5ca2cd555ea41bf270913ccc304", 
+    "description": "\u5716\u7247size\u56fa\u5b9a", 
+    "pushedAt": "2017-11-04T11:06:24Z", 
+    "note_guid": "aa93fd52-2566-4690-970a-50e64d0336a8", 
+    "id": "MDQ6R2lzdDZlNGRjMGIyNzJkM2ViNjY4ZjJlYzA1MzQzMzEyZDM1", 
+    "name": "6e4dc0b272d3eb668f2ec05343312d35"
+  }, 
+  "MDQ6R2lzdGEyNWQ2YjY0YTUzMTBlODdkM2Q3NTU1MTUzM2NjZDRl": {
+    "hash": "e054020d8bc55bd07013387d26644f71", 
+    "description": "", 
+    "pushedAt": "2017-10-17T14:25:40Z", 
+    "note_guid": "e939f648-4dfa-4f05-87da-fd7eb4536cc0", 
+    "id": "MDQ6R2lzdGEyNWQ2YjY0YTUzMTBlODdkM2Q3NTU1MTUzM2NjZDRl", 
+    "name": "a25d6b64a5310e87d3d75551533ccd4e"
+  }, 
+  "MDQ6R2lzdGJiMjJlZWY1ZWU3Yzk1NDY0MDA5ZTI0ODZiNjc5M2Yx": {
+    "hash": "543e5dde7cad79161302496284d1db87", 
+    "description": "", 
+    "pushedAt": "2017-11-03T05:47:47Z", 
+    "note_guid": "35c9cf35-f10d-4489-95d5-1af39ad0be3d", 
+    "id": "MDQ6R2lzdGJiMjJlZWY1ZWU3Yzk1NDY0MDA5ZTI0ODZiNjc5M2Yx", 
+    "name": "bb22eef5ee7c95464009e2486b6793f1"
+  }, 
+  "MDQ6R2lzdDFhYTNkODNjMGQ3MDdkODVjMzQ3YWNkZGQ1ZDNkZmYw": {
+    "hash": "a844e8c212fec73468c482cbf4de18fe", 
+    "description": "Presto Essentials - Data Science - URL \u8655\u7406", 
+    "pushedAt": "2018-04-26T02:20:00Z", 
+    "note_guid": "66afbbcd-ac62-426f-8139-f0e5d9c67353", 
+    "id": "MDQ6R2lzdDFhYTNkODNjMGQ3MDdkODVjMzQ3YWNkZGQ1ZDNkZmYw", 
+    "name": "1aa3d83c0d707d85c347acddd5d3dff0"
+  }, 
+  "MDQ6R2lzdDY2Y2NiZmEyMDk1YWQ4N2FmN2Q1MTU2ZGI1ZjM5Nzlh": {
+    "hash": "c0900f27456377b732a9dab5000caa13", 
+    "description": "\u96a8\u6a5f\u7522\u751frgb color", 
+    "pushedAt": "2017-12-22T19:49:53Z", 
+    "note_guid": "f219e382-1e09-4e14-9811-efe61b2ed82e", 
+    "id": "MDQ6R2lzdDY2Y2NiZmEyMDk1YWQ4N2FmN2Q1MTU2ZGI1ZjM5Nzlh", 
+    "name": "66ccbfa2095ad87af7d5156db5f3979a"
+  }, 
+  "MDQ6R2lzdDc2NTRiMThhYTFkOTA2MTAxMDM2ZTQxOTc5ZDgwODQ4": {
+    "hash": "07f6ac0fb2c7613845c1d1051c78d4d2", 
+    "description": "", 
+    "pushedAt": "2017-11-17T02:00:56Z", 
+    "note_guid": "093a8e16-d8ca-4ade-99e7-32a21c293094", 
+    "id": "MDQ6R2lzdDc2NTRiMThhYTFkOTA2MTAxMDM2ZTQxOTc5ZDgwODQ4", 
+    "name": "7654b18aa1d906101036e41979d80848"
+  }, 
+  "MDQ6R2lzdDk1NTVjNzQwNWM3YWVjNjUyNjU0OGYxYjc3MzUxY2Q0": {
+    "hash": "60bc8b3201b9c1f750e5a9420a229c91", 
+    "description": "\u5728conda\u5b89\u88ddselenium\n", 
+    "pushedAt": "2017-12-21T01:19:45Z", 
+    "note_guid": "824c7b0c-8a8d-46a7-a194-d89b999db380", 
+    "id": "MDQ6R2lzdDk1NTVjNzQwNWM3YWVjNjUyNjU0OGYxYjc3MzUxY2Q0", 
+    "name": "9555c7405c7aec6526548f1b77351cd4"
+  }, 
+  "MDQ6R2lzdDNjNWZiMDQ1NjZhOWFiY2EyNzg3ZjJiZjI4MTI3YTBl": {
+    "hash": "eb9647651d21ceb355a1197a4cec76de", 
+    "description": "Presto Essentials - Data Science - JOIN \u4e0d\u540c\u8cc7\u6599\u4f86\u6e90", 
+    "pushedAt": "2018-04-26T02:16:19Z", 
+    "note_guid": "728fa18a-b579-4412-9df1-96304b3c4b23", 
+    "id": "MDQ6R2lzdDNjNWZiMDQ1NjZhOWFiY2EyNzg3ZjJiZjI4MTI3YTBl", 
+    "name": "3c5fb04566a9abca2787f2bf28127a0e"
+  }, 
+  "MDQ6R2lzdDczYmVlZTBkZjZjOTEzZjMzZDliYWEzYmYwMTBiYzE3": {
+    "hash": "74499d0be8aef624e059f7ffc9034a7d", 
+    "description": "Keras\u5efa\u7acbCNN model\u7684template(\u57fa\u672c\u4e94\u6b65\u9a5f: Define model ->Create model instance -> Compile the model -> Fit/Train -> Evaluate/Test)", 
+    "pushedAt": "2017-12-21T01:21:38Z", 
+    "note_guid": "121ab141-625c-4ea1-bbcf-11efa5ef065b", 
+    "id": "MDQ6R2lzdDczYmVlZTBkZjZjOTEzZjMzZDliYWEzYmYwMTBiYzE3", 
+    "name": "73beee0df6c913f33d9baa3bf010bc17"
+  }, 
+  "MDQ6R2lzdGIxYjFiZGI5NmM2MGQyNTVkMzIwMjlhODNlYjhhMDRj": {
+    "hash": "5ef728769a528fa08efb1677f90594af", 
+    "description": "MD\u5728\u5716\u7247\u4e0b\u9762\u7f6e\u4e2d\u6a19\u984c(\u7528p\u628a\u5716\u7247\u5305\u8d77\u4f86, \u78ba\u4fdd\u5728github\u4e0a\u4e5f\u80fdwork,\u7136\u5f8c\u6a19\u984c\u4e0d\u7528center)\n", 
+    "pushedAt": "2017-12-21T01:13:17Z", 
+    "note_guid": "cbb0ede5-5a40-4d06-8ff8-5b3d67d83424", 
+    "id": "MDQ6R2lzdGIxYjFiZGI5NmM2MGQyNTVkMzIwMjlhODNlYjhhMDRj", 
+    "name": "b1b1bdb96c60d255d32029a83eb8a04c"
+  }, 
+  "MDQ6R2lzdDZlMmE3OTcwNDY5ZTE2ZDViYWQ2ZmIzMDE4MDViMjBi": {
+    "hash": "7726046b367e93974cae8b4a18afd042", 
+    "description": "scipy/Chi-squared Tests.ipynb", 
+    "pushedAt": "2017-12-18T09:22:14Z", 
+    "note_guid": "93b0cb72-4f86-46e6-bca4-0f91515f1f83", 
+    "id": "MDQ6R2lzdDZlMmE3OTcwNDY5ZTE2ZDViYWQ2ZmIzMDE4MDViMjBi", 
+    "name": "6e2a7970469e16d5bad6fb301805b20b"
+  }, 
+  "MDQ6R2lzdDMwNmRiZTQwNmI0MDRlNDZlMGE5NjM2NTQyMzA5YzFm": {
+    "hash": "9c1d2bbacf1de8977d4bd700dc92987d", 
+    "description": "marketenterprise/20170615_ML_[CTOPJ]_predict_whether_a_offer_will_be_purchased_by_decision_tree.ipynb", 
+    "pushedAt": "2018-01-29T00:33:29Z", 
+    "note_guid": "e6025fd7-59e0-49bd-b386-b4005b4182c5", 
+    "id": "MDQ6R2lzdDMwNmRiZTQwNmI0MDRlNDZlMGE5NjM2NTQyMzA5YzFm", 
+    "name": "306dbe406b404e46e0a9636542309c1f"
+  }, 
+  "MDQ6R2lzdDY2MGVjMmVkNDlkYjM2ZmJmNWIyYzQ2NTI2MTYwNTVl": {
+    "hash": "31c3bc2700be96159eb572f42dfa5f0e", 
+    "description": "cat_recognizer.ipynb", 
+    "pushedAt": "2017-12-19T09:55:18Z", 
+    "note_guid": "e02d61b3-671d-4850-afa9-a16bc000e8b6", 
+    "id": "MDQ6R2lzdDY2MGVjMmVkNDlkYjM2ZmJmNWIyYzQ2NTI2MTYwNTVl", 
+    "name": "660ec2ed49db36fbf5b2c4652616055e"
+  }, 
+  "MDQ6R2lzdGMwMTIyOGU3YWMzODcwNGMzZDY2MTI0NmM3YzBjMDM5": {
+    "hash": "4963ac1987f5839bde805f8c2aa956de", 
+    "description": "Matplotlib Font Note", 
+    "pushedAt": "2018-02-09T08:43:21Z", 
+    "note_guid": "1c8e48dd-3170-4d20-a211-d5bc639e94ca", 
+    "id": "MDQ6R2lzdGMwMTIyOGU3YWMzODcwNGMzZDY2MTI0NmM3YzBjMDM5", 
+    "name": "c01228e7ac38704c3d661246c7c0c039"
+  }, 
+  "MDQ6R2lzdDdlNTQwOTRlMDE0OTEyNzg4NTMxOGY4MGRmN2I1NWI5": {
+    "hash": "6741395a7fedd5563f28b79452964d58", 
+    "description": "draw world map by using data in MongoDB and basemap", 
+    "pushedAt": "2018-01-04T01:20:16Z", 
+    "note_guid": "0161a468-1af1-4d94-9900-c4b4005de9c4", 
+    "id": "MDQ6R2lzdDdlNTQwOTRlMDE0OTEyNzg4NTMxOGY4MGRmN2I1NWI5", 
+    "name": "7e54094e0149127885318f80df7b55b9"
+  }, 
+  "MDQ6R2lzdDhkZjBmYThmZjI5MjRjMGMzODRhNWViYjg5Yjg2MjU3": {
+    "hash": "c5f478b72df591d432b2ae8421dcd3b0", 
+    "description": "ch131-Database-Access/sqlite.ipynb", 
+    "pushedAt": "2018-01-29T12:53:16Z", 
+    "note_guid": "7e700a83-7662-4d94-9b77-133ca8fe7088", 
+    "id": "MDQ6R2lzdDhkZjBmYThmZjI5MjRjMGMzODRhNWViYjg5Yjg2MjU3", 
+    "name": "8df0fa8ff2924c0c384a5ebb89b86257"
+  }, 
+  "MDQ6R2lzdDkyNWM2ZjhkODRiOTIzOTVlODcxOGJiNmI0ZTdmYWY4": {
+    "pushedAt": "2018-02-13T09:52:47Z", 
+    "id": "MDQ6R2lzdDkyNWM2ZjhkODRiOTIzOTVlODcxOGJiNmI0ZTdmYWY4", 
+    "hash": "5982ede7c6ca4a9f4bb5392c07d17709", 
+    "description": "\u67e5\u770bME\u81ea\u52d5\u96e2\u8131\u4ee5\u53ca\u6539\u5584\u65b9\u5411", 
+    "name": "925c6f8d84b92395e8718bb6b4e7faf8"
+  }, 
+  "MDQ6R2lzdDljMDMzMTYyNTMxNDdjMWYzYzdjYWFmMWUxZTQ2Mjg0": {
+    "hash": "08e30ac2c72d3188ef1550e0a3d6cc7f", 
+    "description": "", 
+    "pushedAt": "2017-10-17T07:42:43Z", 
+    "note_guid": "b0a79353-9f06-4bb9-a977-70c799592166", 
+    "id": "MDQ6R2lzdDljMDMzMTYyNTMxNDdjMWYzYzdjYWFmMWUxZTQ2Mjg0", 
+    "name": "9c03316253147c1f3c7caaf1e1e46284"
+  }, 
+  "MDQ6R2lzdDc0OWRiOWVkZDI4ZTM2ZGUzMjg1ZWEwNjg1Mzk3YjY0": {
+    "hash": "149457e8a6ec869d66e6cb9a76c5cd66", 
+    "description": "\u6700\u77ed\u5728local\u7aef query Google Mulit-channel Funnel Reporting API", 
+    "pushedAt": "2017-12-20T02:28:34Z", 
+    "note_guid": "4e3a739b-c4df-49f5-8bc0-66aab7209929", 
+    "id": "MDQ6R2lzdDc0OWRiOWVkZDI4ZTM2ZGUzMjg1ZWEwNjg1Mzk3YjY0", 
+    "name": "749db9edd28e36de3285ea0685397b64"
+  }, 
+  "MDQ6R2lzdDQ0MWQxY2I0OGI0Y2IyZGEzMjk5MWQ3NGEzZjM2NGM3": {
+    "hash": "022693575d45f484f4e2652c7249f5fd", 
+    "description": "\u5728notebook\u88e1\u982d\u628a\u8a72nb\u6240\u5728\u6587\u4ef6\u593e\u7684\u6240\u6709file\u6253\u5305\u6210notebook.tar.gz", 
+    "pushedAt": "2017-12-21T11:30:46Z", 
+    "note_guid": "d9827b27-168c-4119-8f87-77bfd191fdfb", 
+    "id": "MDQ6R2lzdDQ0MWQxY2I0OGI0Y2IyZGEzMjk5MWQ3NGEzZjM2NGM3", 
+    "name": "441d1cb48b4cb2da32991d74a3f364c7"
+  }, 
+  "MDQ6R2lzdDk0OTZhODlmNmQ5NzhjZWMxYjIxYzFhODMzYWZlMzRl": {
+    "hash": "1d02defff1fbc238f542e7092661e361", 
+    "description": "", 
+    "pushedAt": "2018-03-07T07:16:31Z", 
+    "note_guid": "92a0efcc-263a-4009-bf43-1aae019824bf", 
+    "id": "MDQ6R2lzdDk0OTZhODlmNmQ5NzhjZWMxYjIxYzFhODMzYWZlMzRl", 
+    "name": "9496a89f6d978cec1b21c1a833afe34e"
+  }, 
+  "MDQ6R2lzdDc2YzRhYTliOWNkZmY2ZjEzMmNjOTgxOGQxNTc3NDY2": {
+    "hash": "d40a1e45a869e6e2e6a9a79b3456e8b3", 
+    "description": "Draw_feature_importance.ipynb", 
+    "pushedAt": "2017-12-13T09:32:23Z", 
+    "note_guid": "406fabb5-8e8b-4f4f-86c1-408e4e5f64ac", 
+    "id": "MDQ6R2lzdDc2YzRhYTliOWNkZmY2ZjEzMmNjOTgxOGQxNTc3NDY2", 
+    "name": "76c4aa9b9cdff6f132cc9818d1577466"
+  }, 
+  "MDQ6R2lzdGJjOTBhOTlmZWQ3NzIzOTZlMDM5Y2E1ZDdkYjQxOTAx": {
+    "hash": "97813355ea547450fd18d9d8d1b504c5", 
+    "description": "Search subdocuments in a list filed in MongoDB using  $elemMatch Operator", 
+    "pushedAt": "2018-01-03T08:16:44Z", 
+    "note_guid": "39338d2c-de8a-4df6-af72-6c5e45b0ecec", 
+    "id": "MDQ6R2lzdGJjOTBhOTlmZWQ3NzIzOTZlMDM5Y2E1ZDdkYjQxOTAx", 
+    "name": "bc90a99fed772396e039ca5d7db41901"
+  }, 
+  "MDQ6R2lzdDEyYmM5OGEyYzI3ZTM1Zjg0NmJiMjAyZmZhZTJmNTk4": {
+    "hash": "b35bc84b04dc0fe31a42fdfd6e4b526e", 
+    "description": "connect to Atlas mongoDB", 
+    "pushedAt": "2017-12-30T16:59:06Z", 
+    "note_guid": "358735bf-8a79-4e03-a8e9-39b333083971", 
+    "id": "MDQ6R2lzdDEyYmM5OGEyYzI3ZTM1Zjg0NmJiMjAyZmZhZTJmNTk4", 
+    "name": "12bc98a2c27e35f846bb202ffae2f598"
+  }, 
+  "MDQ6R2lzdDJlM2U0OTAyZWJlODI1NDIxOWI3NjViNzMzZTYyNzQ1": {
+    "hash": "2c32a699034c317792e1a305ec8a85f0", 
+    "description": "", 
+    "pushedAt": "2017-11-06T01:50:59Z", 
+    "note_guid": "60fdc976-6472-408f-85af-0b1899c155bd", 
+    "id": "MDQ6R2lzdDJlM2U0OTAyZWJlODI1NDIxOWI3NjViNzMzZTYyNzQ1", 
+    "name": "2e3e4902ebe8254219b765b733e62745"
+  }, 
+  "MDQ6R2lzdDA2NzE4OTljNmVkZTlmZjNkNWRkMzg1MGY3YWM3Nzgx": {
+    "hash": "796cd1ec8108f9c59ea1ea42021c89d1", 
+    "description": "\u627e\u51famongodDB\u88e1\u67d0\u500bfield\u6240\u6709\u53ef\u80fd\u7684\u503c", 
+    "pushedAt": "2017-12-21T01:22:03Z", 
+    "note_guid": "ba075d9b-c206-45d4-9a98-02e0924fcdd8", 
+    "id": "MDQ6R2lzdDA2NzE4OTljNmVkZTlmZjNkNWRkMzg1MGY3YWM3Nzgx", 
+    "name": "0671899c6ede9ff3d5dd3850f7ac7781"
+  }, 
+  "MDQ6R2lzdDk5MGFjNjU3NWM5NTc5M2Y1YzA4YzE0NzMwYTlhODNh": {
+    "hash": "982e36dbed00050a95c2c4cad9725f03", 
+    "description": "\u53ea\u6709\u4e00\u500b\u53c3\u6578\u8981\u50b3\u5165\u7684\u6642\u5019, \u8a18\u5f97\u8981\u52a0\u4e0acomma \u5728 args \u53c3\u6578\u88e1\u9762", 
+    "pushedAt": "2017-12-10T06:28:27Z", 
+    "note_guid": "67c36203-e49c-4e25-b6df-f60351ec3010", 
+    "id": "MDQ6R2lzdDk5MGFjNjU3NWM5NTc5M2Y1YzA4YzE0NzMwYTlhODNh", 
+    "name": "990ac6575c95793f5c08c14730a9a83a"
+  }, 
+  "MDQ6R2lzdGY4YzUyMDg1NjlmMDRjZGQ4NjNmZmM0ZTFlMGU0OTdk": {
+    "hash": "28d4dde14fed1a425a2990efdde5853a", 
+    "description": "MongoDB pagination example", 
+    "pushedAt": "2018-01-03T07:56:34Z", 
+    "note_guid": "e4bfbc7b-7620-48a1-8002-d4e40238b82c", 
+    "id": "MDQ6R2lzdGY4YzUyMDg1NjlmMDRjZGQ4NjNmZmM0ZTFlMGU0OTdk", 
+    "name": "f8c5208569f04cdd863ffc4e1e0e497d"
+  }, 
+  "MDQ6R2lzdDQzNTk4MjczMDQ4MDMwZGI2N2MyMGYwOTY3ZTgwM2Ni": {
+    "hash": "4a1027216b6e942dea9f54af22cb0f7f", 
+    "description": "mongoDB sortByCount example", 
+    "pushedAt": "2017-12-31T05:55:42Z", 
+    "note_guid": "af67e3dd-42bf-4f1d-b2f5-3a36c7084ab6", 
+    "id": "MDQ6R2lzdDQzNTk4MjczMDQ4MDMwZGI2N2MyMGYwOTY3ZTgwM2Ni", 
+    "name": "43598273048030db67c20f0967e803cb"
+  }, 
+  "MDQ6R2lzdDY0NDQyNGE4MGZjZTBjOGZmYzNhNmY2M2M4MTA3MWQ2": {
+    "hash": "ddcc38cf09fb096e18f1c7aa6b014555", 
+    "description": "20180301-seaborn-cheat-sheet.ipynb", 
+    "pushedAt": "2018-03-01T14:54:58Z", 
+    "note_guid": "641e6726-dc1c-4276-bda1-8a73e1fc5c1b", 
+    "id": "MDQ6R2lzdDY0NDQyNGE4MGZjZTBjOGZmYzNhNmY2M2M4MTA3MWQ2", 
+    "name": "644424a80fce0c8ffc3a6f63c81071d6"
+  }, 
+  "MDQ6R2lzdDE3MDIyZDdmNWYzMjcyNWEwMWM1MGEyOGVhZGUzZmU2": {
+    "hash": "a5112a1832bd456c8c0b01087bd2b4b0", 
+    "description": "MongoDB Change Stream \u6e2c\u8a66", 
+    "pushedAt": "2018-02-16T06:22:05Z", 
+    "note_guid": "", 
+    "id": "MDQ6R2lzdDE3MDIyZDdmNWYzMjcyNWEwMWM1MGEyOGVhZGUzZmU2", 
+    "name": "17022d7f5f32725a01c50a28eade3fe6"
+  }, 
+  "MDQ6R2lzdDEzZDkyNGZhMDFiMzE0Mzk4MjA1YzUxMTg1N2UyMGJm": {
+    "hash": "27a082349222c24247c1c0bca1a2516a", 
+    "description": "", 
+    "pushedAt": "2018-03-07T08:17:38Z", 
+    "note_guid": "7501be7a-c78b-4361-9b21-e2cf000e0b47", 
+    "id": "MDQ6R2lzdDEzZDkyNGZhMDFiMzE0Mzk4MjA1YzUxMTg1N2UyMGJm", 
+    "name": "13d924fa01b314398205c511857e20bf"
+  }, 
+  "MDQ6R2lzdGY4OGNlNTQzNWRkMmM2ZmNlNDE4MjAxNWI3NDJlNWRk": {
+    "hash": "9dfba43e31ac61fc8d53411d075d1bea", 
+    "description": "gspread lib: https://github.com/burnash/gspread\n", 
+    "pushedAt": "2017-10-16T08:30:32Z", 
+    "note_guid": "880acf95-4e3e-49f0-b8ef-1e83a4c6482d", 
+    "id": "MDQ6R2lzdGY4OGNlNTQzNWRkMmM2ZmNlNDE4MjAxNWI3NDJlNWRk", 
+    "name": "f88ce5435dd2c6fce4182015b742e5dd"
+  }, 
+  "MDQ6R2lzdDIwNzNjNWFkOTRhM2Y3ZmY1ZGYwNTVhMTc2ZjUyYWIx": {
+    "hash": "cd908a7294600ce6899d64ffb3e22bfa", 
+    "description": "20180305-build-a-pelican-powered-blog-like-a-pro", 
+    "pushedAt": "2018-03-06T05:58:01Z", 
+    "note_guid": "b590780a-27c7-4218-8532-d383b71ebf2f", 
+    "id": "MDQ6R2lzdDIwNzNjNWFkOTRhM2Y3ZmY1ZGYwNTVhMTc2ZjUyYWIx", 
+    "name": "2073c5ad94a3f7ff5df055a176f52ab1"
+  }, 
+  "MDQ6R2lzdGVlNjcxYWFmZjIxODRmYmVhMzg4ZTMzYWEzNGJiN2Iy": {
+    "hash": "ba01fd5bebfa62fbc098991561b19c73", 
+    "description": "index\u7528tuple\u8868\u793a", 
+    "pushedAt": "2017-11-13T08:35:53Z", 
+    "note_guid": "091d9399-89c2-437c-9c1a-a0393ad8e696", 
+    "id": "MDQ6R2lzdGVlNjcxYWFmZjIxODRmYmVhMzg4ZTMzYWEzNGJiN2Iy", 
+    "name": "ee671aaff2184fbea388e33aa34bb7b2"
+  }, 
+  "MDQ6R2lzdGVjZjBlNzI1NGMwNTk2ZDRjMDgxNzIxNjdlZDE0ODU0": {
+    "hash": "5c79d2f192fa1f15ff096f6ccd164471", 
+    "description": "\u8b93\u4f7f\u7528\u8005\u4e0a\u50b3\u6a94\u6848, \u5b58\u5728\u672c\u5730\u7aef, \u7136\u5f8c\u5c07\u9801\u9762\u5c0e\u5411\u6a94\u6848url. \u5b58\u53d6 /image-test --> \u4e0a\u50b3\u6a94\u6848(ex: test.txt) --> \u5b58\u5230 uploaded_images/test.txt --> \u5c0e\u5411 /uploads/test.txt", 
+    "pushedAt": "2017-12-21T01:04:44Z", 
+    "note_guid": "e7b6a78d-7e88-4d5d-a61e-ea06164a7b73", 
+    "id": "MDQ6R2lzdGVjZjBlNzI1NGMwNTk2ZDRjMDgxNzIxNjdlZDE0ODU0", 
+    "name": "ecf0e7254c0596d4c08172167ed14854"
+  }, 
+  "MDQ6R2lzdGUzYzAyMzFhZjFiZjkzYjEyM2RjZTA2ZWI0MzdhMTUy": {
+    "hash": "4ae6fea8716516288fd4f1cb7fab32d1", 
+    "description": "ch104.ipynb", 
+    "pushedAt": "2018-02-01T13:58:19Z", 
+    "note_guid": "ca95916d-7682-486e-9e0b-3cb0190d28ea", 
+    "id": "MDQ6R2lzdGUzYzAyMzFhZjFiZjkzYjEyM2RjZTA2ZWI0MzdhMTUy", 
+    "name": "e3c0231af1bf93b123dce06eb437a152"
+  }, 
+  "MDQ6R2lzdGFkNDNhY2FlODNmNDYyNTFjOTQ1YzAwY2JkMTVmMGJk": {
+    "hash": "9bac752bf4f1e15998d48c53de124157", 
+    "description": "Clean / update / reshape data in MongoDB ", 
+    "pushedAt": "2018-01-02T08:36:52Z", 
+    "note_guid": "a752ff75-0807-4f88-b918-529928c2bd83", 
+    "id": "MDQ6R2lzdGFkNDNhY2FlODNmNDYyNTFjOTQ1YzAwY2JkMTVmMGJk", 
+    "name": "ad43acae83f46251c945c00cbd15f0bd"
+  }, 
+  "MDQ6R2lzdDY1ZTY3NDhlZjVmZGUwNDhjZjg5OGRlMGNhNDk2ZDBk": {
+    "hash": "449cd83c00627ee1bf74d288d7243418", 
+    "description": "", 
+    "pushedAt": "2017-10-14T05:18:33Z", 
+    "note_guid": "dd74abbb-f8b8-46c2-9e81-38e1f02d1cbd", 
+    "id": "MDQ6R2lzdDY1ZTY3NDhlZjVmZGUwNDhjZjg5OGRlMGNhNDk2ZDBk", 
+    "name": "65e6748ef5fde048cf898de0ca496d0d"
+  }, 
+  "MDQ6R2lzdGFjMWU2MDQ5M2EzZWZhZjM3ZDU5NjI2ZDU4ZGUwY2Mz": {
+    "hash": "bb53d82b29f418cda22d38d308eb24be", 
+    "description": "pip\u4e00\u6b21\u522a\u9664\u591a\u500b\u7b26\u5408prefix\u7684packages", 
+    "pushedAt": "2017-12-21T01:24:28Z", 
+    "note_guid": "c775e396-6f3f-4a15-862c-922bd884280d", 
+    "id": "MDQ6R2lzdGFjMWU2MDQ5M2EzZWZhZjM3ZDU5NjI2ZDU4ZGUwY2Mz", 
+    "name": "ac1e60493a3efaf37d59626d58de0cc3"
+  }, 
+  "MDQ6R2lzdDg5YjRmNGRlMGNkNDE5Y2U4ZjE1N2NhNGNjMTk0Y2I5": {
+    "hash": "9beae3fd1a7e3c3e620d482f9a6b8992", 
+    "description": "Presto Essentials - Data Science - \u8f49\u63db\u8cc7\u6599\u578b\u614b", 
+    "pushedAt": "2018-04-26T02:18:33Z", 
+    "note_guid": "7d5b5549-afed-4bdd-9965-06c8c185aabd", 
+    "id": "MDQ6R2lzdDg5YjRmNGRlMGNkNDE5Y2U4ZjE1N2NhNGNjMTk0Y2I5", 
+    "name": "89b4f4de0cd419ce8f157ca4cc194cb9"
+  }, 
+  "MDQ6R2lzdGEzZGY2OTU3MjVjOGNiMWI3NmZjNjkxY2YwNDg3OWY2": {
+    "hash": "23ea27c04dc2118d5509e882eeb8528e", 
+    "description": "\u6700\u901f\u5efa\u7acb\u4e00\u500bflask docker container\u65b9\u6cd5", 
+    "pushedAt": "2017-12-21T01:25:38Z", 
+    "note_guid": "abf6b5b9-b312-4e0b-b858-38ac1ef8b9ba", 
+    "id": "MDQ6R2lzdGEzZGY2OTU3MjVjOGNiMWI3NmZjNjkxY2YwNDg3OWY2", 
+    "name": "a3df695725c8cb1b76fc691cf04879f6"
+  }, 
+  "MDQ6R2lzdDg1NDM4ZDkzMzE5ZWQwYzliODZhNDc1YjI5Y2FmNGY0": {
+    "hash": "0aacb8c2fab530338b3551a0496adfb5", 
+    "description": "Smartnews Codility \u984c\u76ee", 
+    "pushedAt": "2018-02-25T11:30:47Z", 
+    "note_guid": "81127d75-8c8d-4e3e-8f98-5c2d39a26a37", 
+    "id": "MDQ6R2lzdDg1NDM4ZDkzMzE5ZWQwYzliODZhNDc1YjI5Y2FmNGY0", 
+    "name": "85438d93319ed0c9b86a475b29caf4f4"
+  }, 
+  "MDQ6R2lzdDkyNTNiNWI1MzE0YTBhZTg5NzY2ZmNmY2VlN2FlMTVm": {
+    "hash": "0c4391cb14e7b3a025424e2cb4990bb4", 
+    "description": "codility/Lessons.ipynb", 
+    "pushedAt": "2017-12-04T09:17:49Z", 
+    "note_guid": "eb5b1a73-302d-4b51-b6ea-f1abc9741f81", 
+    "id": "MDQ6R2lzdDkyNTNiNWI1MzE0YTBhZTg5NzY2ZmNmY2VlN2FlMTVm", 
+    "name": "9253b5b5314a0ae89766fcfcee7ae15f"
+  }, 
+  "MDQ6R2lzdDJkOTY4YzYzODA5N2U2ZDA1NDczODViNjBiN2NmODRm": {
+    "hash": "1be53f11271da759ad5640e932897a11", 
+    "description": "", 
+    "pushedAt": "2017-10-16T13:58:32Z", 
+    "note_guid": "9ae66ea6-cb30-4159-922a-10c1f9b00512", 
+    "id": "MDQ6R2lzdDJkOTY4YzYzODA5N2U2ZDA1NDczODViNjBiN2NmODRm", 
+    "name": "2d968c638097e6d0547385b60b7cf84f"
+  }, 
+  "MDQ6R2lzdDU1MDQxZTE4YWJkZWY1YTkyZWQyMjRjNjE1ZDRjYTJi": {
+    "hash": "23c2701fe038643a091739c0cb1165c4", 
+    "description": "", 
+    "pushedAt": "2017-12-18T09:03:56Z", 
+    "note_guid": "84145c68-3089-408d-bad6-492206e44793", 
+    "id": "MDQ6R2lzdDU1MDQxZTE4YWJkZWY1YTkyZWQyMjRjNjE1ZDRjYTJi", 
+    "name": "55041e18abdef5a92ed224c615d4ca2b"
+  }, 
+  "MDQ6R2lzdDIzY2JhMWQwNzIxM2JmMzk2MjE0NmMwN2M3ODYzNmE2": {
+    "hash": "5af23f5b570ed1334133c8bcb94f42be", 
+    "description": "ME\u53d6\u5f97\u6bcf\u6708WEB/\u96fb\u8a71\u4f9d\u8cf4", 
+    "pushedAt": "2018-02-28T10:51:34Z", 
+    "note_guid": "956d2e96-e68c-4ccf-8d8f-317dbebbf867", 
+    "id": "MDQ6R2lzdDIzY2JhMWQwNzIxM2JmMzk2MjE0NmMwN2M3ODYzNmE2", 
+    "name": "23cba1d07213bf3962146c07c78636a6"
+  }, 
+  "MDQ6R2lzdDNmYWEwMjNhODgxMWFkZjg2ZjAyNGJhMmRkYjE2YWJm": {
+    "hash": "643cf53573110ff7b54d1b04a136ee0d", 
+    "description": "", 
+    "pushedAt": "2017-10-09T13:01:17Z", 
+    "note_guid": "f028244f-79f8-470c-9ba6-533176420761", 
+    "id": "MDQ6R2lzdDNmYWEwMjNhODgxMWFkZjg2ZjAyNGJhMmRkYjE2YWJm", 
+    "name": "3faa023a8811adf86f024ba2ddb16abf"
+  }, 
+  "MDQ6R2lzdDViNGRkMTYxZjAyMTNhZDQxMmQ2YjJhMTQxZmU0MDlj": {
+    "pushedAt": "2018-02-05T15:36:11Z", 
+    "description": "\u65c5\u304b\u3048\u308bPJ\u7528\u7684util.py, \u4e3b\u8981\u8655\u7406\u5716\u7247\u554f\u984c", 
+    "hash": "cc69c4f50f7c753f76858bffbff6b02f", 
+    "id": "MDQ6R2lzdDViNGRkMTYxZjAyMTNhZDQxMmQ2YjJhMTQxZmU0MDlj", 
+    "name": "5b4dd161f0213ad412d6b2a141fe409c"
+  }, 
+  "MDQ6R2lzdDM2MjNmNGViMTg4MTY4YTRmYWUwOWEyYjVjNWY2OGZk": {
+    "hash": "eefdad156e9f21e9bd251be32b25378e", 
+    "description": "Presto Essentials - Data Science - JSON \u8cc7\u6599\u8655\u7406", 
+    "pushedAt": "2018-04-26T02:20:12Z", 
+    "note_guid": "f552b603-0a6c-4c21-b919-faede29a29e4", 
+    "id": "MDQ6R2lzdDM2MjNmNGViMTg4MTY4YTRmYWUwOWEyYjVjNWY2OGZk", 
+    "name": "3623f4eb188168a4fae09a2b5c5f68fd"
+  }, 
+  "MDQ6R2lzdDMxZTE1NjE5MjNlNjUxMWVlMDVjNWNmYmRhNTk0MmI3": {
+    "hash": "6cdeb156a97e8f9251fbc25e8bb6b8b6", 
+    "description": "Create folder if not exist", 
+    "pushedAt": "2018-01-09T10:39:28Z", 
+    "note_guid": "9aebfcdb-333b-45da-b18d-aa47a1d62961", 
+    "id": "MDQ6R2lzdDMxZTE1NjE5MjNlNjUxMWVlMDVjNWNmYmRhNTk0MmI3", 
+    "name": "31e1561923e6511ee05c5cfbda5942b7"
+  }, 
+  "MDQ6R2lzdDA0YjFhOTY5OTliYTEwMDAyNTNhYjcxMjBiOTljOWIy": {
+    "hash": "dbdae3744e0c2ef414a1e14369ddfcb8", 
+    "description": "20180202_Scraping_NPS.ipynb", 
+    "pushedAt": "2018-03-12T02:25:22Z", 
+    "note_guid": "f6d465ca-c81a-4bb6-b46b-059fd117c178", 
+    "id": "MDQ6R2lzdDA0YjFhOTY5OTliYTEwMDAyNTNhYjcxMjBiOTljOWIy", 
+    "name": "04b1a96999ba1000253ab7120b99c9b2"
+  }, 
+  "MDQ6R2lzdDQ2MjQzYjNkYmI0ZjIzNWRiMTYzMjZjNzEzNzIxNzI0": {
+    "hash": "9d9e4ef6676833505b60ef02e9a44320", 
+    "description": "\u5c07\u67d0dataframe\u7684column\u7684\u503c\u4f9d\u7167\u9017\u865f\u518d\u5efa\u7acb\u65b0\u7684columns.", 
+    "pushedAt": "2017-12-21T01:06:46Z", 
+    "note_guid": "e82fe90d-1836-4dbe-9b1d-d2fb6b381cc1", 
+    "id": "MDQ6R2lzdDQ2MjQzYjNkYmI0ZjIzNWRiMTYzMjZjNzEzNzIxNzI0", 
+    "name": "46243b3dbb4f235db16326c713721724"
+  }, 
+  "MDQ6R2lzdDNkOGUzYWI4NDI0NWNhODQwOGI3ZTJkNTk0NWU0ZTRi": {
+    "hash": "65c69d1d8563c9ff9efe7855892717a3", 
+    "description": "form\u5229\u7528\u6309\u9215\u53d6\u5f97\u4f7f\u7528\u8005feedback, \u5728flask app\u88e1\u982d\u53d6\u5f97\u4f7f\u7528\u8005\u6309\u7684\u6309\u9215\u7684\u503c", 
+    "pushedAt": "2017-12-21T01:14:25Z", 
+    "note_guid": "fed50fd3-7fad-4121-bc5a-5625a28ebe03", 
+    "id": "MDQ6R2lzdDNkOGUzYWI4NDI0NWNhODQwOGI3ZTJkNTk0NWU0ZTRi", 
+    "name": "3d8e3ab84245ca8408b7e2d5945e4e4b"
+  }, 
+  "MDQ6R2lzdDI4ZTFjMThiMzk3ZjU3ZDA1MjVmZGQ5ZmMxOWIxNzU3": {
+    "hash": "d19b53872934b9377d7feb84700163c5", 
+    "description": "marketenterprise/20171027_Analysis_build_kpi_for_entry_form_project.ipynb", 
+    "pushedAt": "2018-01-29T00:44:33Z", 
+    "note_guid": "ee509dd7-2ecd-4408-81d8-473f62979fbc", 
+    "id": "MDQ6R2lzdDI4ZTFjMThiMzk3ZjU3ZDA1MjVmZGQ5ZmMxOWIxNzU3", 
+    "name": "28e1c18b397f57d0525fdd9fc19b1757"
+  }, 
+  "MDQ6R2lzdDUxOWEwYWQ3ZTBiNjQ3MmFlMjNjY2VlMmRiNDUwZTNm": {
+    "hash": "430d79b2ecfec9e703a6932837169848", 
+    "description": "", 
+    "pushedAt": "2017-10-18T02:24:24Z", 
+    "note_guid": "19c9d174-5248-45aa-931e-b0cbf957b413", 
+    "id": "MDQ6R2lzdDUxOWEwYWQ3ZTBiNjQ3MmFlMjNjY2VlMmRiNDUwZTNm", 
+    "name": "519a0ad7e0b6472ae23ccee2db450e3f"
+  }, 
+  "MDQ6R2lzdGEwMDE4NTEyMWMzODI1MzJhOWJmZmY5YTdiNGQ3MmU0": {
+    "hash": "ddcb1373b39d8bea3c9c35121fee0ae3", 
+    "description": "Presto Essentials - Data Science - Dict / Map \u8655\u7406", 
+    "pushedAt": "2018-04-26T02:19:50Z", 
+    "note_guid": "24588de5-3a30-41c2-82f4-b8f389278d5f", 
+    "id": "MDQ6R2lzdGEwMDE4NTEyMWMzODI1MzJhOWJmZmY5YTdiNGQ3MmU0", 
+    "name": "a00185121c382532a9bfff9a7b4d72e4"
+  }, 
+  "MDQ6R2lzdGY4NDJmODE0M2U1ZTg0NmExMjVlNDBmMjhjZjgxOWZh": {
+    "hash": "7abc524906c148aec0c4ba93bb582a3b", 
+    "description": "notebooks/02.03-Computation-on-arrays-ufuncs.ipynb", 
+    "pushedAt": "2018-01-15T09:44:01Z", 
+    "note_guid": "db351bcd-1914-47e0-b36f-3d66dca57dd2", 
+    "id": "MDQ6R2lzdGY4NDJmODE0M2U1ZTg0NmExMjVlNDBmMjhjZjgxOWZh", 
+    "name": "f842f8143e5e846a125e40f28cf819fa"
+  }, 
+  "MDQ6R2lzdGZjMGJkNDRjMjJiYTVmODI4NGZmZWQ2ZjkyYmJmYzA3": {
+    "hash": "0e2d80cd74956ad73d273423d268bc91", 
+    "description": "Flask \u7c21\u55ae pagination", 
+    "pushedAt": "2018-02-15T12:33:21Z", 
+    "note_guid": "fd91055a-46f1-4617-a3c5-e9d8ec31a223", 
+    "id": "MDQ6R2lzdGZjMGJkNDRjMjJiYTVmODI4NGZmZWQ2ZjkyYmJmYzA3", 
+    "name": "fc0bd44c22ba5f8284ffed6f92bbfc07"
+  }, 
+  "MDQ6R2lzdDE4YzI5MDIxYTg5Njg1ZTQ1YWY5Yzk0MzQ0Nzg0YTU0": {
+    "hash": "88c9841254ca40e393cfb4815eaf13f0", 
+    "description": "Presto Essentials - Data Science - Grouping \u7bc4\u4f8b", 
+    "pushedAt": "2018-04-26T02:16:52Z", 
+    "note_guid": "c3501f37-516f-448a-86a4-9a30d5c55989", 
+    "id": "MDQ6R2lzdDE4YzI5MDIxYTg5Njg1ZTQ1YWY5Yzk0MzQ0Nzg0YTU0", 
+    "name": "18c29021a89685e45af9c94344784a54"
+  }, 
+  "MDQ6R2lzdGQ0YzhjNWUzYWMxOTRjNDA0ZTQwY2NhZTE4OGZjNjg4": {
+    "hash": "632a2eb804cdbb1b01da7d3393fcb2f0", 
+    "description": "marketenterprise/20170622_Scraping_Fetch_refrigerator_pic_for_image_recognization_intern_project.ipynb", 
+    "pushedAt": "2018-01-29T00:34:40Z", 
+    "note_guid": "e7b249ee-ff59-464d-a7a3-4872a36c539a", 
+    "id": "MDQ6R2lzdGQ0YzhjNWUzYWMxOTRjNDA0ZTQwY2NhZTE4OGZjNjg4", 
+    "name": "d4c8c5e3ac194c404e40ccae188fc688"
+  }, 
+  "MDQ6R2lzdDhiOTYyMmY0NDAzNzc1M2NiMTdjZjg0YjQ3MTI4MDcy": {
+    "hash": "0ebdd6e389d5c5b4484aef2f563bc5b9", 
+    "description": "MongoDB $match stage = find function", 
+    "pushedAt": "2018-01-01T17:43:11Z", 
+    "note_guid": "050c5af4-af30-4613-a2a2-4daa8d8ccdd5", 
+    "id": "MDQ6R2lzdDhiOTYyMmY0NDAzNzc1M2NiMTdjZjg0YjQ3MTI4MDcy", 
+    "name": "8b9622f44037753cb17cf84b47128072"
+  }, 
+  "MDQ6R2lzdGIxZWJiYzUyMmY2YTc0ODY4YzBjNThkMzg3YWE2M2Vj": {
+    "hash": "31dd8073d3e65a2259e19535a2394486", 
+    "description": "\u6aa2\u67e5\u53ea\u6709\u56fa\u5b9a\u96fb\u8a71\u7684\u9867\u5ba2", 
+    "pushedAt": "2018-02-19T07:12:50Z", 
+    "note_guid": "", 
+    "id": "MDQ6R2lzdGIxZWJiYzUyMmY2YTc0ODY4YzBjNThkMzg3YWE2M2Vj", 
+    "name": "b1ebbc522f6a74868c0c58d387aa63ec"
+  }, 
+  "MDQ6R2lzdGRhN2E0MzFjMmNjODliMWFiOGQxZTMxODFhMjFhNzM3": {
+    "hash": "e96f5eb4b21a85af3e765c397ac0cee7", 
+    "description": "", 
+    "pushedAt": "2017-11-27T08:53:59Z", 
+    "note_guid": "c140dcca-5a6e-40f7-ac41-43b831d30816", 
+    "id": "MDQ6R2lzdGRhN2E0MzFjMmNjODliMWFiOGQxZTMxODFhMjFhNzM3", 
+    "name": "da7a431c2cc89b1ab8d1e3181a21a737"
+  }, 
+  "MDQ6R2lzdGU0NGIxMTE2OTM5ZTVkMmE4YjRhNDFkOGUzODkzNjU2": {
+    "hash": "2df612e515068fe17456f512885fb411", 
+    "description": "", 
+    "pushedAt": "2017-11-13T08:23:11Z", 
+    "note_guid": "b985d6e5-9265-45da-bb00-1b34ba3f0876", 
+    "id": "MDQ6R2lzdGU0NGIxMTE2OTM5ZTVkMmE4YjRhNDFkOGUzODkzNjU2", 
+    "name": "e44b1116939e5d2a8b4a41d8e3893656"
+  }, 
+  "MDQ6R2lzdDkwNDVlNWFkODUyYTMzYzJjNzhlMGIxMmQ0MzU2NzJm": {
+    "hash": "0cec63ab65575e8f7c3e7132e32dad20", 
+    "description": "MongoDB aggregation pipeline", 
+    "pushedAt": "2017-12-30T17:14:12Z", 
+    "note_guid": "5883c0a5-be1e-4229-9873-3f2085c83c78", 
+    "id": "MDQ6R2lzdDkwNDVlNWFkODUyYTMzYzJjNzhlMGIxMmQ0MzU2NzJm", 
+    "name": "9045e5ad852a33c2c78e0b12d435672f"
+  }, 
+  "MDQ6R2lzdGE5YjdjMTU3ODVlMDRlYzc5OTVmMjBmYWZmMWM1MzRh": {
+    "hash": "70e7b32d772693b31a690aaa91929bf8", 
+    "description": "input \u662f list of instances \u7684 feature list", 
+    "pushedAt": "2017-12-12T07:15:57Z", 
+    "note_guid": "08a17046-3e9b-41ae-af35-69533f9a0de5", 
+    "id": "MDQ6R2lzdGE5YjdjMTU3ODVlMDRlYzc5OTVmMjBmYWZmMWM1MzRh", 
+    "name": "a9b7c15785e04ec7995f20faff1c534a"
+  }, 
+  "MDQ6R2lzdGU2MDAxMjg2ZmI0MmViOTllMTMxYzM2OTRhYWM4ZGVm": {
+    "hash": "e47582d12e205c4e83d87ac4331be153", 
+    "description": "\u5efa\u7acb\u5169\u5c64conv layers + 1 FC Network(\u4f7f\u7528tf.contrib.layers\u88e1\u982d\u7684\u65b9\u4fbfapi, flatten Conv layer, \u4e26\u5efa\u7acbFC;\u4f7f\u7528max pooling)", 
+    "pushedAt": "2017-12-21T01:18:52Z", 
+    "note_guid": "793e8704-e81c-4962-840d-fe0ec8c02010", 
+    "id": "MDQ6R2lzdGU2MDAxMjg2ZmI0MmViOTllMTMxYzM2OTRhYWM4ZGVm", 
+    "name": "e6001286fb42eb99e131c3694aac8def"
+  }, 
+  "MDQ6R2lzdGE2NGEwY2JlMjg1OGY4MjM5ZDliZWZlNTI5ZDc1MmM4": {
+    "hash": "a5efc96e426d8783ff67ce2c0e571890", 
+    "description": "SQLite Note", 
+    "pushedAt": "2018-02-27T11:43:23Z", 
+    "note_guid": "a2c41859-0d2b-450e-89a2-1ee26d02fb1f", 
+    "id": "MDQ6R2lzdGE2NGEwY2JlMjg1OGY4MjM5ZDliZWZlNTI5ZDc1MmM4", 
+    "name": "a64a0cbe2858f8239d9befe529d752c8"
+  }, 
+  "MDQ6R2lzdDYxNzNiNGVjZWYwMDNlMzEwZmIyMTZiYjJkYmVkNjI1": {
+    "hash": "2e606497816f6d5d0c14a09ae4026c3a", 
+    "description": "notebooks/02.01-Understanding-Data-Types.ipynb", 
+    "pushedAt": "2018-01-15T06:36:00Z", 
+    "note_guid": "dc28a5f1-0db0-497b-b67b-be7f84ff9fec", 
+    "id": "MDQ6R2lzdDYxNzNiNGVjZWYwMDNlMzEwZmIyMTZiYjJkYmVkNjI1", 
+    "name": "6173b4ecef003e310fb216bb2dbed625"
+  }, 
+  "MDQ6R2lzdDYzMmQxYzM1ODA5ZWVjYzBiYjI5ZDI5OTgxN2Y3NjVi": {
+    "pushedAt": "2018-02-01T15:03:14Z", 
+    "id": "MDQ6R2lzdDYzMmQxYzM1ODA5ZWVjYzBiYjI5ZDI5OTgxN2Y3NjVi", 
+    "hash": "a1078d9b19965a98c4bddc6f75ac8774", 
+    "description": "ch104-Iterables-and-Iterators/python-iterator-tutorial.ipynb", 
+    "name": "632d1c35809eecc0bb29d299817f765b"
+  }, 
+  "MDQ6R2lzdGE4MWY5NDE4N2ZjODc0MWYyYzRhNjE5MGFhOTFjZjg4": {
+    "hash": "204fab98f93bc98ab7af053028821e28", 
+    "description": "", 
+    "pushedAt": "2017-10-14T08:08:53Z", 
+    "note_guid": "51880c89-e520-4b53-b38f-09c98f4bdfce", 
+    "id": "MDQ6R2lzdGE4MWY5NDE4N2ZjODc0MWYyYzRhNjE5MGFhOTFjZjg4", 
+    "name": "a81f94187fc8741f2c4a6190aa91cf88"
+  }, 
+  "MDQ6R2lzdGJjNzJlYTk1NGU4N2ExYzdlMDk1NWY2NzQ3NTM5YmY4": {
+    "hash": "f04d65fba37ebf06da54e2822978d6ef", 
+    "description": "\u6ce8\u610fb\u7684dimension", 
+    "pushedAt": "2017-11-03T14:52:48Z", 
+    "note_guid": "4dcf60d9-065a-47e8-88e7-4e72ea04dab5", 
+    "id": "MDQ6R2lzdGJjNzJlYTk1NGU4N2ExYzdlMDk1NWY2NzQ3NTM5YmY4", 
+    "name": "bc72ea954e87a1c7e0955f6747539bf8"
+  }, 
+  "MDQ6R2lzdGMwMDIyOTVhNDY2MWUxYWNlZDMzYjJjNzM3MDZkZTY1": {
+    "hash": "d7641e44f60d72e1bfba080754f0b800", 
+    "description": "Readme of cat-recognition-app", 
+    "pushedAt": "2018-01-04T15:19:11Z", 
+    "note_guid": "3176d3dc-3a5e-4eae-99e4-bb88faa41726", 
+    "id": "MDQ6R2lzdGMwMDIyOTVhNDY2MWUxYWNlZDMzYjJjNzM3MDZkZTY1", 
+    "name": "c002295a4661e1aced33b2c73706de65"
+  }, 
+  "MDQ6R2lzdGRjYmZmZjJhOWYxOGUyNzFjNWMxOGJlNGZjMWE1ZWM0": {
+    "hash": "09ffa8ad2f48d17d6c90c5abf4ee8a30", 
+    "description": "local branch merge\u5225\u7684branch\u60f3\u8981redo(commit_sha \u5728 sourcetree \u5c0d\u60f3\u8981\u56de\u53bb\u7684commit \u6309\u53f3\u9375\u53d6\u5f97SHA)", 
+    "pushedAt": "2017-12-21T01:17:17Z", 
+    "note_guid": "eccf81a5-1185-4b21-8ad2-85221f499adc", 
+    "id": "MDQ6R2lzdGRjYmZmZjJhOWYxOGUyNzFjNWMxOGJlNGZjMWE1ZWM0", 
+    "name": "dcbfff2a9f18e271c5c18be4fc1a5ec4"
+  }, 
+  "MDQ6R2lzdGFkMGE3ODM1ZjE5ZDg5MDU4NzI5YmQ5ZTY2OTNlN2M1": {
+    "hash": "e09ec0d2a3c8d89481485aa172648a39", 
+    "description": "Chapter03/3. Diving deep into Neural Networks.ipynb", 
+    "pushedAt": "2018-03-25T04:40:06Z", 
+    "note_guid": "ae5be537-6a7b-47df-8346-f403a5998000", 
+    "id": "MDQ6R2lzdGFkMGE3ODM1ZjE5ZDg5MDU4NzI5YmQ5ZTY2OTNlN2M1", 
+    "name": "ad0a7835f19d89058729bd9e6693e7c5"
+  }, 
+  "MDQ6R2lzdGIwMWE1MTEwZDc3NTY2MWU1MTMxOTcxMmFkNjgwYzcx": {
+    "hash": "5f393bd15db89a62e5c05cf834e7434a", 
+    "description": "20180404_Analysis_mail_template_analysis.ipynb", 
+    "pushedAt": "2018-05-07T01:08:40Z", 
+    "note_guid": "40b8ebda-3a1b-48e1-a8f2-030dd7dce3c6", 
+    "id": "MDQ6R2lzdGIwMWE1MTEwZDc3NTY2MWU1MTMxOTcxMmFkNjgwYzcx", 
+    "name": "b01a5110d775661e51319712ad680c71"
+  }, 
+  "MDQ6R2lzdDEzMTI4NWQyNzM0YmM0NGI0ZGIwZDU3ZGQ1Y2I1MmZh": {
+    "hash": "5871225fe4cf12c3a8d8b657c6cedc43", 
+    "description": "content/20180324-designing-data-intensive-applications-1-preface.ipynb", 
+    "pushedAt": "2018-03-30T00:47:31Z", 
+    "note_guid": "87dade6f-01fa-4ef1-8c70-0e896a7b8d4d", 
+    "id": "MDQ6R2lzdDEzMTI4NWQyNzM0YmM0NGI0ZGIwZDU3ZGQ1Y2I1MmZh", 
+    "name": "131285d2734bc44b4db0d57dd5cb52fa"
+  }, 
+  "MDQ6R2lzdDJkZTRmZGNlNTdiNTg4NTE4MTg4MDkwN2RkZjk1MGY1": {
+    "pushedAt": "2018-01-27T07:17:40Z", 
+    "description": "Gist-evernote \u88e1\u8ca0\u8cac\u8655\u7406selenium\u7684util", 
+    "id": "MDQ6R2lzdDJkZTRmZGNlNTdiNTg4NTE4MTg4MDkwN2RkZjk1MGY1", 
+    "name": "2de4fdce57b5885181880907ddf950f5"
+  }, 
+  "MDQ6R2lzdDI2ODc3YjRiYWY5MTVlZWRmNzQxMDQ2NDI2MTg5YWU4": {
+    "hash": "a3af227b36eba88aa059cf0af604614c", 
+    "description": "\u53ef\u4ee5\u8abf\u6574\u8981\u7528\u7684\u7167\u7247\u6578\u76ee", 
+    "pushedAt": "2017-10-06T05:03:55Z", 
+    "note_guid": "c713c092-8220-42f6-bfef-033eb6afbf02", 
+    "id": "MDQ6R2lzdDI2ODc3YjRiYWY5MTVlZWRmNzQxMDQ2NDI2MTg5YWU4", 
+    "name": "26877b4baf915eedf741046426189ae8"
+  }, 
+  "MDQ6R2lzdDIwNmQ5YzgxZGE4YmFkYmVhMjU2ZWNjNjI2YzdhZmQ3": {
+    "hash": "cb149ee499bcc0e43bf90a985c926aca", 
+    "description": "", 
+    "pushedAt": "2017-10-12T09:34:19Z", 
+    "note_guid": "e93006ef-4842-4059-8ff2-d2fd0b5dbe13", 
+    "id": "MDQ6R2lzdDIwNmQ5YzgxZGE4YmFkYmVhMjU2ZWNjNjI2YzdhZmQ3", 
+    "name": "206d9c81da8badbea256ecc626c7afd7"
+  }, 
+  "MDQ6R2lzdDk1ZTQ3ZDk5NTE2MmU0OGZmYjQ2NWEzOWNiOGVjZDQy": {
+    "hash": "86e32ab2817501eb78e6406cd4035f69", 
+    "description": "\u5728dataframe\u8ffd\u52a0\u65b0\u7684column", 
+    "pushedAt": "2017-12-21T01:22:29Z", 
+    "note_guid": "a8867002-b216-4809-8866-3b7f1ce73620", 
+    "id": "MDQ6R2lzdDk1ZTQ3ZDk5NTE2MmU0OGZmYjQ2NWEzOWNiOGVjZDQy", 
+    "name": "95e47d995162e48ffb465a39cb8ecd42"
+  }, 
+  "MDQ6R2lzdDE5MjY4MWViYTY3NzU1OGViM2Y0MzQxMWYzNjQxNDBk": {
+    "hash": "3e3c9c7e5d8db500cfd6956dc90d2db2", 
+    "description": "https://stackoverflow.com/a/13367442/3859572", 
+    "pushedAt": "2017-12-13T00:16:46Z", 
+    "note_guid": "0e77461c-e499-4c97-a7e5-faee64a3e3b7", 
+    "id": "MDQ6R2lzdDE5MjY4MWViYTY3NzU1OGViM2Y0MzQxMWYzNjQxNDBk", 
+    "name": "192681eba677558eb3f43411f364140d"
+  }, 
+  "MDQ6R2lzdGY0M2JlZTRjMTc4MGI4MDNiM2ZhNjQwZDYzM2E4ZWEw": {
+    "hash": "25274e279bba6e825894d614fbba53fb", 
+    "description": "MongoDB if else expression transform date string to datetime", 
+    "pushedAt": "2018-01-02T08:14:15Z", 
+    "note_guid": "c0a53b90-d2bc-4fad-b810-8a616577715b", 
+    "id": "MDQ6R2lzdGY0M2JlZTRjMTc4MGI4MDNiM2ZhNjQwZDYzM2E4ZWEw", 
+    "name": "f43bee4c1780b803b3fa640d633a8ea0"
+  }, 
+  "MDQ6R2lzdDk4MTRhMzE2YmQ4ODRkMTk1MmY5ZjkwODJjMTgxYjRh": {
+    "hash": "539e08af56cf7521691ef4bec5212642", 
+    "description": "create compound index in MongoDB collection", 
+    "pushedAt": "2018-01-10T02:41:03Z", 
+    "note_guid": "425e2e08-30b0-4724-bf35-13b0ff89ad28", 
+    "id": "MDQ6R2lzdDk4MTRhMzE2YmQ4ODRkMTk1MmY5ZjkwODJjMTgxYjRh", 
+    "name": "9814a316bd884d1952f9f9082c181b4a"
+  }, 
+  "MDQ6R2lzdDg0N2U0MWQyNDZjMTNhOWM4MzI1MzI2ZjYwMTFjYjNm": {
+    "hash": "9a5e0c3ac1b6add95dc175973732d1fd", 
+    "description": "", 
+    "pushedAt": "2017-10-09T12:05:47Z", 
+    "note_guid": "bbe76135-d712-4076-bbcf-f374eef575c4", 
+    "id": "MDQ6R2lzdDg0N2U0MWQyNDZjMTNhOWM4MzI1MzI2ZjYwMTFjYjNm", 
+    "name": "847e41d246c13a9c8325326f6011cb3f"
+  }, 
+  "MDQ6R2lzdDk2YjY0Yzc4YmQ4ZjI4NTNmZmFlZWE0NzAxYWIwNjNi": {
+    "hash": "d4e209178f5b9088ac78974cf46bfe8d", 
+    "description": "\u6700\u5feb\u5229\u7528plotly\u756bSankey plot ( in jupyter notebook )", 
+    "pushedAt": "2017-12-22T11:22:39Z", 
+    "note_guid": "cf43bfb3-3b54-42fe-8944-06fb70c1f914", 
+    "id": "MDQ6R2lzdDk2YjY0Yzc4YmQ4ZjI4NTNmZmFlZWE0NzAxYWIwNjNi", 
+    "name": "96b64c78bd8f2853ffaeea4701ab063b"
+  }, 
+  "MDQ6R2lzdDQwN2Q0Mjk1YzJmNzAwNDQ5MWRlNmQzNjgxNWJlZjZh": {
+    "hash": "2f33b4e7c99f21273c49db1b7d655fdf", 
+    "description": "\u4f7f\u7528souce tree\u4e00\u6b21push\u5230\u5169\u500bremote repo", 
+    "pushedAt": "2017-12-21T01:23:32Z", 
+    "note_guid": "d3a3c31a-e391-493e-89a8-3e41b139844e", 
+    "id": "MDQ6R2lzdDQwN2Q0Mjk1YzJmNzAwNDQ5MWRlNmQzNjgxNWJlZjZh", 
+    "name": "407d4295c2f7004491de6d36815bef6a"
+  }, 
+  "MDQ6R2lzdDM3MDYzZTMyN2NjNWNjZTBjYjkxNGVlYTk0NGRhNTA5": {
+    "hash": "103bb68aacca35c68983e1c7df1966e4", 
+    "description": "", 
+    "pushedAt": "2018-03-07T07:06:54Z", 
+    "note_guid": "b95d2581-6bee-4648-9ef8-cd567e7aaa64", 
+    "id": "MDQ6R2lzdDM3MDYzZTMyN2NjNWNjZTBjYjkxNGVlYTk0NGRhNTA5", 
+    "name": "37063e327cc5cce0cb914eea944da509"
+  }, 
+  "MDQ6R2lzdDc5ZmVhYjdlZTVjZjE1ODhkODEzM2M2YzAwYTU5NTk0": {
+    "pushedAt": "2018-02-11T09:00:53Z", 
+    "hash": "2793d3bc9db61b4853ee04927c53da43", 
+    "description": "\u4f7f\u7528 skimage, opencv \u6bd4\u8f03\u5716\u7247\u76f8\u4f3c\u5ea6", 
+    "name": "79feab7ee5cf1588d8133c6c00a59594", 
+    "id": "MDQ6R2lzdDc5ZmVhYjdlZTVjZjE1ODhkODEzM2M2YzAwYTU5NTk0"
+  }, 
+  "MDQ6R2lzdDQ0NjQxZjIzZWFkMjE4NTQyNDkwYWEyNzNhZWRhMDVm": {
+    "hash": "c8a58f5b144edd8266f451c062eadb5f", 
+    "description": "MongoDB $facet example", 
+    "pushedAt": "2018-01-01T17:44:02Z", 
+    "note_guid": "c4878457-dc5a-46e4-8dff-d8b6bfeb86b7", 
+    "id": "MDQ6R2lzdDQ0NjQxZjIzZWFkMjE4NTQyNDkwYWEyNzNhZWRhMDVm", 
+    "name": "44641f23ead218542490aa273aeda05f"
+  }, 
+  "MDQ6R2lzdGI3ZjgwMmEwNTY3ZjM2OWI2NjhhM2M5ZmY2OTFiNTI3": {
+    "hash": "a49619b190ae8a6feafb3151b8de7098", 
+    "description": "MongoDB explain query and text search example", 
+    "pushedAt": "2018-01-03T12:45:04Z", 
+    "note_guid": "ca671dbf-4304-490c-a8b5-b70e3db64b89", 
+    "id": "MDQ6R2lzdGI3ZjgwMmEwNTY3ZjM2OWI2NjhhM2M5ZmY2OTFiNTI3", 
+    "name": "b7f802a0567f369b668a3c9ff691b527"
+  }, 
+  "MDQ6R2lzdDI1ZWZiOWExMzk4M2QxYjIyOTIxNmU1NTkzZjZmM2Ix": {
+    "hash": "3bdd328647fa0af1c5474809b7fa6229", 
+    "description": "MongoDB ETL reshape documents and save in new collection using aggregation framework", 
+    "pushedAt": "2018-01-02T07:23:56Z", 
+    "note_guid": "0d3c3206-8c20-4b8e-b34a-1685f20a215a", 
+    "id": "MDQ6R2lzdDI1ZWZiOWExMzk4M2QxYjIyOTIxNmU1NTkzZjZmM2Ix", 
+    "name": "25efb9a13983d1b229216e5593f6f3b1"
+  }, 
+  "MDQ6R2lzdDhkYjViMDQwM2Q0NjhhMjQxNDhjODFjOTIxZjIwZjA2": {
+    "hash": "1eca199b0e60e9e50466702460670a6a", 
+    "description": "", 
+    "pushedAt": "2017-11-15T05:31:25Z", 
+    "note_guid": "1d16014a-31c7-43f9-8189-802406303fa4", 
+    "id": "MDQ6R2lzdDhkYjViMDQwM2Q0NjhhMjQxNDhjODFjOTIxZjIwZjA2", 
+    "name": "8db5b0403d468a24148c81c921f20f06"
+  }, 
+  "MDQ6R2lzdDhmNDY5OWRhZDJlOTNlMmU5NzAwNzRlYjEwNjAxODRi": {
+    "hash": "c4c0fdff6b773059f720604a0c4fd9cc", 
+    "description": "20180404_Analysis_Television_web_form.ipynb", 
+    "pushedAt": "2018-04-04T06:40:04Z", 
+    "note_guid": "1aef679e-c9d2-4ab5-943b-c3ef80e26f03", 
+    "id": "MDQ6R2lzdDhmNDY5OWRhZDJlOTNlMmU5NzAwNzRlYjEwNjAxODRi", 
+    "name": "8f4699dad2e93e2e970074eb1060184b"
+  }, 
+  "MDQ6R2lzdGY4OTIzODFjMThjNTlmZDM1ZGQ5ODI1MWI0M2Y3ZDUy": {
+    "pushedAt": "2018-02-09T02:33:46Z", 
+    "hash": "f056b2905e9fd78798a260aede20769e", 
+    "id": "MDQ6R2lzdGY4OTIzODFjMThjNTlmZDM1ZGQ5ODI1MWI0M2Y3ZDUy", 
+    "name": "f892381c18c59fd35dd98251b43f7d52", 
+    "description": "20180110_Analysis_cc_actions_for_replied_offers.ipynb"
+  }, 
+  "MDQ6R2lzdDA0NDRiZjgxOGMzNmNjNDE1YTNlYmY2YzNkMjIyNWEy": {
+    "hash": "965ec6b049b61c83ca2f96ac0820a684", 
+    "description": "Heroku deploy Flask package Note", 
+    "pushedAt": "2018-02-11T05:42:09Z", 
+    "note_guid": "daf5678d-8771-4500-adf6-08f11f68c5e0", 
+    "id": "MDQ6R2lzdDA0NDRiZjgxOGMzNmNjNDE1YTNlYmY2YzNkMjIyNWEy", 
+    "name": "0444bf818c36cc415a3ebf6c3d2225a2"
+  }, 
+  "MDQ6R2lzdDg3NzRiZTY2MjMxYThhMmYwMTg4MTU2NDQ2MTdkZmYw": {
+    "hash": "aa5a09d87054a62020a6c2465c9ba86e", 
+    "description": "", 
+    "pushedAt": "2017-11-13T02:33:52Z", 
+    "note_guid": "3cfefcb5-0639-497c-97b0-9503ec0e569b", 
+    "id": "MDQ6R2lzdDg3NzRiZTY2MjMxYThhMmYwMTg4MTU2NDQ2MTdkZmYw", 
+    "name": "8774be66231a8a2f018815644617dff0"
+  }, 
+  "MDQ6R2lzdGZkZTAzNzRhOTE3N2IyNmVkMGUxMmU4YzRiZWI2Zjk5": {
+    "hash": "db87b5b2e12262151a398ab9d7808031", 
+    "description": "20180116_Analysis_CC_relationship_between_connected_ratio_and_contract_ratio.ipynb", 
+    "pushedAt": "2018-02-28T10:28:01Z", 
+    "note_guid": "3f41bff7-94e3-45ac-b3ed-24db2de7f1b7", 
+    "id": "MDQ6R2lzdGZkZTAzNzRhOTE3N2IyNmVkMGUxMmU4YzRiZWI2Zjk5", 
+    "name": "fde0374a9177b26ed0e12e8c4beb6f99"
+  }, 
+  "MDQ6R2lzdGJmZDg1OTlkYzk0MzQzNjFlNDhlMDJkMDJiOGZhZTg2": {
+    "hash": "d947764343610849b564569f362ba331", 
+    "description": "20180501-mnist-with-soft.ipynb", 
+    "pushedAt": "2018-05-07T02:17:48Z", 
+    "note_guid": "1b6a5555-26cf-4602-92f0-0094cf60883f", 
+    "id": "MDQ6R2lzdGJmZDg1OTlkYzk0MzQzNjFlNDhlMDJkMDJiOGZhZTg2", 
+    "name": "bfd8599dc9434361e48e02d02b8fae86"
+  }, 
+  "MDQ6R2lzdGEyZDQxZjBhNTA0NDgwOWRhYTAxNjI4NzM5ODI0YjM2": {
+    "hash": "e1bac4342ef76c946b226445dfceec28", 
+    "description": "\u6bcf\u500blambda function \u90fd\u8981\u6709\u81ea\u5df1\u7684 requirements.txt", 
+    "pushedAt": "2017-10-12T08:22:00Z", 
+    "note_guid": "c8dc1f1e-ef1a-43b2-84e0-bd4d7908b17d", 
+    "id": "MDQ6R2lzdGEyZDQxZjBhNTA0NDgwOWRhYTAxNjI4NzM5ODI0YjM2", 
+    "name": "a2d41f0a5044809daa01628739824b36"
+  }, 
+  "MDQ6R2lzdGZlYjAzNGMzZjg1ZGViNGE5OGFkMGQxNmY5MDI5Njg1": {
+    "hash": "93f5c9f30aa43a9eb746dcc19f43ce9a", 
+    "description": "", 
+    "pushedAt": "2017-11-28T00:39:36Z", 
+    "note_guid": "c8e7473a-f2e7-4657-9c85-e382c81deb2b", 
+    "id": "MDQ6R2lzdGZlYjAzNGMzZjg1ZGViNGE5OGFkMGQxNmY5MDI5Njg1", 
+    "name": "feb034c3f85deb4a98ad0d16f9029685"
+  }, 
+  "MDQ6R2lzdDFjOGI0M2Y5ZTMxYWU4MTRlMjgyNmVkZmRmYzM1MmRl": {
+    "hash": "f883b8a5346a222ab3fe62019f7c3303", 
+    "description": "", 
+    "pushedAt": "2017-10-16T13:54:56Z", 
+    "note_guid": "7e57e05e-710b-4e3d-8c8e-4fcca655b5c4", 
+    "id": "MDQ6R2lzdDFjOGI0M2Y5ZTMxYWU4MTRlMjgyNmVkZmRmYzM1MmRl", 
+    "name": "1c8b43f9e31ae814e2826edfdfc352de"
+  }, 
+  "MDQ6R2lzdDdhMzJjNjMxNmVjYTRiZGJkNGQ0ZTM4NDY2OTM0NzE1": {
+    "hash": "2d8cea933811ceb823d6f5b97fafea4a", 
+    "description": "marketenterprise/20180129_Analysis_web_offer_rapid_response.ipynb", 
+    "pushedAt": "2018-02-01T05:51:15Z", 
+    "note_guid": "b2ce44ca-2fa4-4a6d-a913-814070a2b17a", 
+    "id": "MDQ6R2lzdDdhMzJjNjMxNmVjYTRiZGJkNGQ0ZTM4NDY2OTM0NzE1", 
+    "name": "7a32c6316eca4bdbd4d4e38466934715"
+  }, 
+  "MDQ6R2lzdDQzZDNmZWM3OTVkNDQzM2RiZDIwZTU1ZDIyNmQ0ODMz": {
+    "hash": "ec4a88a9cc3db45dba489ae7daa15b22", 
+    "description": "\u4e0d\u662fsess.run() \u800c\u662f .eval()", 
+    "pushedAt": "2017-11-05T09:20:59Z", 
+    "note_guid": "2b76ab09-eacf-464d-8921-40418f66ae3a", 
+    "id": "MDQ6R2lzdDQzZDNmZWM3OTVkNDQzM2RiZDIwZTU1ZDIyNmQ0ODMz", 
+    "name": "43d3fec795d4433dbd20e55d226d4833"
+  }, 
+  "MDQ6R2lzdDRkMzUyNjUxYjlhYjVmMjg5ODllOTM4NmE3OWYzZjkw": {
+    "hash": "33dd85ec64f17bd837aa79ccc2d7bf28", 
+    "description": "", 
+    "pushedAt": "2018-01-15T00:48:23Z", 
+    "note_guid": "395dd859-6fcb-4a11-9ca6-9b62ecd537a9", 
+    "id": "MDQ6R2lzdDRkMzUyNjUxYjlhYjVmMjg5ODllOTM4NmE3OWYzZjkw", 
+    "name": "4d352651b9ab5f28989e9386a79f3f90"
+  }, 
+  "MDQ6R2lzdGRlNTc1YmM0ZGUwODc1ZTdhYjA3ZmQzOGE3ZDVhMjVm": {
+    "hash": "edcc71a1e025552bbfe9e9122804f8a8", 
+    "description": "\u7528notebook\u6253\u958b\u93e1\u982d\u4e26\u62cd\u7167\u5b58\u64cb", 
+    "pushedAt": "2017-12-26T11:08:32Z", 
+    "note_guid": "f9ab238c-3c1c-4842-a5d4-649c7170ba95", 
+    "id": "MDQ6R2lzdGRlNTc1YmM0ZGUwODc1ZTdhYjA3ZmQzOGE3ZDVhMjVm", 
+    "name": "de575bc4de0875e7ab07fd38a7d5a25f"
+  }, 
+  "num_gists": 231, 
+  "MDQ6R2lzdDM5MjczMGQyNDJhZmE5ZDVkYjM5ZjViNGViNjBjYWFh": {
+    "hash": "fadcc4b01aed3a424685053802d4d296", 
+    "description": "", 
+    "pushedAt": "2017-11-13T07:28:21Z", 
+    "note_guid": "4f85d9b8-8def-4fa6-8a40-6c87af33699f", 
+    "id": "MDQ6R2lzdDM5MjczMGQyNDJhZmE5ZDVkYjM5ZjViNGViNjBjYWFh", 
+    "name": "392730d242afa9d5db39f5b4eb60caaa"
+  }, 
+  "MDQ6R2lzdDEzZjhiNGZmMGQ3NWZmZDAzNWIzNDkyN2M0OTgyYmU5": {
+    "hash": "8adb92c62419306623d9aa6ec4301501", 
+    "description": "", 
+    "pushedAt": "2017-11-15T05:28:44Z", 
+    "note_guid": "96755b52-ea4e-454e-9de3-54812c7b5fcb", 
+    "id": "MDQ6R2lzdDEzZjhiNGZmMGQ3NWZmZDAzNWIzNDkyN2M0OTgyYmU5", 
+    "name": "13f8b4ff0d75ffd035b34927c4982be9"
+  }, 
+  "MDQ6R2lzdGU0YTZiODQ5YzRiNWM2MWQyMzBkOTIyNWU4MTExYWJl": {
+    "hash": "bf7a7350976cfbd3d3da390c6e4e650b", 
+    "description": "MongoDB count frequencies of group by $group and $sort", 
+    "pushedAt": "2017-12-31T05:52:32Z", 
+    "note_guid": "15680130-2c98-4bc7-b8c7-b26a2fd83bea", 
+    "id": "MDQ6R2lzdGU0YTZiODQ5YzRiNWM2MWQyMzBkOTIyNWU4MTExYWJl", 
+    "name": "e4a6b849c4b5c61d230d9225e8111abe"
+  }, 
+  "MDQ6R2lzdGI3N2JlZmY3NDMwYTU0MzlmMWQwOWMxZDdmMDJjMmUz": {
+    "hash": "30d8cd8ce5d737b15b57183ff352af26", 
+    "description": "Wine Quality Prediction Note", 
+    "pushedAt": "2018-02-25T08:03:53Z", 
+    "note_guid": "db2c1d4c-f718-48d8-b30b-708f70208490", 
+    "id": "MDQ6R2lzdGI3N2JlZmY3NDMwYTU0MzlmMWQwOWMxZDdmMDJjMmUz", 
+    "name": "b77beff7430a5439f1d09c1d7f02c2e3"
+  }, 
+  "MDQ6R2lzdGFhMjYxYzNiNmU1NDA4ZDY3M2VkMGI1NTYyYWYyYzI5": {
+    "hash": "598463d00958c575e95bac7f07f22e23", 
+    "description": "Enable a Django server in three steps", 
+    "pushedAt": "2016-09-13T07:33:27Z", 
+    "note_guid": "df42cfe4-39b2-4fff-9561-08707de6592a", 
+    "id": "MDQ6R2lzdGFhMjYxYzNiNmU1NDA4ZDY3M2VkMGI1NTYyYWYyYzI5", 
+    "name": "aa261c3b6e5408d673ed0b5562af2c29"
+  }, 
+  "MDQ6R2lzdGE4NzYxNGI0MDNjNzQ2YTdjYTY4YmFjMTIzZTQ0ODA1": {
+    "hash": "54a873c749e95f9d0ea60ce923ad7fca", 
+    "description": "Presto Essentials - Data Science - Window Functions", 
+    "pushedAt": "2018-04-26T02:18:49Z", 
+    "note_guid": "d9c046a6-e345-4d5e-b678-2d35c09eea1d", 
+    "id": "MDQ6R2lzdGE4NzYxNGI0MDNjNzQ2YTdjYTY4YmFjMTIzZTQ0ODA1", 
+    "name": "a87614b403c746a7ca68bac123e44805"
+  }, 
+  "MDQ6R2lzdGYyNDg0NTU4MmRlYjJjOTI0MjNkNjY1NWZkMjNmMWVk": {
+    "hash": "dbf5296e8f73cbe1ecb799d800aec986", 
+    "description": "\u6700\u5feb\u53d6\u5f97DynamoDB log", 
+    "pushedAt": "2017-12-22T09:02:59Z", 
+    "note_guid": "cb637180-f616-4571-b1bf-b8f8e8db5e36", 
+    "id": "MDQ6R2lzdGYyNDg0NTU4MmRlYjJjOTI0MjNkNjY1NWZkMjNmMWVk", 
+    "name": "f24845582deb2c92423d6655fd23f1ed"
+  }, 
+  "MDQ6R2lzdGNhZmViZTAzNjUyNGJhNmVhYjYxYmFmODc4YjkyNWVi": {
+    "hash": "3c45e4dda965c1f54118d4430cea6958", 
+    "description": "MongoDB improve query performance by creating index", 
+    "pushedAt": "2018-01-04T00:48:19Z", 
+    "note_guid": "29f67961-1ba4-4491-acf1-9077cd9b4e43", 
+    "id": "MDQ6R2lzdGNhZmViZTAzNjUyNGJhNmVhYjYxYmFmODc4YjkyNWVi", 
+    "name": "cafebe036524ba6eab61baf878b925eb"
+  }, 
+  "MDQ6R2lzdDE3YmIzZDhlM2Q2MTc2YWFjNGY2YjlhZmE2NWI0ZTQz": {
+    "pushedAt": "2018-02-13T02:24:10Z", 
+    "description": "Google Analytics API \u7684 helper \u96c6\u5927\u6210", 
+    "hash": "bcb79e06df9673fe06dc02ce1509abe0", 
+    "id": "MDQ6R2lzdDE3YmIzZDhlM2Q2MTc2YWFjNGY2YjlhZmE2NWI0ZTQz", 
+    "name": "17bb3d8e3d6176aac4f6b9afa65b4e43"
+  }, 
+  "MDQ6R2lzdGU1MjliNWRkMmU5ZWEyODdkMWVhNGI2NDY0ZGJkN2Jh": {
+    "hash": "fbcc5dd316e5498ea06d024ea384bc30", 
+    "description": "", 
+    "pushedAt": "2017-10-18T01:38:29Z", 
+    "note_guid": "a377e5e7-cd9b-4d76-abb7-2b40cb97853d", 
+    "id": "MDQ6R2lzdGU1MjliNWRkMmU5ZWEyODdkMWVhNGI2NDY0ZGJkN2Jh", 
+    "name": "e529b5dd2e9ea287d1ea4b6464dbd7ba"
+  }, 
+  "MDQ6R2lzdDRiNGQyZGYzZjM0YzBkNGM4MmVlMjBlNzFmYzNiMTlk": {
+    "hash": "00e9c857d86d5a104bda712cb0f8205c", 
+    "description": "marketenterprise/20170227_Analysis_Find_the_most_profitable_area_for_new_reuse_center.ipynb", 
+    "pushedAt": "2018-01-29T00:27:26Z", 
+    "note_guid": "fba59673-abb9-46f5-8d42-4c62becf10c9", 
+    "id": "MDQ6R2lzdDRiNGQyZGYzZjM0YzBkNGM4MmVlMjBlNzFmYzNiMTlk", 
+    "name": "4b4d2df3f34c0d4c82ee20e71fc3b19d"
+  }, 
+  "MDQ6R2lzdDcwNGMyNjA1NGZmNWNmYjY3MjFmODY5YjZiZWZkYjBj": {
+    "hash": "85fae688bdabd52d3eb3d0786cdb5ad8", 
+    "description": "", 
+    "pushedAt": "2018-04-14T09:00:57Z", 
+    "note_guid": "be5117c8-95b0-4b5e-8c57-7cdf2e3d9661", 
+    "id": "MDQ6R2lzdDcwNGMyNjA1NGZmNWNmYjY3MjFmODY5YjZiZWZkYjBj", 
+    "name": "704c26054ff5cfb6721f869b6befdb0c"
+  }, 
+  "MDQ6R2lzdGEwY2EzNzM2ODBlYTNlZjcyYTIxNDk2Y2U1ZTRmMzFl": {
+    "hash": "d444366b10da936b2bcfcac11c41714f", 
+    "description": "marketenterprise/20170309_ML_Predict_the_best_category_for_products_without_categories_on_ReRe.ipynb", 
+    "pushedAt": "2018-01-29T00:28:37Z", 
+    "note_guid": "88117b87-85b1-4865-9080-ab420866ce88", 
+    "id": "MDQ6R2lzdGEwY2EzNzM2ODBlYTNlZjcyYTIxNDk2Y2U1ZTRmMzFl", 
+    "name": "a0ca373680ea3ef72a21496ce5e4f31e"
+  }, 
+  "MDQ6R2lzdGE1NTMxNjFhOWE2YzMwNmUyY2RjNGIzYWE4MTY5NGMz": {
+    "hash": "b139deebcee4d159eb0f185ee4ae5f6c", 
+    "description": "Presto Essentials - Data Science - \u689d\u4ef6\u5224\u65b7", 
+    "pushedAt": "2018-04-26T02:17:15Z", 
+    "note_guid": "c57d01a4-f92f-480c-bb5a-1da1393a00d6", 
+    "id": "MDQ6R2lzdGE1NTMxNjFhOWE2YzMwNmUyY2RjNGIzYWE4MTY5NGMz", 
+    "name": "a553161a9a6c306e2cdc4b3aa81694c3"
+  }, 
+  "MDQ6R2lzdGE0MWI2YTc1YzJjMDM0ZTJiYzZhMGNhYjIzM2Q2YTBi": {
+    "hash": "ee70720826e09f884e14064efb7cce92", 
+    "description": "marketenterprise/20170725_Scraping_SD_kickoff_demo.ipynb", 
+    "pushedAt": "2018-01-29T00:36:12Z", 
+    "note_guid": "65674e8f-7f23-432f-ad02-d5e96f2e9911", 
+    "id": "MDQ6R2lzdGE0MWI2YTc1YzJjMDM0ZTJiYzZhMGNhYjIzM2Q2YTBi", 
+    "name": "a41b6a75c2c034e2bc6a0cab233d6a0b"
+  }, 
+  "MDQ6R2lzdDgzZWFkMTU3OGQzODFlMjZhNDlkNTYwYTRlOGI2NDgy": {
+    "hash": "f457beee90befeb6b3202aa5c725ff11", 
+    "description": "draw box plot using data from MongoDB aggregation", 
+    "pushedAt": "2018-01-04T01:38:25Z", 
+    "note_guid": "7578fba9-690b-4fc0-87f8-4352c9282e77", 
+    "id": "MDQ6R2lzdDgzZWFkMTU3OGQzODFlMjZhNDlkNTYwYTRlOGI2NDgy", 
+    "name": "83ead1578d381e26a49d560a4e8b6482"
+  }, 
+  "MDQ6R2lzdGNiMmYyMjgzYjk4ZDg0NWQwODQ1NDY4YmVkYTY0NzIz": {
+    "hash": "51d4ca5b0cf9f1be9e61c60f3c019227", 
+    "description": "Responsive image grid", 
+    "pushedAt": "2018-02-08T11:53:24Z", 
+    "note_guid": "76a74f9c-1691-4e71-8d25-0db24b495658", 
+    "id": "MDQ6R2lzdGNiMmYyMjgzYjk4ZDg0NWQwODQ1NDY4YmVkYTY0NzIz", 
+    "name": "cb2f2283b98d845d0845468beda64723"
+  }, 
+  "MDQ6R2lzdDRhZTU3MzQ1NWM2OTQ2ZDY2Y2ZjODIxOTRmNzhhMGQy": {
+    "hash": "4a97c99a154c8892a7e62452731194bb", 
+    "description": "naive_xgboost.ipynb", 
+    "pushedAt": "2017-12-10T05:17:53Z", 
+    "note_guid": "39201417-29e1-4df7-b544-19703e052ca1", 
+    "id": "MDQ6R2lzdDRhZTU3MzQ1NWM2OTQ2ZDY2Y2ZjODIxOTRmNzhhMGQy", 
+    "name": "4ae573455c6946d66cfc82194f78a0d2"
+  }, 
+  "MDQ6R2lzdDU5MWE3YzlkMmU3NGQ5YTdjYjNhMTgyMGUwY2M5YmFk": {
+    "hash": "87059381b3b4f6bd03b3013e4922deb2", 
+    "description": "marketenterprise/20180117_Analysis_Visit_offer_using_google_calendar_data.ipynb", 
+    "pushedAt": "2018-01-29T08:03:15Z", 
+    "note_guid": "2eb7a6a4-4b37-4609-b906-011a84044afe", 
+    "id": "MDQ6R2lzdDU5MWE3YzlkMmU3NGQ5YTdjYjNhMTgyMGUwY2M5YmFk", 
+    "name": "591a7c9d2e74d9a7cb3a1820e0cc9bad"
+  }, 
+  "MDQ6R2lzdDVmYjViZThlYzU4MjdkMTQ5MjgwZTNiNDVkM2YzYjkz": {
+    "hash": "9e32eae6001027e1029baff3a314b259", 
+    "description": "\u4e00\u4eba\u3042\u305f\u308a\u5e73\u5747\u53d7\u6ce8\u306e\u8a08\u7b97", 
+    "pushedAt": "2018-03-22T08:16:10Z", 
+    "note_guid": "db41ee39-92d4-42fa-a920-ea68f7ed4dba", 
+    "id": "MDQ6R2lzdDVmYjViZThlYzU4MjdkMTQ5MjgwZTNiNDVkM2YzYjkz", 
+    "name": "5fb5be8ec5827d149280e3b45d3f3b93"
+  }, 
+  "MDQ6R2lzdDUxYjFlY2IzMzY3MGFhZjA5ZDEzNjBiYjliNTIxMzNi": {
+    "hash": "c10d4f0c4f17593167d5915ffe53db97", 
+    "description": "Presto Essentials - Data Science - Aggregation \u7bc4\u4f8b", 
+    "pushedAt": "2018-04-26T02:18:07Z", 
+    "note_guid": "6778cc72-ab6d-4c91-ad49-e4b14134d72c", 
+    "id": "MDQ6R2lzdDUxYjFlY2IzMzY3MGFhZjA5ZDEzNjBiYjliNTIxMzNi", 
+    "name": "51b1ecb33670aaf09d1360bb9b52133b"
+  }, 
+  "MDQ6R2lzdDVhMjZiNGY1ZTQ5OTk2ZmUzYzhhMDY0NTliMWQwYzQ3": {
+    "pushedAt": "2018-02-02T12:42:01Z", 
+    "description": "Facet example\n", 
+    "hash": "9cc0c47bf4669361890ff7e5bc3ea9ca", 
+    "id": "MDQ6R2lzdDVhMjZiNGY1ZTQ5OTk2ZmUzYzhhMDY0NTliMWQwYzQ3", 
+    "name": "5a26b4f5e49996fe3c8a06459b1d0c47"
+  }, 
+  "MDQ6R2lzdDI1MTAzYTQ0NTU1OWY0OGIyYWQ2N2YzYTE3NWZlNjY1": {
+    "hash": "e097d41143cffc99932ecfd2cd8eb3a5", 
+    "description": "Kinesis Firehose Lambda Function \u5be6\u4f5c\u7b46\u8a18", 
+    "pushedAt": "2018-04-27T05:38:46Z", 
+    "note_guid": "ab31b00e-2118-4c31-9d29-d94bb21d8960", 
+    "id": "MDQ6R2lzdDI1MTAzYTQ0NTU1OWY0OGIyYWQ2N2YzYTE3NWZlNjY1", 
+    "name": "25103a445559f48b2ad67f3a175fe665"
+  }, 
+  "MDQ6R2lzdGYwNDQzMWM5NTI3ZTUwNzQ4NTEwYzg4MDFjN2RjMzdm": {
+    "pushedAt": "2018-02-07T10:20:53Z", 
+    "id": "MDQ6R2lzdGYwNDQzMWM5NTI3ZTUwNzQ4NTEwYzg4MDFjN2RjMzdm", 
+    "hash": "b73e6ea89f38a92d2a5e7b7af863840a", 
+    "description": "\u5728ME\u7684notebook\u7528\u7684util", 
+    "name": "f04431c9527e50748510c8801c7dc37f"
+  }, 
+  "MDQ6R2lzdGU5YjM2Y2IwNWIwYTc4NTY2M2NkZGUyMmQ0MzUwZWI4": {
+    "hash": "17c8a4bd4e3db2963d3021eaa9f3e9ae", 
+    "description": "\u628amaster\u4ee5\u5916\u7684bransh\u4e0a\u50b3\u5230Heroku master", 
+    "pushedAt": "2017-12-21T01:16:04Z", 
+    "note_guid": "a76d1569-e444-4c1e-a462-325b5d1d2142", 
+    "id": "MDQ6R2lzdGU5YjM2Y2IwNWIwYTc4NTY2M2NkZGUyMmQ0MzUwZWI4", 
+    "name": "e9b36cb05b0a785663cdde22d4350eb8"
+  }, 
+  "MDQ6R2lzdDhlOWY3MTBhMGNiYzc0OTdiMWVlMTE5YTA4ODg2OTQ1": {
+    "hash": "98e390d3469d7e38f7d056228ff34af8", 
+    "description": "\u81ea\u52d5\u96e2\u8131\u306e\u5206\u6790", 
+    "pushedAt": "2018-02-09T11:18:52Z", 
+    "note_guid": "a7e1ecc2-8a8d-4df5-a97d-eeb0f2db1f0a", 
+    "id": "MDQ6R2lzdDhlOWY3MTBhMGNiYzc0OTdiMWVlMTE5YTA4ODg2OTQ1", 
+    "name": "8e9f710a0cbc7497b1ee119a08886945"
+  }, 
+  "MDQ6R2lzdGUzOTNkODgxMjIyODg1ZjU5ZWYwOWExNDExNzE1OWM4": {
+    "hash": "c0e14a771bac3b4944318b430efe2884", 
+    "description": "ch35-Difference-between-module-and-package/Untitled.ipynb", 
+    "pushedAt": "2018-01-23T02:54:41Z", 
+    "note_guid": "42c52101-6741-48d5-935d-a35da9564daa", 
+    "id": "MDQ6R2lzdGUzOTNkODgxMjIyODg1ZjU5ZWYwOWExNDExNzE1OWM4", 
+    "name": "e393d881222885f59ef09a14117159c8"
+  }, 
+  "MDQ6R2lzdGEzMGU5YjI0NjE4MWQ2MDdlMjEyM2JmYzA1YWU2NTQ4": {
+    "hash": "afe10e73a080719008d15d06779aa13f", 
+    "description": "MongoDB aggregation citibike example", 
+    "pushedAt": "2018-01-01T19:25:33Z", 
+    "note_guid": "4648ef81-a0d9-4ff5-94db-a01575d036a3", 
+    "id": "MDQ6R2lzdGEzMGU5YjI0NjE4MWQ2MDdlMjEyM2JmYzA1YWU2NTQ4", 
+    "name": "a30e9b246181d607e2123bfc05ae6548"
+  }, 
+  "MDQ6R2lzdDUwMDkzMTFiMTg4OTEyM2ZmNTAwNWEzOTI0OGM2OTA4": {
+    "hash": "7dbb98b5c88bd9cc1b883b94eb2c57bc", 
+    "description": "marketenterprise/20170913_Analysis_customer_segmentation.ipynb", 
+    "pushedAt": "2018-01-29T00:40:05Z", 
+    "note_guid": "34d3495e-1fd6-464b-a7d5-5c24e6e5b4ce", 
+    "id": "MDQ6R2lzdDUwMDkzMTFiMTg4OTEyM2ZmNTAwNWEzOTI0OGM2OTA4", 
+    "name": "5009311b1889123ff5005a39248c6908"
+  }, 
+  "MDQ6R2lzdGI1ZWRjYTQ1ZTEyNjY0MTY0ZTY2MzRkNmZlMjRkOTEz": {
+    "hash": "211888a80a722e03e96bd4484aa390b0", 
+    "description": "Simple demo for writing messages to Kinesis Stream", 
+    "pushedAt": "2018-04-17T14:34:49Z", 
+    "note_guid": "e4ca4d5f-eee7-4150-85ff-e1590ea7ca8b", 
+    "id": "MDQ6R2lzdGI1ZWRjYTQ1ZTEyNjY0MTY0ZTY2MzRkNmZlMjRkOTEz", 
+    "name": "b5edca45e12664164e6634d6fe24d913"
+  }, 
+  "MDQ6R2lzdDg1MzFjZTRlZmIzZGViZDA3OTU5M2JlODZjNTY3YzY4": {
+    "hash": "4857a34e27b59521f4a167e7e6b91727", 
+    "description": "\u522a\u9664png\u5716\u7247\u7684alpha channel\u4e26\u5b58\u6210jpg", 
+    "pushedAt": "2017-12-21T01:08:51Z", 
+    "note_guid": "125eb9cf-f22f-4bb7-a1d7-c7e0b8f40330", 
+    "id": "MDQ6R2lzdDg1MzFjZTRlZmIzZGViZDA3OTU5M2JlODZjNTY3YzY4", 
+    "name": "8531ce4efb3debd079593be86c567c68"
+  }, 
+  "MDQ6R2lzdDhlOWI1Nzg5MTdmYzlhZjI4MDQyZTUwNjcwZmM1NDNh": {
+    "hash": "72b38d060c8fdf4ba64b6d98857a9465", 
+    "description": "Dataframe\u628a\u67d0\u500b\u6b04\u4f4d\u4f9d\u7167\u4e0d\u540c\u7684\u503c\u8a2d\u5b9a\u4e0d\u540c\u80cc\u666f\u984f\u8272(\u57fa\u672c\u4e0a\u5c31\u662f\u4f7f\u7528applymap, \u7136\u5f8c\u81ea\u5df1\u5b9a\u7fa9\u4e00\u500bcallable \u4f86\u4f9d\u7167\u4e0d\u540c\u503c\u7d66\u4e0d\u540c\u984f\u8272. \u8981\u9078\u4e00\u500bcolume\u5c31\u4f7f\u7528subset param. \u7136\u5f8c\u984f\u8272\u7684\u8a2d\u5b9a\u5c31\u662f CSS;applymap\u9810\u8a2d\u662f\u91dd\u5c0d\u6240\u6709cells, \u6240\u4ee5\u5982\u679c\u8981\u6c7a\u5b9a\u5957\u7528\u7684\u7bc4\u570d\u7528subset)", 
+    "pushedAt": "2017-12-21T01:23:07Z", 
+    "note_guid": "6bd5f8b5-66ea-4767-ae73-654f5d6ed7eb", 
+    "id": "MDQ6R2lzdDhlOWI1Nzg5MTdmYzlhZjI4MDQyZTUwNjcwZmM1NDNh", 
+    "name": "8e9b578917fc9af28042e50670fc543a"
+  }, 
+  "MDQ6R2lzdGE3NWQzY2U2ZWIyYmY4MDU0Y2YwYjVkODI1ZTZhNmIy": {
+    "hash": "5d88049870ccec0bac9c22d16e437b17", 
+    "description": "", 
+    "pushedAt": "2017-10-11T10:30:51Z", 
+    "note_guid": "33b3458c-6b90-4b88-b3fa-bd8eccdd9425", 
+    "id": "MDQ6R2lzdGE3NWQzY2U2ZWIyYmY4MDU0Y2YwYjVkODI1ZTZhNmIy", 
+    "name": "a75d3ce6eb2bf8054cf0b5d825e6a6b2"
+  }, 
+  "MDQ6R2lzdDg3MGYxMGU0OGFkMzRhMmRlY2M1MWU5MTFjOTZlZTNl": {
+    "hash": "c9249e4faf2804ee471cfdb3f8773b06", 
+    "description": "", 
+    "pushedAt": "2017-11-06T12:44:06Z", 
+    "note_guid": "5059f5dd-3d18-4d14-b61b-238846015b4d", 
+    "id": "MDQ6R2lzdDg3MGYxMGU0OGFkMzRhMmRlY2M1MWU5MTFjOTZlZTNl", 
+    "name": "870f10e48ad34a2decc51e911c96ee3e"
+  }, 
+  "MDQ6R2lzdGM2ZDQzMTBhYzg3MmJkNDdiNWU3MDdmNmM5NWNiODM4": {
+    "hash": "9721ba32461b86542f1193d1340bfc9b", 
+    "description": "MAC\u5229\u7528brew\u66f4\u65b0ruby\u5f8c\u5b89\u88ddheroku CLI (\u524d\u63d0\u90fd\u662f\u4f7f\u7528brew, \u8981\u770b\u5c0d\u61c9 MAC \u7248\u672c)", 
+    "pushedAt": "2017-12-21T01:09:58Z", 
+    "note_guid": "fbc6deb4-6f61-4a58-829e-5595db3ca8bc", 
+    "id": "MDQ6R2lzdGM2ZDQzMTBhYzg3MmJkNDdiNWU3MDdmNmM5NWNiODM4", 
+    "name": "c6d4310ac872bd47b5e707f6c95cb838"
+  }, 
+  "MDQ6R2lzdDQzOTQ4N2JmZTFhMDcyYzczZjg1Yjk3NzZlYjg5MjU2": {
+    "hash": "bcc9cd5fe78ff501cdb081d4518327c7", 
+    "description": "Presto Essentials - Data Science - \u4f7f\u7528 R \u9023\u7dda\u5230 Presto", 
+    "pushedAt": "2018-04-26T02:11:22Z", 
+    "note_guid": "c33c8f1e-71c2-4a83-81bf-2d2737bd6625", 
+    "id": "MDQ6R2lzdDQzOTQ4N2JmZTFhMDcyYzczZjg1Yjk3NzZlYjg5MjU2", 
+    "name": "439487bfe1a072c73f85b9776eb89256"
+  }, 
+  "MDQ6R2lzdDgyYTYxOGM0OWJiYzM4MjJlNTg0YWI4M2Q1OGNmYWVk": {
+    "hash": "3456177746234c9524eadfe7f0276ae3", 
+    "description": "\u8981\u81ea\u8a02metric\u7684\u8a08\u7b97, \u56e0\u70batf\u8ddfnp\u6709\u5f88\u591a\u76f8\u540c\u51fd\u793a, \u5f88\u591a\u6642\u5019\u53ef\u4ee5\u5148\u5efa\u7acb\u5169\u500bnp.ndarray \u7136\u5f8c\u60f3\u8fa6\u6cd5\u4f7f\u7528 numpy \u515c\u51fa\u4e00\u500b\u7b97\u5f0f\u518d\u8f49\u4e58\u5c0d\u61c9\u7684tf\u7b97\u5f0f", 
+    "pushedAt": "2017-10-15T01:40:03Z", 
+    "note_guid": "92a88af0-7abe-4bc1-ad65-85682afb073b", 
+    "id": "MDQ6R2lzdDgyYTYxOGM0OWJiYzM4MjJlNTg0YWI4M2Q1OGNmYWVk", 
+    "name": "82a618c49bbc3822e584ab83d58cfaed"
+  }, 
+  "MDQ6R2lzdGI5ZWYwM2I4MTdlZjQyMDczYzY2ZmRjMGZkMjU5MjRj": {
+    "hash": "12f52b925c67c07f88d10160eda4d9cf", 
+    "description": "", 
+    "pushedAt": "2018-04-14T09:00:38Z", 
+    "note_guid": "d8380f11-b7c4-4315-a53e-4e876c85aef3", 
+    "id": "MDQ6R2lzdGI5ZWYwM2I4MTdlZjQyMDczYzY2ZmRjMGZkMjU5MjRj", 
+    "name": "b9ef03b817ef42073c66fdc0fd25924c"
+  }, 
+  "MDQ6R2lzdDQwMGU4OGI5MzQ4MTU4NTQ2MTJkN2ZmZmExOGQyODBl": {
+    "hash": "a48c6c73a6ffd7df539706c4f53b3456", 
+    "description": "marketenterprise/20170224_Script_Find_documents_removed_by_mongo_and_delete_them_in_elasticsearch.ipynb", 
+    "pushedAt": "2018-01-29T00:26:13Z", 
+    "note_guid": "3f3fb948-b041-4852-b5e3-fda620a40105", 
+    "id": "MDQ6R2lzdDQwMGU4OGI5MzQ4MTU4NTQ2MTJkN2ZmZmExOGQyODBl", 
+    "name": "400e88b934815854612d7fffa18d280e"
+  }, 
+  "MDQ6R2lzdDE5ZGMyN2RhMDQyNDlhMTYzMGM1MjEwNWNjNjFkNzRh": {
+    "hash": "277ccde06c0e19e59c23b05c98dd3554", 
+    "description": "", 
+    "pushedAt": "2017-11-14T06:17:28Z", 
+    "note_guid": "ec13ce36-0422-435a-b64a-fbccc7a3e818", 
+    "id": "MDQ6R2lzdDE5ZGMyN2RhMDQyNDlhMTYzMGM1MjEwNWNjNjFkNzRh", 
+    "name": "19dc27da04249a1630c52105cc61d74a"
+  }, 
+  "MDQ6R2lzdGFhYWU0Y2I1NDI4MTUzODlhNjQwOWU3MzRjY2U2ZDJi": {
+    "hash": "70e76f0ce621894836bc3eb1cd94447c", 
+    "description": "marketenterprise/20170315_Scraping_Fetch_sales_info_by_category_and_model_number.ipynb", 
+    "pushedAt": "2018-01-29T00:30:59Z", 
+    "note_guid": "be2754c5-74d3-4e00-88c0-ae1e35db0a42", 
+    "id": "MDQ6R2lzdGFhYWU0Y2I1NDI4MTUzODlhNjQwOWU3MzRjY2U2ZDJi", 
+    "name": "aaae4cb542815389a6409e734cce6d2b"
+  }, 
+  "MDQ6R2lzdGFmYzMxOTMzMjA0OWMzNzdhZjExMmUzNDcwNGI0NzM2": {
+    "hash": "d89046776e1d35fda38040ee6daa9ea8", 
+    "description": "marketenterprise/20170216_Script_get_different_id_between_V2_and_elasticsearch.ipynb", 
+    "pushedAt": "2018-01-29T00:25:35Z", 
+    "note_guid": "ddb21b7c-ea4f-4a3a-b008-59ceda3a033d", 
+    "id": "MDQ6R2lzdGFmYzMxOTMzMjA0OWMzNzdhZjExMmUzNDcwNGI0NzM2", 
+    "name": "afc319332049c377af112e34704b4736"
+  }, 
+  "MDQ6R2lzdGRiYWJjNzFjM2NlNmRmNTQ4Yjc3MjEyZTMwYjNkZmVh": {
+    "hash": "ec1e5b6c34ae5b3be837f13f7aa191b1", 
+    "description": "Bootstrap Gallery", 
+    "pushedAt": "2017-12-21T01:15:33Z", 
+    "note_guid": "93819bcd-7407-4741-bba9-11a44cf781ce", 
+    "id": "MDQ6R2lzdGRiYWJjNzFjM2NlNmRmNTQ4Yjc3MjEyZTMwYjNkZmVh", 
+    "name": "dbabc71c3ce6df548b77212e30b3dfea"
+  }, 
+  "MDQ6R2lzdDQ1YjA1NWJiNTU0YmI0NmJlOWQ1ZGEwNjJiZmM3YTM4": {
+    "pushedAt": "2018-02-05T05:20:27Z", 
+    "id": "MDQ6R2lzdDQ1YjA1NWJiNTU0YmI0NmJlOWQ1ZGEwNjJiZmM3YTM4", 
+    "hash": "7e771afd1645d6701c0a54cb0b5f53d3", 
+    "description": "Flask package \u57fa\u672c\u67b6\u69cb Note", 
+    "name": "45b055bb554bb46be9d5da062bfc7a38"
+  }, 
+  "MDQ6R2lzdDYwMDQ3NGNjYTUyMjI3MTI5ODcyZDQ0NTU5ZDMxMmYy": {
+    "hash": "2eb483d28b082fb9d956c702dc626004", 
+    "description": "", 
+    "pushedAt": "2017-11-14T06:13:38Z", 
+    "note_guid": "13175352-1dc8-4741-92af-06152f0109be", 
+    "id": "MDQ6R2lzdDYwMDQ3NGNjYTUyMjI3MTI5ODcyZDQ0NTU5ZDMxMmYy", 
+    "name": "600474cca52227129872d44559d312f2"
+  }, 
+  "MDQ6R2lzdGJkOWU3MWNmNmMzYWM5ODc5ZTE0MjlhNWY3NGQ0Y2I4": {
+    "hash": "390e2bb65a434db9625306af91cd27b8", 
+    "description": "", 
+    "pushedAt": "2017-11-06T12:38:22Z", 
+    "note_guid": "d1f8208e-54c5-41c9-8844-187b330caebe", 
+    "id": "MDQ6R2lzdGJkOWU3MWNmNmMzYWM5ODc5ZTE0MjlhNWY3NGQ0Y2I4", 
+    "name": "bd9e71cf6c3ac9879e1429a5f74d4cb8"
+  }, 
+  "MDQ6R2lzdDM0NzFhNWRhYjFkMWQwNmFhNzljZDg3OTZhOWMyZjA5": {
+    "hash": "d8f3b2bf57845ce395edf25c9b2db6a1", 
+    "description": "\u5c07bootstrap\u88e1\u982ddiv\u7269\u4ef6\u7f6e\u4e2d", 
+    "pushedAt": "2017-12-21T01:15:01Z", 
+    "note_guid": "c49c4072-4fbc-4edd-9209-35413f9aaebe", 
+    "id": "MDQ6R2lzdDM0NzFhNWRhYjFkMWQwNmFhNzljZDg3OTZhOWMyZjA5", 
+    "name": "3471a5dab1d1d06aa79cd8796a9c2f09"
+  }, 
+  "MDQ6R2lzdDAzYjBjMmY4YmE2NDFhNjhmZTM5OTAyYjc3M2I0MTUz": {
+    "hash": "9f7974610ecb518d005918e2f28c1c30", 
+    "name": "03b0c2f8ba641a68fe39902b773b4153", 
+    "pushedAt": "2018-05-08T08:01:17Z", 
+    "note_guid": "030e0e56-b00e-451d-b581-335acbb025af", 
+    "id": "MDQ6R2lzdDAzYjBjMmY4YmE2NDFhNjhmZTM5OTAyYjc3M2I0MTUz", 
+    "description": "\u4f7f\u7528 MongoDB Pipeline / Aggregation \u53d6\u5f97\u6bcf\u6708\u4f9d\u8cf4\u6578"
+  }, 
+  "MDQ6R2lzdDcwOThlYTcwMzEwMjAwOTYyM2FjYWUwOTBkMjIxZDBj": {
+    "hash": "4bcc43b016e3dd6706ef62ebdbd65f0b", 
+    "description": "", 
+    "pushedAt": "2018-01-10T13:19:57Z", 
+    "note_guid": "cb46b0e5-338f-426e-b752-7238341ac4f4", 
+    "id": "MDQ6R2lzdDcwOThlYTcwMzEwMjAwOTYyM2FjYWUwOTBkMjIxZDBj", 
+    "name": "7098ea703102009623acae090d221d0c"
+  }, 
+  "MDQ6R2lzdDIwMzI1NDI3YjMyZmM2YTJmODE1MjViM2I5YzI3YzYy": {
+    "hash": "af6b00ff9311fc4dd2743ce2f1f6fe39", 
+    "description": "", 
+    "pushedAt": "2017-10-09T11:39:42Z", 
+    "note_guid": "a7532203-fde5-4b01-9bf7-b7bccea25af7", 
+    "id": "MDQ6R2lzdDIwMzI1NDI3YjMyZmM2YTJmODE1MjViM2I5YzI3YzYy", 
+    "name": "20325427b32fc6a2f81525b3b9c27c62"
+  }, 
+  "MDQ6R2lzdDFmZGYwMTgwYmE1YmUzNzBmZTY1NzhlOTZlMjQ2ODY0": {
+    "hash": "52c2796e6211fd58b1d0f421dc62ac9b", 
+    "description": "import json file into MongoDB and batch update string field to datetime type", 
+    "pushedAt": "2018-01-03T03:13:44Z", 
+    "note_guid": "92f3b9ce-49c3-44c8-ab69-dcb823cc360b", 
+    "id": "MDQ6R2lzdDFmZGYwMTgwYmE1YmUzNzBmZTY1NzhlOTZlMjQ2ODY0", 
+    "name": "1fdf0180ba5be370fe6578e96e246864"
+  }, 
+  "MDQ6R2lzdDFhYzA4NWM3MjYwNTNhODc3M2ZhYWJkM2QyMmU5MDRi": {
+    "hash": "321d223f5574c993d9a48d2084963f6c", 
+    "description": "Mercari Interactive EDA  Topic Modelling.ipynb", 
+    "pushedAt": "2017-12-13T09:45:40Z", 
+    "note_guid": "7dd8168d-64bd-49c9-8cb6-9d9fb253b2b4", 
+    "id": "MDQ6R2lzdDFhYzA4NWM3MjYwNTNhODc3M2ZhYWJkM2QyMmU5MDRi", 
+    "name": "1ac085c726053a8773faabd3d22e904b"
+  }, 
+  "MDQ6R2lzdDU2YWRmZmVmMzM5ZGYwZDAxN2UzMDE5MmE1ZjNhYTZm": {
+    "hash": "959b6a9d50d6584da2caa19e20448750", 
+    "description": "", 
+    "pushedAt": "2017-11-15T07:00:21Z", 
+    "note_guid": "1d456308-97f1-4a4f-afd2-33f580de7a6f", 
+    "id": "MDQ6R2lzdDU2YWRmZmVmMzM5ZGYwZDAxN2UzMDE5MmE1ZjNhYTZm", 
+    "name": "56adffef339df0d017e30192a5f3aa6f"
+  }, 
+  "MDQ6R2lzdGU0ZjZmMTI5NzIxNjhiNWU2ZmIxYzIxOTJiMGQzOTgy": {
+    "hash": "41c747c64a50077c62a0d40b4f6bab99", 
+    "description": "r-statistics.co/ggplot2 Tutorial 2 - Theme.ipynb", 
+    "pushedAt": "2018-04-08T06:19:47Z", 
+    "note_guid": "1413e725-5a08-4ef8-912e-1f78a947287b", 
+    "id": "MDQ6R2lzdGU0ZjZmMTI5NzIxNjhiNWU2ZmIxYzIxOTJiMGQzOTgy", 
+    "name": "e4f6f12972168b5e6fb1c2192b0d3982"
+  }, 
+  "MDQ6R2lzdGE1NzJjMDJlYmNiZjY4M2RhZWFmMmYxNTc3OWRiYWQ4": {
+    "hash": "363e6f2e5e97d3e9fe667761bdb8debb", 
+    "description": "", 
+    "pushedAt": "2017-12-10T11:19:27Z", 
+    "note_guid": "3ffa50cf-10f0-4c8c-9fdd-1dba86231633", 
+    "id": "MDQ6R2lzdGE1NzJjMDJlYmNiZjY4M2RhZWFmMmYxNTc3OWRiYWQ4", 
+    "name": "a572c02ebcbf683daeaf2f15779dbad8"
+  }, 
+  "MDQ6R2lzdDEyMGIwNWEzMzk1ZWMxYzFiNGE3MTQ4ZTVkMjA4YzRi": {
+    "hash": "db9748c80c66f804e6c41cbb8f5c0dd0", 
+    "description": "https://askubuntu.com/questions/9642/how-can-i-monitor-the-memory-usage", 
+    "pushedAt": "2017-12-12T07:17:32Z", 
+    "note_guid": "f095758f-d26f-458e-84b1-74fba0cfab5d", 
+    "id": "MDQ6R2lzdDEyMGIwNWEzMzk1ZWMxYzFiNGE3MTQ4ZTVkMjA4YzRi", 
+    "name": "120b05a3395ec1c1b4a7148e5d208c4b"
+  }, 
+  "MDQ6R2lzdDYzZGY1NjU2OTU5NzU4NGI0ZGU5ZGIxMWIyZjMyMGQx": {
+    "hash": "dcafea1631980b33b49688bbaf6ac84b", 
+    "description": "\u5728conda\u74b0\u5883\u8981\u5b89\u88ddPIL\u4f7f\u7528pip", 
+    "pushedAt": "2017-12-21T01:18:12Z", 
+    "note_guid": "dabd368c-cca6-4f06-9b37-5bd400e703e8", 
+    "id": "MDQ6R2lzdDYzZGY1NjU2OTU5NzU4NGI0ZGU5ZGIxMWIyZjMyMGQx", 
+    "name": "63df56569597584b4de9db11b2f320d1"
+  }, 
+  "MDQ6R2lzdGVhNzM5MTk2ZDU1MTk2Y2E0YzMwOTMwNmMyNjk1ZWE2": {
+    "hash": "2622b9d8608e77e2f3b88e7a2f41654d", 
+    "description": "Show images in jupyter notebook horizontally w/ labels as title.", 
+    "pushedAt": "2017-12-21T06:20:38Z", 
+    "note_guid": "6ae2c6df-3ade-46a2-bdaf-9f6c2661cfa1", 
+    "id": "MDQ6R2lzdGVhNzM5MTk2ZDU1MTk2Y2E0YzMwOTMwNmMyNjk1ZWE2", 
+    "name": "ea739196d55196ca4c309306c2695ea6"
+  }, 
+  "MDQ6R2lzdDMxZGMwYTVkNmFhZjNmYmRlYjRkMTYwMWZlMGQ3OWNj": {
+    "hash": "0f02666701897d765d9c994b9191f828", 
+    "description": "", 
+    "pushedAt": "2017-10-20T14:08:54Z", 
+    "note_guid": "09ec1423-6597-4b7e-ad22-b526c7cbef43", 
+    "id": "MDQ6R2lzdDMxZGMwYTVkNmFhZjNmYmRlYjRkMTYwMWZlMGQ3OWNj", 
+    "name": "31dc0a5d6aaf3fbdeb4d1601fe0d79cc"
+  }, 
+  "MDQ6R2lzdDZlNWFiYWNhY2ExNDhlMmFhM2JkOWM2NWM4MGE2ZjVl": {
+    "hash": "b781e11c0032a7da5762a8a7a3706587", 
+    "description": "", 
+    "pushedAt": "2017-11-04T02:03:09Z", 
+    "note_guid": "6ac7312e-c640-4381-9e47-ab223829ff2c", 
+    "id": "MDQ6R2lzdDZlNWFiYWNhY2ExNDhlMmFhM2JkOWM2NWM4MGE2ZjVl", 
+    "name": "6e5abacaca148e2aa3bd9c65c80a6f5e"
+  }
+}
