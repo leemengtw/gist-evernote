@@ -60,13 +60,11 @@ dependencies:
     - nose==1.3.7
     - oauth2==1.9.0.post1
     - pefile==2017.11.5
-    - pygobject==3.24.1
+    - pygobject
     - pyperclip==1.6.0
-    - pyportmidi==0.0.7
     - python-dateutil==2.6.0
     - pytz==2018.3
     - subprocess32==3.2.7
-    - tbb==0.1
     - tzlocal==1.5.1
 prefix: /Users/leemeng/anaconda3/envs/gist-evernote
 

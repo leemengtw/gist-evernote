@@ -49,6 +49,20 @@ If the path is not included in `$PATH`, you can add the path to `$PATH` temporar
 export PATH=$PATH:/usr/local/bin
 ```    
 
+#### brew and dependencies
+
+```commandline
+brew install portmidi pygobject pkg-config cairo gobject-introspection
+```
+
+#### path setting
+
+Make sure to include necessary path in `~/.bash_profile`:
+
+```text
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/local/lib:/usr/local/opt/libffi/lib/pkgconfig
+```
+
 #### [Github Personal Access Token](https://github.com/settings/tokens)
 To grant the app to retrieve your gists,
 you have to give the app a access token. You can read more about the token [here](https://github.com/blog/1509-personal-api-tokens).
